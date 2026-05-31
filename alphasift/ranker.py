@@ -54,6 +54,7 @@ def rank_candidates(
     silent: bool = True,
     channels: list[dict[str, object]] | None = None,
     config_path: str = "",
+    timeout_sec: float = 60.0,
 ) -> list[Pick]:
     """Use LLM to re-rank candidates and add ranking_reason / risk_summary.
 
@@ -75,6 +76,7 @@ def rank_candidates(
         silent=silent,
         channels=channels,
         config_path=config_path,
+        timeout_sec=timeout_sec,
     ).picks
 
 
@@ -95,6 +97,7 @@ def rank_candidates_with_metadata(
     silent: bool = True,
     channels: list[dict[str, object]] | None = None,
     config_path: str = "",
+    timeout_sec: float = 60.0,
 ) -> LLMRankingResult:
     """Use LLM to re-rank candidates and return global research metadata."""
     if not candidates:
@@ -123,6 +126,7 @@ def rank_candidates_with_metadata(
                 silent=silent,
                 channels=channels or [],
                 config_path=config_path,
+                timeout_sec=timeout_sec,
             )
             parsed = _parse_ranking_response_detail(response, candidates)
             last_errors = parsed.errors
@@ -238,6 +242,7 @@ def _call_llm(
     silent: bool = True,
     channels: list[dict[str, object]] | None = None,
     config_path: str = "",
+    timeout_sec: float = 60.0,
 ) -> str:
     """Call LLM via litellm with fallback models and channel configs."""
     import litellm
@@ -257,6 +262,7 @@ def _call_llm(
             messages=messages,
             temperature=temperature,
             json_mode=json_mode,
+            timeout_sec=timeout_sec,
         )
         if router_result is not None:
             return router_result
@@ -270,6 +276,7 @@ def _call_llm(
         ):
             kwargs["messages"] = messages
             kwargs["temperature"] = temperature
+            kwargs["timeout"] = timeout_sec
             if json_mode:
                 kwargs["response_format"] = {"type": "json_object"}
             try:
@@ -486,6 +493,7 @@ def _call_litellm_router(
     messages: list[dict[str, str]],
     temperature: float,
     json_mode: bool,
+    timeout_sec: float,
 ) -> str | None:
     try:
         import yaml
@@ -497,7 +505,7 @@ def _call_litellm_router(
             return None
         router = litellm.Router(model_list=model_list)
         for model in model_chain:
-            kwargs = {"model": model, "messages": messages, "temperature": temperature}
+            kwargs = {"model": model, "messages": messages, "temperature": temperature, "timeout": timeout_sec}
             if json_mode:
                 kwargs["response_format"] = {"type": "json_object"}
             try:

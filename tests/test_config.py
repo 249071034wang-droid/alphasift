@@ -1,3 +1,6 @@
+import os
+from pathlib import Path
+
 from alphasift.config import Config
 
 
@@ -6,6 +9,7 @@ def test_config_reads_daily_stock_analysis_litellm_env(monkeypatch):
     monkeypatch.setenv("OPENAI_API_KEY", "sk-test")
     monkeypatch.setenv("OPENAI_BASE_URL", "https://api.siliconflow.cn/v1")
     monkeypatch.setenv("LITELLM_FALLBACK_MODELS", "openai/gpt-4o-mini,anthropic/claude-3-5-sonnet")
+    monkeypatch.setenv("LLM_TIMEOUT_SEC", "42")
 
     config = Config.from_env()
 
@@ -13,6 +17,7 @@ def test_config_reads_daily_stock_analysis_litellm_env(monkeypatch):
     assert config.llm_api_key == "sk-test"
     assert config.llm_base_url == "https://api.siliconflow.cn/v1"
     assert config.llm_fallback_models == ["openai/gpt-4o-mini", "anthropic/claude-3-5-sonnet"]
+    assert config.llm_timeout_sec == 42
     assert config.has_llm_config() is True
 
 
@@ -106,7 +111,7 @@ def test_config_reads_industry_and_candidate_context_env(monkeypatch):
 
     config = Config.from_env()
 
-    assert [str(path) for path in config.industry_map_files] == ["/tmp/industry.csv", "/tmp/concepts.json"]
+    assert config.industry_map_files == [Path("/tmp/industry.csv"), Path("/tmp/concepts.json")]
     assert config.industry_provider == "akshare"
     assert config.industry_provider_max_boards == 12
     assert config.llm_candidate_context_enabled is True
@@ -159,7 +164,7 @@ def test_empty_values_in_extra_env_file_do_not_block_later_files(monkeypatch, tm
     second = tmp_path / "second.env"
     first.write_text("GEMINI_API_KEY=\nGEMINI_MODEL=gemini-2.5-flash\n", encoding="utf-8")
     second.write_text("GEMINI_API_KEY=real-key\n", encoding="utf-8")
-    monkeypatch.setenv("ALPHASIFT_ENV_FILES", f"{first}:{second}")
+    monkeypatch.setenv("ALPHASIFT_ENV_FILES", os.pathsep.join([str(first), str(second)]))
 
     config = Config.from_env()
 

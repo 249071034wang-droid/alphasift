@@ -108,7 +108,10 @@ def test_rank_candidates_blends_screen_and_llm_scores(monkeypatch):
         Pick(rank=2, code="600000", name="浦发银行", final_score=70, screen_score=70),
     ]
 
+    captured = {}
+
     def fake_call(prompt, api_key, model, base_url, **kwargs):
+        captured["timeout_sec"] = kwargs.get("timeout_sec")
         return json.dumps(
             {
                 "ranked": [
@@ -126,8 +129,10 @@ def test_rank_candidates_blends_screen_and_llm_scores(monkeypatch):
         llm_api_key="key",
         llm_model="model",
         rank_weight=0.4,
+        timeout_sec=42.0,
     )
 
+    assert captured["timeout_sec"] == 42.0
     assert [p.code for p in ranked] == ["600000", "000001"]
     assert ranked[0].final_score == 80.0
     assert ranked[1].final_score == 72.0

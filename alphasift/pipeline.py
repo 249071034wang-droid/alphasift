@@ -308,6 +308,7 @@ def screen(
             silent=config.llm_silent,
             channels=config.llm_channels,
             config_path=str(config.llm_config_path or ""),
+            timeout_sec=config.llm_timeout_sec,
         )
         picks = llm_result.picks
         llm_market_view = llm_result.market_view
