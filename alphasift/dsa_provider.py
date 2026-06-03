@@ -15,7 +15,7 @@ from alphasift.models import Pick
 
 logger = logging.getLogger(__name__)
 
-DSA_PROVIDER_MAX_CANDIDATES = 5
+DSA_PROVIDER_MAX_CANDIDATES = 3
 
 
 def apply_dsa_provider_context(
@@ -29,18 +29,19 @@ def apply_dsa_provider_context(
     if not picks or not provider:
         return []
 
-    limit = min(len(picks), max(max_candidates, 0))
+    limit = min(len(picks), _resolve_max_candidates(provider, max_candidates))
     if limit <= 0:
         return []
 
+    include_news = _provider_includes_news(provider)
     enriched_count = 0
     errors: list[str] = []
     for pick in picks[:limit]:
         try:
-            payload = _fetch_candidate_context(provider, pick)
+            payload = _fetch_candidate_context(provider, pick, include_news=include_news)
             if not payload:
                 continue
-            normalized = _normalize_candidate_payload(payload, pick)
+            normalized = _normalize_candidate_payload(payload, pick, include_news=include_news)
             if not normalized:
                 continue
             pick.dsa_context = normalized["context"]
@@ -72,15 +73,44 @@ def _extract_provider_context(context: dict[str, Any] | None) -> dict[str, Any]:
     return provider if isinstance(provider, dict) else {}
 
 
-def _fetch_candidate_context(provider: dict[str, Any], pick: Pick) -> dict[str, Any]:
+def _resolve_max_candidates(provider: dict[str, Any], fallback: int) -> int:
+    raw = provider.get("max_candidates")
+    try:
+        value = int(raw)
+    except (TypeError, ValueError):
+        value = int(fallback)
+    return max(value, 0)
+
+
+def _provider_includes_news(provider: dict[str, Any]) -> bool:
+    if "include_news" in provider:
+        return bool(provider.get("include_news"))
+    capabilities = provider.get("capabilities")
+    if isinstance(capabilities, list):
+        return "stock_news" in {str(item) for item in capabilities}
+    return True
+
+
+def _news_max_results(provider: dict[str, Any]) -> int:
+    try:
+        return max(int(provider.get("news_max_results", 3)), 0)
+    except (TypeError, ValueError):
+        return 3
+
+
+def _fetch_candidate_context(provider: dict[str, Any], pick: Pick, *, include_news: bool) -> dict[str, Any]:
     candidate_getter = provider.get("get_candidate_context")
     if callable(candidate_getter):
-        payload = _call_candidate_getter(candidate_getter, pick)
+        payload = _call_candidate_getter(candidate_getter, pick, provider, include_news=include_news)
         return payload if isinstance(payload, dict) else {}
 
     quote = _call_optional_provider(provider.get("get_realtime_quote"), pick.code)
     fundamentals = _call_optional_provider(provider.get("get_fundamental_context"), pick.code)
-    news = _call_news_provider(provider.get("search_stock_news"), pick)
+    news = (
+        _call_news_provider(provider.get("search_stock_news"), pick, max_results=_news_max_results(provider))
+        if include_news
+        else {"success": False, "skipped": True, "reason": "pre_rank_light_context", "results": []}
+    )
     return {
         "enriched": bool(quote or fundamentals or _news_results(news)),
         "quote": quote,
@@ -90,11 +120,26 @@ def _fetch_candidate_context(provider: dict[str, Any], pick: Pick) -> dict[str, 
     }
 
 
-def _call_candidate_getter(getter: Callable[..., Any], pick: Pick) -> Any:
+def _call_candidate_getter(
+    getter: Callable[..., Any],
+    pick: Pick,
+    provider: dict[str, Any],
+    *,
+    include_news: bool,
+) -> Any:
+    kwargs = {
+        "include_news": include_news,
+        "mode": str(provider.get("mode") or "pre_rank"),
+    }
+    if not include_news:
+        kwargs["include_fundamentals"] = bool(provider.get("include_fundamentals", True))
     try:
-        return getter(pick.code, pick.name)
+        return getter(pick.code, pick.name, **kwargs)
     except TypeError:
-        return getter(pick.code)
+        try:
+            return getter(pick.code, pick.name)
+        except TypeError:
+            return getter(pick.code)
 
 
 def _call_optional_provider(provider: Any, stock_code: str) -> dict[str, Any]:
@@ -104,11 +149,11 @@ def _call_optional_provider(provider: Any, stock_code: str) -> dict[str, Any]:
     return payload if isinstance(payload, dict) else {}
 
 
-def _call_news_provider(provider: Any, pick: Pick) -> dict[str, Any]:
+def _call_news_provider(provider: Any, pick: Pick, *, max_results: int = 3) -> dict[str, Any]:
     if not callable(provider):
         return {"success": False, "results": []}
     try:
-        payload = provider(pick.code, pick.name, max_results=3)
+        payload = provider(pick.code, pick.name, max_results=max_results)
     except TypeError:
         try:
             payload = provider(pick.code, pick.name)
@@ -117,16 +162,26 @@ def _call_news_provider(provider: Any, pick: Pick) -> dict[str, Any]:
     return payload if isinstance(payload, dict) else {"success": False, "results": []}
 
 
-def _normalize_candidate_payload(payload: dict[str, Any], pick: Pick) -> dict[str, Any]:
+def _normalize_candidate_payload(payload: dict[str, Any], pick: Pick, *, include_news: bool = True) -> dict[str, Any]:
     full_payload = payload
     context = payload.get("dsa_context") if isinstance(payload.get("dsa_context"), dict) else payload
     if not isinstance(context, dict):
         return {}
 
-    news = payload.get("dsa_news")
-    if not isinstance(news, list):
-        news = _news_results(context.get("news"))
-    news = [item for item in news if isinstance(item, dict)]
+    if include_news:
+        news = payload.get("dsa_news")
+        if not isinstance(news, list):
+            news = _news_results(context.get("news"))
+        news = [item for item in news if isinstance(item, dict)]
+    else:
+        news = []
+        context = dict(context)
+        context["news"] = {
+            "success": False,
+            "skipped": True,
+            "reason": "pre_rank_light_context",
+            "results": [],
+        }
 
     summary = str(payload.get("dsa_analysis_summary") or "").strip()
     if not summary:

@@ -9,8 +9,8 @@ _PROJECT_ROOT = Path(__file__).resolve().parent.parent
 _PACKAGE_DIR = Path(__file__).resolve().parent
 DEFAULT_POST_ANALYZERS = ["scorecard"]
 DEFAULT_LLM_MODEL = "gemini/gemini-2.5-flash"
-DEFAULT_SNAPSHOT_SOURCE_PRIORITY = ["efinance", "akshare_em", "em_datacenter"]
-TUSHARE_FIRST_SOURCE_PRIORITY = ["tushare", "efinance", "akshare_em", "em_datacenter"]
+DEFAULT_SNAPSHOT_SOURCE_PRIORITY = ["em_datacenter", "efinance", "akshare_em"]
+TUSHARE_FIRST_SOURCE_PRIORITY = ["em_datacenter", "tushare", "efinance", "akshare_em"]
 
 
 def _load_env_file() -> None:

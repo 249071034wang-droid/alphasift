@@ -75,6 +75,7 @@ def test_screen_returns_stable_dsa_contract(monkeypatch):
                 )
             ],
             degradation=["fallback used"],
+            snapshot_source="em_datacenter",
             source_errors=["source timeout"],
         ),
     )
@@ -86,6 +87,7 @@ def test_screen_returns_stable_dsa_contract(monkeypatch):
     assert calls[0][1]["context"] is context
     assert payload["contract_version"] == "1"
     assert payload["run_id"] == "run123"
+    assert payload["snapshot_source"] == "em_datacenter"
     assert payload["llm_ranked"] is True
     assert payload["llm_coverage"] == 1.0
     assert payload["candidate_count"] == 1

@@ -64,17 +64,17 @@ def test_config_reads_daily_fetch_retries(monkeypatch):
     assert config.daily_fetch_retries == 4
 
 
-def test_config_prefers_tushare_when_token_is_configured(monkeypatch):
+def test_config_uses_resilient_snapshot_source_first_with_tushare_token(monkeypatch):
     monkeypatch.delenv("SNAPSHOT_SOURCE_PRIORITY", raising=False)
     monkeypatch.setenv("TUSHARE_TOKEN", "token")
 
     config = Config.from_env()
 
     assert config.snapshot_source_priority == [
+        "em_datacenter",
         "tushare",
         "efinance",
         "akshare_em",
-        "em_datacenter",
     ]
 
 
@@ -86,9 +86,9 @@ def test_config_omits_tushare_from_default_priority_without_token(monkeypatch):
     config = Config.from_env()
 
     assert config.snapshot_source_priority == [
+        "em_datacenter",
         "efinance",
         "akshare_em",
-        "em_datacenter",
     ]
 
 
