@@ -9,10 +9,16 @@ from dataclasses import dataclass
 from alphasift.models import Pick
 from alphasift.normalize import (
     bounded_float as _bounded_float,
-    normalize_code as _normalize_code,
+    normalize_code,
     safe_string_list as _safe_string_list,
     safe_text,
 )
+
+
+def _normalize_code(value: object) -> str:
+    # Candidate codes and LLM ranking JSON code fields are structured, so
+    # US tickers may pass through (see normalize_code docstring).
+    return normalize_code(value, allow_ticker=True)
 
 logger = logging.getLogger(__name__)
 _DEFAULT_RANKING_PROMPT_MAX_CHARS = 24_000

@@ -30,6 +30,19 @@
 | `balanced_alpha.yaml` | 均衡多因子 | framework | 综合估值、资金、动量、稳定性 |
 | `momentum_quality.yaml` | 趋势质量 | framework | 兼顾趋势确认和基本面质量的中线候选发现 |
 
+## 示例策略（可选，不计入内置策略）
+
+`examples/` 子目录存放可选示例策略，不会被自动加载，也不改变内置策略列表。如需使用，将文件复制到本目录（仓库本地自定义策略机制会自动识别）：
+
+| 文件 | 名称 | 分类 | 说明 |
+|------|------|------|------|
+| `examples/dual_low_us.yaml` | Dual Low (US) | value | 美股低 PE + 低 PB 价值筛选（`market_scope: [us]`，需安装 `yfinance` 并配合 `--market us`） |
+
+```bash
+cp strategies/examples/dual_low_us.yaml strategies/
+alphasift screen dual_low_us --market us --no-llm
+```
+
 ## 运行与评估
 
 依赖日 K 的策略会自动在 L1 后对 Top N 候选做轻量增强，包括 MA、MACD/RSI、20 日突破幅度、区间振幅、20 日量能比、实体强度、MA20 回踩距离和平台持续天数：

@@ -117,11 +117,13 @@ def fetch_daily_history(
     cache_dir: str | Path | None = None,
     cache_ttl_seconds: float | None = None,
 ) -> pd.DataFrame:
-    """Fetch daily history for one A-share code.
+    """Fetch daily history for one stock code.
 
-    ``source`` accepts ``akshare``, ``baostock``, ``tushare`` or ``auto``.
-    ``auto`` prefers Tushare when a token is configured, then falls back to
-    akshare and baostock. Without a token it keeps the free-source order.
+    ``source`` accepts ``akshare``, ``baostock``, ``tushare``, ``yfinance``
+    or ``auto``. ``auto`` prefers Tushare when a token is configured, then
+    falls back to akshare and baostock. Without a token it keeps the
+    free-source order. ``yfinance`` is explicit-only (never part of ``auto``)
+    and expects a US ticker rather than an A-share code.
     """
     normalized_code = _normalize_daily_code(code)
     normalized_lookback_days = int(lookback_days)
@@ -132,7 +134,7 @@ def fetch_daily_history(
             if _has_tushare_token()
             else ("akshare", "baostock")
         )
-    elif src in ("akshare", "baostock", "tushare"):
+    elif src in ("akshare", "baostock", "tushare", "yfinance"):
         sources = (src,)
     else:
         raise ValueError(f"Unsupported daily source: {source}")
@@ -155,6 +157,9 @@ def fetch_daily_history(
         last_error: Exception | None = None
         for attempt in range(attempts):
             try:
+                if current == "yfinance":
+                    from alphasift.snapshot_us import fetch_daily_history_yfinance
+                    return fetch_daily_history_yfinance(code, lookback_days=lookback_days)
                 if current == "akshare":
                     result = _fetch_daily_akshare(
                         normalized_code,

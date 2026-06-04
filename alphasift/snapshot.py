@@ -46,8 +46,12 @@ def fetch_snapshot_with_fallback(
     *,
     required_columns: list[str] | None = None,
     fallback_snapshot_path: str | Path | None = None,
+    market: str = "cn",
 ) -> pd.DataFrame:
     """Try live sources, optionally falling back to the last-good snapshot."""
+    if market == "us":
+        return _fetch_us_snapshot_with_fallback(required_columns)
+
     errors = []
     required = required_columns or []
     for source in sources:
@@ -82,6 +86,19 @@ def fetch_snapshot_with_fallback(
         return cached
 
     raise RuntimeError(f"All snapshot sources failed: {'; '.join(errors)}")
+
+
+def _fetch_us_snapshot_with_fallback(
+    required_columns: list[str] | None = None,
+) -> pd.DataFrame:
+    """Fetch US equity snapshot via yfinance adapter."""
+    from alphasift.snapshot_us import fetch_us_snapshot
+
+    df = fetch_us_snapshot()
+    missing = _missing_required_columns(df, required_columns or [])
+    if missing:
+        logger.warning("US snapshot missing columns: %s", ",".join(missing))
+    return df
 
 
 def _missing_required_columns(df: pd.DataFrame, required_columns: list[str]) -> list[str]:

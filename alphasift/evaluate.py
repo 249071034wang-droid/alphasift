@@ -12,9 +12,15 @@ import pandas as pd
 from alphasift.config import Config
 from alphasift.daily import fetch_daily_history
 from alphasift.models import EvaluationResult, PickEvaluation, ScreenResult
-from alphasift.normalize import normalize_code as _normalize_code
+from alphasift.normalize import normalize_code
 from alphasift.snapshot import fetch_snapshot_with_fallback
 from alphasift.store import list_saved_runs, load_screen_result
+
+
+def _normalize_code(value: object) -> str:
+    # Stored picks and snapshot code columns are structured fields, so
+    # US tickers may pass through (see normalize_code docstring).
+    return normalize_code(value, allow_ticker=True)
 
 
 def evaluate_saved_run(

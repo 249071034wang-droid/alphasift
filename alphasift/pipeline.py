@@ -16,7 +16,7 @@ from alphasift.filter import apply_hard_filters, requires_daily_features, withou
 from alphasift.industry import enrich_industry_concepts
 from alphasift.models import Pick, ScreenResult
 from alphasift.normalize import (
-    normalize_code as _normalize_code,
+    normalize_code,
     safe_bool as _safe_bool,
     safe_float as _safe_float,
     safe_int as _safe_int,
@@ -86,8 +86,8 @@ def screen(
     if config is None:
         config = Config.from_env()
 
-    if market != "cn":
-        raise ValueError("Only market='cn' is currently supported")
+    if market not in ("cn", "us"):
+        raise ValueError(f"Unsupported market: {market!r} (supported: cn, us)")
 
     run_id = uuid.uuid4().hex[:12]
     degradation: list[str] = []
@@ -125,6 +125,7 @@ def screen(
         config.snapshot_source_priority,
         required_columns=_required_snapshot_columns(snapshot_filters),
         fallback_snapshot_path=config.fallback_snapshot_path,
+        market=market,
     )
     effective_industry_map_files = (
         list(industry_map_files)
@@ -437,7 +438,7 @@ def _df_to_picks(df: pd.DataFrame) -> list[Pick]:
         }
         picks.append(Pick(
             rank=i + 1,
-            code=_normalize_code(row.get("code", row.get("代码", ""))),
+            code=normalize_code(row.get("code", row.get("代码", "")), allow_ticker=True),
             name=str(row.get("name", row.get("名称", row.get("股票名称", "")))),
             screen_score=float(row.get("screen_score", 0)),
             final_score=float(row.get("screen_score", 0)),

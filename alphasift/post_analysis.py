@@ -15,10 +15,16 @@ from alphasift.config import Config
 from alphasift.dsa import analyze_picks_with_dsa, apply_dsa_overlay
 from alphasift.models import Pick
 from alphasift.normalize import (
-    normalize_code as _normalize_code,
+    normalize_code,
     safe_float as _safe_float,
     safe_string_list as _safe_string_list,
 )
+
+
+def _normalize_code(value: object) -> str:
+    # Pick codes and analyzer response code fields are structured, so
+    # US tickers may pass through (see normalize_code docstring).
+    return normalize_code(value, allow_ticker=True)
 
 SUPPORTED_POST_ANALYZERS = {"dsa", "scorecard", "external_http"}
 _DEFAULT_SCORECARD_PROFILE = {
