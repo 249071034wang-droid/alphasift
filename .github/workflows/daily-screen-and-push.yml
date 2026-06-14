@@ -42,7 +42,7 @@ jobs:
       - name: 运行选股 pipeline（capital_heat 策略）
         run: |
           mkdir -p data/runs
-          alphasift screen capital_heat --market cn 2>&1 | tee pipeline.log
+          alphasift screen capital_heat --market cn --max-output 10 2>&1 | tee pipeline.log
           # 从 pipeline.log 提取 JSON 并保存为数据文件（push_report_v8.py 需要从磁盘读取）
           python - <<'PYEOF'
           import json, re, os
