@@ -1,0 +1,84 @@
+name: AlphaSift 每日选股推送
+
+on:
+  schedule:
+    # 北京时间 15:30（收盘后）→ UTC 07:30
+    - cron: "30 7 * * 1-5"
+  workflow_dispatch:  # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  screen-and-push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout 代码
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # 完整历史，便于 commit data
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+          pip install requests  # push_report_v8.py 依赖
+
+      - name: 配置环境变量
+        run: |
+          echo "DEEPSEEK_API_KEY=${{ secrets.DEEPSEEK_API_KEY }}" >> $GITHUB_ENV
+          echo "LITELLM_MODEL=deepseek/deepseek-chat" >> $GITHUB_ENV
+          echo "LLM_SILENT=true" >> $GITHUB_ENV
+
+      - name: 运行选股 pipeline（capital_heat 策略）
+        run: |
+          alphasift screen capital_heat --market cn 2>&1 | tee pipeline.log
+        continue-on-error: true  # 即使 LLM 失败也继续用规则排序
+
+      - name: 推送 HTML 报告到微信（PushPlus）
+        env:
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+        run: |
+          python push_report_v8.py
+
+      - name: Commit 并推送生成的数据文件
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # 只提交 runs 下的 JSON（不含原始快照，保持 repo 小）
+          git add data/runs/*.json || true
+          git add pipeline.log || true
+          git diff --staged --quiet || git commit -m "chore: 自动更新选股数据 $(date +'%Y-%m-%d')"
+          git pull --rebase origin ${{ github.ref_name }} || true
+          git push origin ${{ github.ref_name }}
+        continue-on-error: true
+
+      - name: 推送失败通知
+        if: failure()
+        env:
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+        run: |
+          python - <<'EOF'
+          import requests, os, traceback
+          token = os.environ.get("PUSHPLUS_TOKEN", "")
+          if not token:
+              exit(0)
+          try:
+              r = requests.post("http://www.pushplus.plus/send", json={
+                  "token": token,
+                  "title": "[AlphaSift] ❌ 收盘推送失败",
+                  "content": "GitHub Actions 运行失败，请检查仓库 Actions 日志。",
+                  "template": "html"
+              }, timeout=10)
+          except Exception:
+              pass
+          EOF

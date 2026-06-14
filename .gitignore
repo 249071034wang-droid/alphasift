@@ -4,7 +4,11 @@ __pycache__/
 dist/
 build/
 .env
-data/
+data/**
 *.log
 .venv/
 local/
+
+# 放行：选股结果 JSON（需要版本管理以便复现）
+!data/runs/
+!data/runs/*.json
