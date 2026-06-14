@@ -41,7 +41,26 @@ jobs:
 
       - name: 运行选股 pipeline（capital_heat 策略）
         run: |
+          mkdir -p data/runs
           alphasift screen capital_heat --market cn 2>&1 | tee pipeline.log
+          # 从 pipeline.log 提取 JSON 并保存为数据文件（push_report_v8.py 需要从磁盘读取）
+          python - <<'PYEOF'
+          import json, re, os
+          log = open("pipeline.log", encoding="utf-8").read()
+          # 找到 JSON 对象（以 { 开头的最后一个大块）
+          idx = log.rfind("{")
+          if idx >= 0:
+              data = json.loads(log[idx:])
+              if "picks" in data and data["picks"]:
+                  out_path = f"data/runs/{os.p.basename(os.getcwd())}.json"
+                  with open(out_path, "w", encoding="utf-8") as f:
+                      json.dump(data, f, ensure_ascii=False, indent=2)
+                  print(f"[OK] 数据已保存到 {out_path} ({len(data['picks'])} 只股票)")
+              else:
+                  print("[WARN] JSON 中无 picks 字段")
+          else:
+              print("[WARN] 未找到 JSON 输出")
+          PYEOF
         continue-on-error: true  # 即使 LLM 失败也继续用规则排序
 
       - name: 推送 HTML 报告到微信（PushPlus）
