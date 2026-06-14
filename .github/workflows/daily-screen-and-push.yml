@@ -47,10 +47,10 @@ jobs:
           python - <<'PYEOF'
           import json, re, os
           log = open("pipeline.log", encoding="utf-8").read()
-          # 找到 JSON 对象（以 { 开头的最后一个大块）
-          idx = log.rfind("{")
-          if idx >= 0:
-              data = json.loads(log[idx:])
+          # 用正则找到以 {"strategy": 或 {\n  "strategy": 开头的 JSON 对象
+          m = re.search(r'\{[\n\r\s]*"strategy"\s*:', log)
+          if m:
+              data = json.loads(log[m.start():])
               if "picks" in data and data["picks"]:
                   out_path = f"data/runs/{os.p.basename(os.getcwd())}.json"
                   with open(out_path, "w", encoding="utf-8") as f:
@@ -58,8 +58,12 @@ jobs:
                   print(f"[OK] 数据已保存到 {out_path} ({len(data['picks'])} 只股票)")
               else:
                   print("[WARN] JSON 中无 picks 字段")
+                  # 打印所有顶级键帮助调试
+                  print(f"[DEBUG] 顶层键: {list(data.keys())}")
           else:
               print("[WARN] 未找到 JSON 输出")
+              # 显示最后500字符用于调试
+              print(f"[DEBUG] log末尾: {repr(log[-500:])}")
           PYEOF
         continue-on-error: true  # 即使 LLM 失败也继续用规则排序
 
