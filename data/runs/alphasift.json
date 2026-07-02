@@ -3,26 +3,26 @@
   "market": "cn",
   "strategy_version": "1.1",
   "strategy_category": "momentum",
-  "snapshot_count": 5513,
-  "after_filter_count": 134,
+  "snapshot_count": 5196,
+  "after_filter_count": 126,
   "picks": [
     {
       "rank": 1,
-      "code": "300115",
-      "name": "长盈精密",
-      "final_score": 79.9016,
-      "screen_score": 72.83592820895522,
-      "llm_score": 85.0,
-      "ranking_reason": "量比1.86，涨幅6.51%，资金温和放大，动量因子领先，主题热度高，可持续性强。",
-      "risk_summary": "PE 80.88偏高，若AI落地不及预期，估值承压。",
-      "price": 29.76,
-      "change_pct": 6.51,
-      "amount": 2755543354.05,
-      "total_mv": 40513779006.0,
-      "turnover_rate": 6.7,
-      "volume_ratio": 1.86,
-      "pe_ratio": 80.88,
-      "pb_ratio": null,
+      "code": "002850",
+      "name": "科达利",
+      "final_score": 78.5438,
+      "screen_score": 72.57301309523811,
+      "llm_score": 82.0,
+      "ranking_reason": "高动量、高活跃度，新能源板块热度持续。",
+      "risk_summary": "竞争加剧，毛利率承压。",
+      "price": 205.6,
+      "change_pct": 6.92,
+      "amount": 2700311557.59,
+      "total_mv": 58865580047.0,
+      "turnover_rate": 6.28,
+      "volume_ratio": 2.07,
+      "pe_ratio": 32.02950682,
+      "pb_ratio": 4.30566767,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -50,47 +50,47 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 36.6176,
-        "liquidity": 89.5522,
-        "momentum": 77.5795,
+        "value": 59.3143,
+        "liquidity": 88.0952,
+        "momentum": 75.714,
         "reversal": 5.0,
-        "activity": 80.8398,
-        "stability": 58.47,
-        "size": 90.2985,
+        "activity": 83.3046,
+        "stability": 57.24,
+        "size": 91.2698,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.85,
-      "llm_sector": "消费电子",
-      "llm_theme": "AI硬件+消费电子复苏",
+      "llm_confidence": 0.75,
+      "llm_sector": "汽车零部件",
+      "llm_theme": "锂电池结构件",
       "llm_tags": [
         "趋势",
-        "主题",
-        "sector:消费电子",
-        "theme:AI硬件+消费电子复苏",
-        "style_fit:高动量+高活跃度，适合趋势跟踪策略。"
+        "价值",
+        "sector:汽车零部件",
+        "theme:锂电池结构件",
+        "style_fit:适合成长趋势策略"
       ],
       "llm_catalysts": [
-        "AI手机发布",
-        "机器人业务订单"
+        "新能源车销量超预期",
+        "储能政策利好"
       ],
       "llm_risks": [
-        "高估值"
+        "行业竞争"
       ],
-      "llm_thesis": "长盈精密受益于AI手机/PC换机潮，精密结构件需求增长，且公司布局机器人关节，主题催化明确。",
-      "llm_style_fit": "高动量+高活跃度，适合趋势跟踪策略。",
+      "llm_thesis": "科达利是锂电池结构件龙头，受益于新能源车和储能需求，涨幅6.92%，量比2.07，换手6.28%，资金关注度高。",
+      "llm_style_fit": "适合成长趋势策略",
       "llm_watch_items": [
-        "消费电子月度出货量",
-        "机器人业务进展"
+        "锂电池排产数据",
+        "客户订单"
       ],
       "llm_invalidators": [
-        "AI手机销量低于预期",
-        "公司业绩增速放缓"
+        "新能源补贴退坡",
+        "技术路线变更"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "高估值"
+        "行业竞争"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -99,7 +99,7 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 高估值"
+        "scorecard": "本地后置评分: capital_confirmed；风险: 行业竞争"
       },
       "post_analysis_score_deltas": {
         "scorecard": 3.4
@@ -107,7 +107,7 @@
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "高估值"
+            "行业竞争"
           ],
           "tags": [
             "capital_confirmed"
@@ -133,21 +133,21 @@
     },
     {
       "rank": 2,
-      "code": "300059",
-      "name": "东方财富",
-      "final_score": 79.4377,
-      "screen_score": 72.72947,
-      "llm_score": 84.0,
-      "ranking_reason": "成交额超200亿，流动性因子满分，量比1.5温和放量，涨幅5.25%，资金深度参与。",
-      "risk_summary": "市场成交量回落将直接冲击业绩。",
-      "price": 21.45,
-      "change_pct": 5.25,
-      "amount": 20236759757.55,
-      "total_mv": 339386187319.0,
-      "turnover_rate": 7.11,
-      "volume_ratio": 1.5,
-      "pe_ratio": 22.7,
-      "pb_ratio": null,
+      "code": "603501",
+      "name": "豪威集团",
+      "final_score": 78.0675,
+      "screen_score": 73.77912261904763,
+      "llm_score": 85.0,
+      "ranking_reason": "高流动性、高活跃度，量价同步，半导体板块有扩散迹象。",
+      "risk_summary": "估值较高，PE 34.7，需业绩验证。",
+      "price": 101.27,
+      "change_pct": 4.28,
+      "amount": 7475404221.0,
+      "total_mv": 127744427316.0,
+      "turnover_rate": 6.05,
+      "volume_ratio": 2.35,
+      "pe_ratio": 34.69057664,
+      "pb_ratio": 3.88894686,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -175,792 +175,41 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 67.8431,
-        "liquidity": 100.0,
-        "momentum": 73.5625,
+        "value": 63.2599,
+        "liquidity": 97.619,
+        "momentum": 70.41,
         "reversal": 5.0,
-        "activity": 77.7303,
-        "stability": 62.25,
-        "size": 99.2537,
+        "activity": 85.4031,
+        "stability": 65.16,
+        "size": 98.4127,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.9,
-      "llm_sector": "券商",
-      "llm_theme": "市场情绪回暖+券商龙头",
+      "llm_confidence": 0.8,
+      "llm_sector": "半导体",
+      "llm_theme": "芯片设计龙头",
       "llm_tags": [
+        "趋势",
         "流动性",
-        "价值",
-        "sector:券商",
-        "theme:市场情绪回暖+券商龙头",
-        "style_fit:高流动性+低估值，适合价值型策略。"
+        "sector:半导体",
+        "theme:芯片设计龙头",
+        "style_fit:适合动量趋势策略"
       ],
       "llm_catalysts": [
-        "市场成交额持续万亿以上",
-        "政策利好资本市场"
-      ],
-      "llm_risks": [
-        "周期性强"
-      ],
-      "llm_thesis": "东方财富作为互联网券商龙头，受益于市场成交放大和投资者情绪回升，业绩弹性大。",
-      "llm_style_fit": "高流动性+低估值，适合价值型策略。",
-      "llm_watch_items": [
-        "两市成交额变化",
-        "券商板块资金流向"
-      ],
-      "llm_invalidators": [
-        "市场成交量萎缩至万亿以下",
-        "监管政策收紧"
-      ],
-      "risk_score": 10.0,
-      "risk_level": "low",
-      "risk_penalty": 1.2,
-      "risk_flags": [
-        "周期性强"
-      ],
-      "excluded_by_risk": false,
-      "portfolio_penalty": 0.0,
-      "portfolio_flags": [],
-      "post_analysis_status": {
-        "scorecard": "completed"
-      },
-      "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 周期性强"
-      },
-      "post_analysis_score_deltas": {
-        "scorecard": 3.4
-      },
-      "post_analysis_results": {
-        "scorecard": {
-          "risk_flags": [
-            "周期性强"
-          ],
-          "tags": [
-            "capital_confirmed"
-          ]
-        }
-      },
-      "post_analysis_tags": [
-        "capital_confirmed"
-      ],
-      "dsa_context": {},
-      "dsa_news": [],
-      "dsa_analysis_summary": "",
-      "deep_analysis_status": "not_requested",
-      "deep_analysis_query_id": "",
-      "deep_analysis_summary": "",
-      "deep_analysis_error": "",
-      "deep_analysis_result": null,
-      "deep_analysis_signal_score": null,
-      "deep_analysis_sentiment_score": null,
-      "deep_analysis_operation_advice": "",
-      "deep_analysis_trend_prediction": "",
-      "deep_analysis_risk_flags": []
-    },
-    {
-      "rank": 3,
-      "code": "301165",
-      "name": "锐捷网络",
-      "final_score": 76.4501,
-      "screen_score": 72.416886119403,
-      "llm_score": 82.0,
-      "ranking_reason": "量比2.9，涨幅6.8%，资金放量明显，动量因子高，AI算力主题持续发酵。",
-      "risk_summary": "PE 194.6极高，业绩增速若放缓，估值泡沫风险。",
-      "price": 85.92,
-      "change_pct": 6.8,
-      "amount": 3545748277.15,
-      "total_mv": 95683636309.0,
-      "turnover_rate": 3.62,
-      "volume_ratio": 2.9,
-      "pe_ratio": 194.6,
-      "pb_ratio": null,
-      "industry": "",
-      "concepts": "",
-      "industry_rank": null,
-      "industry_change_pct": null,
-      "industry_heat_score": null,
-      "concept_heat_score": null,
-      "board_heat_score": null,
-      "board_heat_latest_score": null,
-      "board_heat_trend_score": null,
-      "board_heat_persistence_score": null,
-      "board_heat_cooling_score": null,
-      "board_heat_observations": null,
-      "board_heat_state": "",
-      "board_heat_summary": "",
-      "change_60d": null,
-      "signal_score": null,
-      "ma_bullish": null,
-      "price_above_ma20": null,
-      "macd_status": "",
-      "rsi_status": "",
-      "breakout_20d_pct": null,
-      "range_20d_pct": null,
-      "volume_ratio_20d": null,
-      "body_pct": null,
-      "pullback_to_ma20_pct": null,
-      "consolidation_days_20d": null,
-      "factor_scores": {
-        "value": 23.2353,
-        "liquidity": 94.0299,
-        "momentum": 76.26,
-        "reversal": 5.0,
-        "activity": 78.6032,
-        "stability": 57.6,
-        "size": 95.5224,
-        "theme_heat": 50.0
-      },
-      "llm_confidence": 0.8,
-      "llm_sector": "通信设备",
-      "llm_theme": "AI算力网络+交换机需求",
-      "llm_tags": [
-        "趋势",
-        "主题",
-        "sector:通信设备",
-        "theme:AI算力网络+交换机需求",
-        "style_fit:高动量+高活跃度，适合趋势跟踪。"
-      ],
-      "llm_catalysts": [
-        "AI算力投资超预期",
-        "交换机市场份额提升"
-      ],
-      "llm_risks": [
-        "高估值",
-        "次新股波动大"
-      ],
-      "llm_thesis": "锐捷网络受益于AI数据中心建设，交换机需求旺盛，业绩高增长。",
-      "llm_style_fit": "高动量+高活跃度，适合趋势跟踪。",
-      "llm_watch_items": [
-        "AI资本开支指引",
-        "交换机出货量"
-      ],
-      "llm_invalidators": [
-        "AI投资不及预期",
-        "竞争加剧导致毛利率下滑"
-      ],
-      "risk_score": 20.0,
-      "risk_level": "low",
-      "risk_penalty": 2.4,
-      "risk_flags": [
-        "高估值",
-        "次新股波动大"
-      ],
-      "excluded_by_risk": false,
-      "portfolio_penalty": 0.0,
-      "portfolio_flags": [],
-      "post_analysis_status": {
-        "scorecard": "completed"
-      },
-      "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 高估值、次新股波动大"
-      },
-      "post_analysis_score_deltas": {
-        "scorecard": 2.6
-      },
-      "post_analysis_results": {
-        "scorecard": {
-          "risk_flags": [
-            "高估值",
-            "次新股波动大"
-          ],
-          "tags": [
-            "capital_confirmed"
-          ]
-        }
-      },
-      "post_analysis_tags": [
-        "capital_confirmed"
-      ],
-      "dsa_context": {},
-      "dsa_news": [],
-      "dsa_analysis_summary": "",
-      "deep_analysis_status": "not_requested",
-      "deep_analysis_query_id": "",
-      "deep_analysis_summary": "",
-      "deep_analysis_error": "",
-      "deep_analysis_result": null,
-      "deep_analysis_signal_score": null,
-      "deep_analysis_sentiment_score": null,
-      "deep_analysis_operation_advice": "",
-      "deep_analysis_trend_prediction": "",
-      "deep_analysis_risk_flags": []
-    },
-    {
-      "rank": 4,
-      "code": "002709",
-      "name": "天赐材料",
-      "final_score": 72.3296,
-      "screen_score": 69.5492980597015,
-      "llm_score": 73.0,
-      "ranking_reason": "涨幅5.91%，量比1.5，换手率10.23%偏高，但PE仅16.78，估值合理。",
-      "risk_summary": "锂电材料产能过剩，价格战风险。",
-      "price": 54.47,
-      "change_pct": 5.91,
-      "amount": 8120237467.8,
-      "total_mv": 111040458196.0,
-      "turnover_rate": 10.23,
-      "volume_ratio": 1.5,
-      "pe_ratio": 16.78,
-      "pb_ratio": null,
-      "industry": "",
-      "concepts": "",
-      "industry_rank": null,
-      "industry_change_pct": null,
-      "industry_heat_score": null,
-      "concept_heat_score": null,
-      "board_heat_score": null,
-      "board_heat_latest_score": null,
-      "board_heat_trend_score": null,
-      "board_heat_persistence_score": null,
-      "board_heat_cooling_score": null,
-      "board_heat_observations": null,
-      "board_heat_state": "",
-      "board_heat_summary": "",
-      "change_60d": null,
-      "signal_score": null,
-      "ma_bullish": null,
-      "price_above_ma20": null,
-      "macd_status": "",
-      "rsi_status": "",
-      "breakout_20d_pct": null,
-      "range_20d_pct": null,
-      "volume_ratio_20d": null,
-      "body_pct": null,
-      "pullback_to_ma20_pct": null,
-      "consolidation_days_20d": null,
-      "factor_scores": {
-        "value": 72.9412,
-        "liquidity": 97.0149,
-        "momentum": 75.7075,
-        "reversal": 5.0,
-        "activity": 66.4983,
-        "stability": 59.81,
-        "size": 97.7612,
-        "theme_heat": 50.0
-      },
-      "llm_confidence": 0.7,
-      "llm_sector": "新能源",
-      "llm_theme": "锂电材料需求复苏",
-      "llm_tags": [
-        "价值",
-        "趋势",
-        "sector:新能源",
-        "theme:锂电材料需求复苏",
-        "style_fit:低估值+中等动量，适合价值成长策略。"
-      ],
-      "llm_catalysts": [
-        "新能源车销量超预期",
-        "电解液价格反弹"
-      ],
-      "llm_risks": [
-        "产能过剩"
-      ],
-      "llm_thesis": "天赐材料为电解液龙头，受益于新能源车销量增长和锂电材料价格企稳。",
-      "llm_style_fit": "低估值+中等动量，适合价值成长策略。",
-      "llm_watch_items": [
-        "电解液价格走势",
-        "新能源车月度销量"
-      ],
-      "llm_invalidators": [
-        "锂电材料价格持续下跌",
-        "行业需求不及预期"
-      ],
-      "risk_score": 10.0,
-      "risk_level": "low",
-      "risk_penalty": 1.2,
-      "risk_flags": [
-        "产能过剩"
-      ],
-      "excluded_by_risk": false,
-      "portfolio_penalty": 0.0,
-      "portfolio_flags": [],
-      "post_analysis_status": {
-        "scorecard": "completed"
-      },
-      "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 产能过剩"
-      },
-      "post_analysis_score_deltas": {
-        "scorecard": 2.6
-      },
-      "post_analysis_results": {
-        "scorecard": {
-          "risk_flags": [
-            "产能过剩"
-          ],
-          "tags": [
-            "capital_confirmed"
-          ]
-        }
-      },
-      "post_analysis_tags": [
-        "capital_confirmed"
-      ],
-      "dsa_context": {},
-      "dsa_news": [],
-      "dsa_analysis_summary": "",
-      "deep_analysis_status": "not_requested",
-      "deep_analysis_query_id": "",
-      "deep_analysis_summary": "",
-      "deep_analysis_error": "",
-      "deep_analysis_result": null,
-      "deep_analysis_signal_score": null,
-      "deep_analysis_sentiment_score": null,
-      "deep_analysis_operation_advice": "",
-      "deep_analysis_trend_prediction": "",
-      "deep_analysis_risk_flags": []
-    },
-    {
-      "rank": 5,
-      "code": "002821",
-      "name": "凯莱英",
-      "final_score": 71.3126,
-      "screen_score": 70.52098313432836,
-      "llm_score": 75.0,
-      "ranking_reason": "涨幅1.73%较小，但稳定性因子最高，反转因子领先，适合防守配置。",
-      "risk_summary": "海外生物安全法案影响，订单不确定性。",
-      "price": 164.8,
-      "change_pct": 1.73,
-      "amount": 3479633614.75,
-      "total_mv": 59456703856.0,
-      "turnover_rate": 6.9,
-      "volume_ratio": 1.62,
-      "pe_ratio": 48.84,
-      "pb_ratio": null,
-      "industry": "",
-      "concepts": "",
-      "industry_rank": null,
-      "industry_change_pct": null,
-      "industry_heat_score": null,
-      "concept_heat_score": null,
-      "board_heat_score": null,
-      "board_heat_latest_score": null,
-      "board_heat_trend_score": null,
-      "board_heat_persistence_score": null,
-      "board_heat_cooling_score": null,
-      "board_heat_observations": null,
-      "board_heat_state": "",
-      "board_heat_summary": "",
-      "change_60d": null,
-      "signal_score": null,
-      "ma_bullish": null,
-      "price_above_ma20": null,
-      "macd_status": "",
-      "rsi_status": "",
-      "breakout_20d_pct": null,
-      "range_20d_pct": null,
-      "volume_ratio_20d": null,
-      "body_pct": null,
-      "pullback_to_ma20_pct": null,
-      "consolidation_days_20d": null,
-      "factor_scores": {
-        "value": 46.8137,
-        "liquidity": 93.2836,
-        "momentum": 62.1225,
-        "reversal": 32.67,
-        "activity": 79.0308,
-        "stability": 72.81,
-        "size": 93.2836,
-        "theme_heat": 50.0
-      },
-      "llm_confidence": 0.7,
-      "llm_sector": "医药",
-      "llm_theme": "CXO行业回暖+创新药",
-      "llm_tags": [
-        "防守",
-        "反转",
-        "sector:医药",
-        "theme:CXO行业回暖+创新药",
-        "style_fit:高稳定性+低动量，适合防御型策略。"
-      ],
-      "llm_catalysts": [
-        "创新药融资回暖",
-        "新签订单增长"
-      ],
-      "llm_risks": [
-        "政策风险"
-      ],
-      "llm_thesis": "凯莱英作为CDMO龙头，受益于全球创新药研发恢复，订单有望改善。",
-      "llm_style_fit": "高稳定性+低动量，适合防御型策略。",
-      "llm_watch_items": [
-        "海外客户订单",
-        "行业政策变化"
-      ],
-      "llm_invalidators": [
-        "海外订单持续下滑",
-        "地缘政治风险加剧"
-      ],
-      "risk_score": 10.0,
-      "risk_level": "low",
-      "risk_penalty": 1.2,
-      "risk_flags": [
-        "政策风险"
-      ],
-      "excluded_by_risk": false,
-      "portfolio_penalty": 0.0,
-      "portfolio_flags": [],
-      "post_analysis_status": {
-        "scorecard": "completed"
-      },
-      "post_analysis_summaries": {
-        "scorecard": "本地后置评分: 未发现额外加分项；风险: 政策风险"
-      },
-      "post_analysis_score_deltas": {
-        "scorecard": 0.2
-      },
-      "post_analysis_results": {
-        "scorecard": {
-          "risk_flags": [
-            "政策风险"
-          ],
-          "tags": []
-        }
-      },
-      "post_analysis_tags": [],
-      "dsa_context": {},
-      "dsa_news": [],
-      "dsa_analysis_summary": "",
-      "deep_analysis_status": "not_requested",
-      "deep_analysis_query_id": "",
-      "deep_analysis_summary": "",
-      "deep_analysis_error": "",
-      "deep_analysis_result": null,
-      "deep_analysis_signal_score": null,
-      "deep_analysis_sentiment_score": null,
-      "deep_analysis_operation_advice": "",
-      "deep_analysis_trend_prediction": "",
-      "deep_analysis_risk_flags": []
-    },
-    {
-      "rank": 6,
-      "code": "300442",
-      "name": "润泽科技",
-      "final_score": 69.5378,
-      "screen_score": 71.22967007462687,
-      "llm_score": 80.0,
-      "ranking_reason": "涨幅8.41%领涨候选，量比2.13，活跃度因子最高，资金追捧明显。",
-      "risk_summary": "数据中心供给过剩风险，电力成本上升。",
-      "price": 90.06,
-      "change_pct": 8.41,
-      "amount": 8048139615.29,
-      "total_mv": 147792240088.0,
-      "turnover_rate": 5.61,
-      "volume_ratio": 2.13,
-      "pe_ratio": 63.46,
-      "pb_ratio": null,
-      "industry": "",
-      "concepts": "",
-      "industry_rank": null,
-      "industry_change_pct": null,
-      "industry_heat_score": null,
-      "concept_heat_score": null,
-      "board_heat_score": null,
-      "board_heat_latest_score": null,
-      "board_heat_trend_score": null,
-      "board_heat_persistence_score": null,
-      "board_heat_cooling_score": null,
-      "board_heat_observations": null,
-      "board_heat_state": "",
-      "board_heat_summary": "",
-      "change_60d": null,
-      "signal_score": null,
-      "ma_bullish": null,
-      "price_above_ma20": null,
-      "macd_status": "",
-      "rsi_status": "",
-      "breakout_20d_pct": null,
-      "range_20d_pct": null,
-      "volume_ratio_20d": null,
-      "body_pct": null,
-      "pullback_to_ma20_pct": null,
-      "consolidation_days_20d": null,
-      "factor_scores": {
-        "value": 39.8039,
-        "liquidity": 96.2687,
-        "momentum": 68.9345,
-        "reversal": 5.0,
-        "activity": 83.1809,
-        "stability": 52.77,
-        "size": 98.5075,
-        "theme_heat": 50.0
-      },
-      "llm_confidence": 0.8,
-      "llm_sector": "数据中心",
-      "llm_theme": "AI算力基础设施",
-      "llm_tags": [
-        "趋势",
-        "活跃",
-        "sector:数据中心",
-        "theme:AI算力基础设施",
-        "style_fit:高活跃度+高动量，适合短线交易。"
-      ],
-      "llm_catalysts": [
-        "AI大模型训练需求增长",
-        "新项目投产"
-      ],
-      "llm_risks": [
-        "高资本开支"
-      ],
-      "llm_thesis": "润泽科技为数据中心运营商，受益于AI算力需求爆发，机柜上架率提升。",
-      "llm_style_fit": "高活跃度+高动量，适合短线交易。",
-      "llm_watch_items": [
-        "机柜上架率",
-        "电力成本变化"
-      ],
-      "llm_invalidators": [
-        "数据中心需求放缓",
-        "竞争加剧"
-      ],
-      "risk_score": 10.0,
-      "risk_level": "low",
-      "risk_penalty": 1.2,
-      "risk_flags": [
-        "高资本开支",
-        "portfolio_sector_concentration:AI算力"
-      ],
-      "excluded_by_risk": false,
-      "portfolio_penalty": 5.0,
-      "portfolio_flags": [
-        "portfolio_sector_concentration:AI算力"
-      ],
-      "post_analysis_status": {
-        "scorecard": "completed"
-      },
-      "post_analysis_summaries": {
-        "scorecard": "本地后置评分: 未发现额外加分项；风险: 高资本开支"
-      },
-      "post_analysis_score_deltas": {
-        "scorecard": 1.0
-      },
-      "post_analysis_results": {
-        "scorecard": {
-          "risk_flags": [
-            "高资本开支"
-          ],
-          "tags": []
-        }
-      },
-      "post_analysis_tags": [],
-      "dsa_context": {},
-      "dsa_news": [],
-      "dsa_analysis_summary": "",
-      "deep_analysis_status": "not_requested",
-      "deep_analysis_query_id": "",
-      "deep_analysis_summary": "",
-      "deep_analysis_error": "",
-      "deep_analysis_result": null,
-      "deep_analysis_signal_score": null,
-      "deep_analysis_sentiment_score": null,
-      "deep_analysis_operation_advice": "",
-      "deep_analysis_trend_prediction": "",
-      "deep_analysis_risk_flags": []
-    },
-    {
-      "rank": 7,
-      "code": "600030",
-      "name": "中信证券",
-      "final_score": 68.5953,
-      "screen_score": 69.65881201492537,
-      "llm_score": 74.0,
-      "ranking_reason": "价值因子最高，PE仅10.69，涨幅2.58%温和，量比1.51，适合稳健配置。",
-      "risk_summary": "市场成交量不足，业绩弹性有限。",
-      "price": 29.47,
-      "change_pct": 2.58,
-      "amount": 12572442638.0,
-      "total_mv": 436761515051.0,
-      "turnover_rate": 3.52,
-      "volume_ratio": 1.51,
-      "pe_ratio": 10.69,
-      "pb_ratio": null,
-      "industry": "",
-      "concepts": "",
-      "industry_rank": null,
-      "industry_change_pct": null,
-      "industry_heat_score": null,
-      "concept_heat_score": null,
-      "board_heat_score": null,
-      "board_heat_latest_score": null,
-      "board_heat_trend_score": null,
-      "board_heat_persistence_score": null,
-      "board_heat_cooling_score": null,
-      "board_heat_observations": null,
-      "board_heat_state": "",
-      "board_heat_summary": "",
-      "change_60d": null,
-      "signal_score": null,
-      "ma_bullish": null,
-      "price_above_ma20": null,
-      "macd_status": "",
-      "rsi_status": "",
-      "breakout_20d_pct": null,
-      "range_20d_pct": null,
-      "volume_ratio_20d": null,
-      "body_pct": null,
-      "pullback_to_ma20_pct": null,
-      "consolidation_days_20d": null,
-      "factor_scores": {
-        "value": 78.0392,
-        "liquidity": 99.2537,
-        "momentum": 64.885,
-        "reversal": 14.82,
-        "activity": 72.8436,
-        "stability": 70.26,
-        "size": 100.0,
-        "theme_heat": 50.0
-      },
-      "llm_confidence": 0.75,
-      "llm_sector": "券商",
-      "llm_theme": "市场情绪回暖+券商龙头",
-      "llm_tags": [
-        "价值",
-        "防守",
-        "sector:券商",
-        "theme:市场情绪回暖+券商龙头",
-        "style_fit:低估值+高稳定性，适合价值投资。"
-      ],
-      "llm_catalysts": [
-        "资本市场改革",
-        "市场成交放大"
-      ],
-      "llm_risks": [
-        "周期性强"
-      ],
-      "llm_thesis": "中信证券作为券商龙头，受益于市场活跃度提升，估值低，安全边际高。",
-      "llm_style_fit": "低估值+高稳定性，适合价值投资。",
-      "llm_watch_items": [
-        "市场成交额",
-        "券商板块表现"
-      ],
-      "llm_invalidators": [
-        "市场持续低迷",
-        "监管政策收紧"
-      ],
-      "risk_score": 10.0,
-      "risk_level": "low",
-      "risk_penalty": 1.2,
-      "risk_flags": [
-        "周期性强",
-        "portfolio_sector_concentration:金融"
-      ],
-      "excluded_by_risk": false,
-      "portfolio_penalty": 5.0,
-      "portfolio_flags": [
-        "portfolio_sector_concentration:金融"
-      ],
-      "post_analysis_status": {
-        "scorecard": "completed"
-      },
-      "post_analysis_summaries": {
-        "scorecard": "本地后置评分: value_quality；风险: 周期性强"
-      },
-      "post_analysis_score_deltas": {
-        "scorecard": 3.4
-      },
-      "post_analysis_results": {
-        "scorecard": {
-          "risk_flags": [
-            "周期性强"
-          ],
-          "tags": [
-            "value_quality"
-          ]
-        }
-      },
-      "post_analysis_tags": [
-        "value_quality"
-      ],
-      "dsa_context": {},
-      "dsa_news": [],
-      "dsa_analysis_summary": "",
-      "deep_analysis_status": "not_requested",
-      "deep_analysis_query_id": "",
-      "deep_analysis_summary": "",
-      "deep_analysis_error": "",
-      "deep_analysis_result": null,
-      "deep_analysis_signal_score": null,
-      "deep_analysis_sentiment_score": null,
-      "deep_analysis_operation_advice": "",
-      "deep_analysis_trend_prediction": "",
-      "deep_analysis_risk_flags": []
-    },
-    {
-      "rank": 8,
-      "code": "300811",
-      "name": "铂科新材",
-      "final_score": 66.9073,
-      "screen_score": 68.51220910447762,
-      "llm_score": 67.0,
-      "ranking_reason": "涨幅6.07%，量比1.5，换手率10.89%偏高，但PE 115.58较高。",
-      "risk_summary": "高估值，下游需求波动。",
-      "price": 100.65,
-      "change_pct": 6.07,
-      "amount": 3595673739.12,
-      "total_mv": 40925769656.0,
-      "turnover_rate": 10.89,
-      "volume_ratio": 1.5,
-      "pe_ratio": 115.58,
-      "pb_ratio": null,
-      "industry": "",
-      "concepts": "",
-      "industry_rank": null,
-      "industry_change_pct": null,
-      "industry_heat_score": null,
-      "concept_heat_score": null,
-      "board_heat_score": null,
-      "board_heat_latest_score": null,
-      "board_heat_trend_score": null,
-      "board_heat_persistence_score": null,
-      "board_heat_cooling_score": null,
-      "board_heat_observations": null,
-      "board_heat_state": "",
-      "board_heat_summary": "",
-      "change_60d": null,
-      "signal_score": null,
-      "ma_bullish": null,
-      "price_above_ma20": null,
-      "macd_status": "",
-      "rsi_status": "",
-      "breakout_20d_pct": null,
-      "range_20d_pct": null,
-      "volume_ratio_20d": null,
-      "body_pct": null,
-      "pullback_to_ma20_pct": null,
-      "consolidation_days_20d": null,
-      "factor_scores": {
-        "value": 28.9706,
-        "liquidity": 94.7761,
-        "momentum": 76.2275,
-        "reversal": 5.0,
-        "activity": 64.1223,
-        "stability": 58.01,
-        "size": 91.0448,
-        "theme_heat": 50.0
-      },
-      "llm_confidence": 0.6,
-      "llm_sector": "电子",
-      "llm_theme": "金属软磁材料需求增长",
-      "llm_tags": [
-        "趋势",
-        "主题",
-        "sector:电子",
-        "theme:金属软磁材料需求增长",
-        "style_fit:高动量+高活跃度，适合趋势跟踪。"
-      ],
-      "llm_catalysts": [
-        "AI服务器电源需求增长",
-        "新能源车放量"
+        "手机市场回暖",
+        "汽车电子渗透率提升"
       ],
       "llm_risks": [
         "高估值"
       ],
-      "llm_thesis": "铂科新材为金属软磁粉芯龙头，受益于新能源和AI服务器电源需求增长。",
-      "llm_style_fit": "高动量+高活跃度，适合趋势跟踪。",
+      "llm_thesis": "豪威集团作为CIS龙头，受益于手机和汽车图像传感器需求复苏，资金流入明显，量比2.35，换手6.05%，量价配合良好。",
+      "llm_style_fit": "适合动量趋势策略",
       "llm_watch_items": [
-        "AI服务器出货量",
-        "新能源车销量"
+        "季度营收增速",
+        "CIS价格走势"
       ],
       "llm_invalidators": [
-        "下游需求不及预期",
-        "竞争加剧"
+        "业绩不及预期",
+        "行业需求下滑"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
@@ -978,7 +227,7 @@
         "scorecard": "本地后置评分: 未发现额外加分项；风险: 高估值"
       },
       "post_analysis_score_deltas": {
-        "scorecard": 0.2
+        "scorecard": 1.0
       },
       "post_analysis_results": {
         "scorecard": {
@@ -1004,22 +253,22 @@
       "deep_analysis_risk_flags": []
     },
     {
-      "rank": 9,
-      "code": "002472",
-      "name": "双环传动",
-      "final_score": 66.4243,
-      "screen_score": 68.37384723880598,
-      "llm_score": 66.0,
-      "ranking_reason": "涨幅2.87%较小，量比1.59，稳定性因子较高，适合稳健配置。",
-      "risk_summary": "机器人业务进展缓慢，汽车行业周期波动。",
-      "price": 42.7,
-      "change_pct": 2.87,
-      "amount": 2590001753.69,
-      "total_mv": 36294901448.0,
-      "turnover_rate": 8.05,
-      "volume_ratio": 1.59,
-      "pe_ratio": 31.94,
-      "pb_ratio": null,
+      "rank": 3,
+      "code": "002294",
+      "name": "信立泰",
+      "final_score": 76.8429,
+      "screen_score": 72.40475833333336,
+      "llm_score": 80.0,
+      "ranking_reason": "动量强，医药板块有扩散迹象。",
+      "risk_summary": "新药审批不确定性。",
+      "price": 36.44,
+      "change_pct": 6.55,
+      "amount": 2292188833.2,
+      "total_mv": 40623914535.0,
+      "turnover_rate": 5.74,
+      "volume_ratio": 2.01,
+      "pe_ratio": 60.05479728,
+      "pb_ratio": 4.44061019,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -1047,47 +296,47 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 58.9216,
-        "liquidity": 88.0597,
-        "momentum": 65.8275,
-        "reversal": 8.73,
-        "activity": 74.7546,
-        "stability": 69.39,
-        "size": 87.3134,
+        "value": 48.7448,
+        "liquidity": 83.3333,
+        "momentum": 77.3975,
+        "reversal": 5.0,
+        "activity": 83.1044,
+        "stability": 58.35,
+        "size": 84.9206,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.55,
-      "llm_sector": "汽车零部件",
-      "llm_theme": "机器人减速器+汽车传动",
+      "llm_confidence": 0.7,
+      "llm_sector": "医药",
+      "llm_theme": "创新药",
       "llm_tags": [
-        "防守",
-        "价值",
-        "sector:汽车零部件",
-        "theme:机器人减速器+汽车传动",
-        "style_fit:高稳定性+中等动量，适合防御型策略。"
+        "趋势",
+        "事件",
+        "sector:医药",
+        "theme:创新药",
+        "style_fit:适合事件驱动策略"
       ],
       "llm_catalysts": [
-        "机器人减速器订单",
-        "汽车销量回暖"
+        "新药获批",
+        "医保谈判"
       ],
       "llm_risks": [
-        "周期性强"
+        "政策风险"
       ],
-      "llm_thesis": "双环传动为齿轮龙头，受益于机器人减速器国产化和汽车自动变速箱渗透率提升。",
-      "llm_style_fit": "高稳定性+中等动量，适合防御型策略。",
+      "llm_thesis": "信立泰创新药管线推进，涨幅6.55%，量比2.01，换手5.74%，医药板块整体回暖。",
+      "llm_style_fit": "适合事件驱动策略",
       "llm_watch_items": [
-        "机器人业务进展",
-        "汽车月度销量"
+        "临床试验进展",
+        "药品销售数据"
       ],
       "llm_invalidators": [
-        "机器人业务不及预期",
-        "汽车行业下滑"
+        "新药失败",
+        "集采降价超预期"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "周期性强"
+        "政策风险"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -1096,7 +345,635 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: 未发现额外加分项；风险: 周期性强"
+        "scorecard": "本地后置评分: capital_confirmed；风险: 政策风险"
+      },
+      "post_analysis_score_deltas": {
+        "scorecard": 2.6
+      },
+      "post_analysis_results": {
+        "scorecard": {
+          "risk_flags": [
+            "政策风险"
+          ],
+          "tags": [
+            "capital_confirmed"
+          ]
+        }
+      },
+      "post_analysis_tags": [
+        "capital_confirmed"
+      ],
+      "dsa_context": {},
+      "dsa_news": [],
+      "dsa_analysis_summary": "",
+      "deep_analysis_status": "not_requested",
+      "deep_analysis_query_id": "",
+      "deep_analysis_summary": "",
+      "deep_analysis_error": "",
+      "deep_analysis_result": null,
+      "deep_analysis_signal_score": null,
+      "deep_analysis_sentiment_score": null,
+      "deep_analysis_operation_advice": "",
+      "deep_analysis_trend_prediction": "",
+      "deep_analysis_risk_flags": []
+    },
+    {
+      "rank": 4,
+      "code": "300748",
+      "name": "金力永磁",
+      "final_score": 76.2688,
+      "screen_score": 72.11467634920636,
+      "llm_score": 79.0,
+      "ranking_reason": "高换手、高量比，稀土板块热度高。",
+      "risk_summary": "稀土价格波动大。",
+      "price": 33.0,
+      "change_pct": 6.62,
+      "amount": 2958063190.9,
+      "total_mv": 45394446801.0,
+      "turnover_rate": 7.9,
+      "volume_ratio": 2.38,
+      "pe_ratio": 61.52217013,
+      "pb_ratio": 5.95690519,
+      "industry": "",
+      "concepts": "",
+      "industry_rank": null,
+      "industry_change_pct": null,
+      "industry_heat_score": null,
+      "concept_heat_score": null,
+      "board_heat_score": null,
+      "board_heat_latest_score": null,
+      "board_heat_trend_score": null,
+      "board_heat_persistence_score": null,
+      "board_heat_cooling_score": null,
+      "board_heat_observations": null,
+      "board_heat_state": "",
+      "board_heat_summary": "",
+      "change_60d": null,
+      "signal_score": null,
+      "ma_bullish": null,
+      "price_above_ma20": null,
+      "macd_status": "",
+      "rsi_status": "",
+      "breakout_20d_pct": null,
+      "range_20d_pct": null,
+      "volume_ratio_20d": null,
+      "body_pct": null,
+      "pullback_to_ma20_pct": null,
+      "consolidation_days_20d": null,
+      "factor_scores": {
+        "value": 42.2552,
+        "liquidity": 89.6825,
+        "momentum": 77.079,
+        "reversal": 5.0,
+        "activity": 78.8792,
+        "stability": 58.14,
+        "size": 88.0952,
+        "theme_heat": 50.0
+      },
+      "llm_confidence": 0.7,
+      "llm_sector": "有色金属",
+      "llm_theme": "稀土永磁",
+      "llm_tags": [
+        "趋势",
+        "流动性",
+        "sector:有色金属",
+        "theme:稀土永磁",
+        "style_fit:适合周期趋势策略"
+      ],
+      "llm_catalysts": [
+        "稀土配额收紧",
+        "新能源车需求"
+      ],
+      "llm_risks": [
+        "价格波动"
+      ],
+      "llm_thesis": "金力永磁受益于稀土价格上涨和新能源需求，涨幅6.62%，量比2.38，换手7.9%，资金活跃。",
+      "llm_style_fit": "适合周期趋势策略",
+      "llm_watch_items": [
+        "稀土价格指数",
+        "下游订单"
+      ],
+      "llm_invalidators": [
+        "稀土价格下跌",
+        "政策放松"
+      ],
+      "risk_score": 10.0,
+      "risk_level": "low",
+      "risk_penalty": 1.2,
+      "risk_flags": [
+        "价格波动"
+      ],
+      "excluded_by_risk": false,
+      "portfolio_penalty": 0.0,
+      "portfolio_flags": [],
+      "post_analysis_status": {
+        "scorecard": "completed"
+      },
+      "post_analysis_summaries": {
+        "scorecard": "本地后置评分: capital_confirmed；风险: 价格波动"
+      },
+      "post_analysis_score_deltas": {
+        "scorecard": 2.6
+      },
+      "post_analysis_results": {
+        "scorecard": {
+          "risk_flags": [
+            "价格波动"
+          ],
+          "tags": [
+            "capital_confirmed"
+          ]
+        }
+      },
+      "post_analysis_tags": [
+        "capital_confirmed"
+      ],
+      "dsa_context": {},
+      "dsa_news": [],
+      "dsa_analysis_summary": "",
+      "deep_analysis_status": "not_requested",
+      "deep_analysis_query_id": "",
+      "deep_analysis_summary": "",
+      "deep_analysis_error": "",
+      "deep_analysis_result": null,
+      "deep_analysis_signal_score": null,
+      "deep_analysis_sentiment_score": null,
+      "deep_analysis_operation_advice": "",
+      "deep_analysis_trend_prediction": "",
+      "deep_analysis_risk_flags": []
+    },
+    {
+      "rank": 5,
+      "code": "002126",
+      "name": "银轮股份",
+      "final_score": 75.5919,
+      "screen_score": 71.65321507936508,
+      "llm_score": 78.0,
+      "ranking_reason": "动量因子最高，汽车零部件板块扩散。",
+      "risk_summary": "原材料成本上升。",
+      "price": 50.48,
+      "change_pct": 6.5,
+      "amount": 2228330320.31,
+      "total_mv": 42747536347.0,
+      "turnover_rate": 5.55,
+      "volume_ratio": 1.7,
+      "pe_ratio": 44.57848196,
+      "pb_ratio": 5.71438809,
+      "industry": "",
+      "concepts": "",
+      "industry_rank": null,
+      "industry_change_pct": null,
+      "industry_heat_score": null,
+      "concept_heat_score": null,
+      "board_heat_score": null,
+      "board_heat_latest_score": null,
+      "board_heat_trend_score": null,
+      "board_heat_persistence_score": null,
+      "board_heat_cooling_score": null,
+      "board_heat_observations": null,
+      "board_heat_state": "",
+      "board_heat_summary": "",
+      "change_60d": null,
+      "signal_score": null,
+      "ma_bullish": null,
+      "price_above_ma20": null,
+      "macd_status": "",
+      "rsi_status": "",
+      "breakout_20d_pct": null,
+      "range_20d_pct": null,
+      "volume_ratio_20d": null,
+      "body_pct": null,
+      "pullback_to_ma20_pct": null,
+      "consolidation_days_20d": null,
+      "factor_scores": {
+        "value": 49.5367,
+        "liquidity": 81.746,
+        "momentum": 77.625,
+        "reversal": 5.0,
+        "activity": 81.0138,
+        "stability": 58.5,
+        "size": 86.5079,
+        "theme_heat": 50.0
+      },
+      "llm_confidence": 0.7,
+      "llm_sector": "汽车零部件",
+      "llm_theme": "热管理",
+      "llm_tags": [
+        "趋势",
+        "价值",
+        "sector:汽车零部件",
+        "theme:热管理",
+        "style_fit:适合动量策略"
+      ],
+      "llm_catalysts": [
+        "新能源车热管理需求",
+        "海外市场拓展"
+      ],
+      "llm_risks": [
+        "成本压力"
+      ],
+      "llm_thesis": "银轮股份是热管理龙头，涨幅6.5%，量比1.7，换手5.55%，动量因子领先。",
+      "llm_style_fit": "适合动量策略",
+      "llm_watch_items": [
+        "毛利率变化",
+        "新客户订单"
+      ],
+      "llm_invalidators": [
+        "行业需求放缓",
+        "竞争加剧"
+      ],
+      "risk_score": 10.0,
+      "risk_level": "low",
+      "risk_penalty": 1.2,
+      "risk_flags": [
+        "成本压力"
+      ],
+      "excluded_by_risk": false,
+      "portfolio_penalty": 0.0,
+      "portfolio_flags": [],
+      "post_analysis_status": {
+        "scorecard": "completed"
+      },
+      "post_analysis_summaries": {
+        "scorecard": "本地后置评分: capital_confirmed；风险: 成本压力"
+      },
+      "post_analysis_score_deltas": {
+        "scorecard": 2.6
+      },
+      "post_analysis_results": {
+        "scorecard": {
+          "risk_flags": [
+            "成本压力"
+          ],
+          "tags": [
+            "capital_confirmed"
+          ]
+        }
+      },
+      "post_analysis_tags": [
+        "capital_confirmed"
+      ],
+      "dsa_context": {},
+      "dsa_news": [],
+      "dsa_analysis_summary": "",
+      "deep_analysis_status": "not_requested",
+      "deep_analysis_query_id": "",
+      "deep_analysis_summary": "",
+      "deep_analysis_error": "",
+      "deep_analysis_result": null,
+      "deep_analysis_signal_score": null,
+      "deep_analysis_sentiment_score": null,
+      "deep_analysis_operation_advice": "",
+      "deep_analysis_trend_prediction": "",
+      "deep_analysis_risk_flags": []
+    },
+    {
+      "rank": 6,
+      "code": "600489",
+      "name": "中金黄金",
+      "final_score": 71.945,
+      "screen_score": 70.24163222222222,
+      "llm_score": 71.0,
+      "ranking_reason": "价值因子最高，黄金板块避险需求。",
+      "risk_summary": "金价波动。",
+      "price": 19.09,
+      "change_pct": 6.29,
+      "amount": 2903218202.0,
+      "total_mv": 92535196847.0,
+      "turnover_rate": 3.17,
+      "volume_ratio": 1.7,
+      "pe_ratio": 14.74515041,
+      "pb_ratio": 2.82143951,
+      "industry": "",
+      "concepts": "",
+      "industry_rank": null,
+      "industry_change_pct": null,
+      "industry_heat_score": null,
+      "concept_heat_score": null,
+      "board_heat_score": null,
+      "board_heat_latest_score": null,
+      "board_heat_trend_score": null,
+      "board_heat_persistence_score": null,
+      "board_heat_cooling_score": null,
+      "board_heat_observations": null,
+      "board_heat_state": "",
+      "board_heat_summary": "",
+      "change_60d": null,
+      "signal_score": null,
+      "ma_bullish": null,
+      "price_above_ma20": null,
+      "macd_status": "",
+      "rsi_status": "",
+      "breakout_20d_pct": null,
+      "range_20d_pct": null,
+      "volume_ratio_20d": null,
+      "body_pct": null,
+      "pullback_to_ma20_pct": null,
+      "consolidation_days_20d": null,
+      "factor_scores": {
+        "value": 79.5558,
+        "liquidity": 88.8889,
+        "momentum": 76.9425,
+        "reversal": 5.0,
+        "activity": 72.4458,
+        "stability": 59.13,
+        "size": 96.0317,
+        "theme_heat": 50.0
+      },
+      "llm_confidence": 0.6,
+      "llm_sector": "黄金",
+      "llm_theme": "黄金避险",
+      "llm_tags": [
+        "价值",
+        "防守",
+        "sector:黄金",
+        "theme:黄金避险",
+        "style_fit:适合防守策略"
+      ],
+      "llm_catalysts": [
+        "美联储降息预期",
+        "地缘政治风险"
+      ],
+      "llm_risks": [
+        "价格波动"
+      ],
+      "llm_thesis": "中金黄金受益于金价上涨，涨幅6.29%，量比1.7，换手3.17%，价值因子最高。",
+      "llm_style_fit": "适合防守策略",
+      "llm_watch_items": [
+        "金价走势",
+        "美元指数"
+      ],
+      "llm_invalidators": [
+        "金价下跌",
+        "风险偏好回升"
+      ],
+      "risk_score": 10.0,
+      "risk_level": "low",
+      "risk_penalty": 1.2,
+      "risk_flags": [
+        "价格波动"
+      ],
+      "excluded_by_risk": false,
+      "portfolio_penalty": 0.0,
+      "portfolio_flags": [],
+      "post_analysis_status": {
+        "scorecard": "completed"
+      },
+      "post_analysis_summaries": {
+        "scorecard": "本地后置评分: capital_confirmed；风险: 价格波动"
+      },
+      "post_analysis_score_deltas": {
+        "scorecard": 2.6
+      },
+      "post_analysis_results": {
+        "scorecard": {
+          "risk_flags": [
+            "价格波动"
+          ],
+          "tags": [
+            "capital_confirmed"
+          ]
+        }
+      },
+      "post_analysis_tags": [
+        "capital_confirmed"
+      ],
+      "dsa_context": {},
+      "dsa_news": [],
+      "dsa_analysis_summary": "",
+      "deep_analysis_status": "not_requested",
+      "deep_analysis_query_id": "",
+      "deep_analysis_summary": "",
+      "deep_analysis_error": "",
+      "deep_analysis_result": null,
+      "deep_analysis_signal_score": null,
+      "deep_analysis_sentiment_score": null,
+      "deep_analysis_operation_advice": "",
+      "deep_analysis_trend_prediction": "",
+      "deep_analysis_risk_flags": []
+    },
+    {
+      "rank": 7,
+      "code": "600872",
+      "name": "中炬高新",
+      "final_score": 67.3333,
+      "screen_score": 67.88884888888889,
+      "llm_score": 63.0,
+      "ranking_reason": "活跃度高，但市值较小。",
+      "risk_summary": "行业竞争激烈。",
+      "price": 18.91,
+      "change_pct": 7.08,
+      "amount": 858454093.0,
+      "total_mv": 14641890879.0,
+      "turnover_rate": 6.0,
+      "volume_ratio": 2.48,
+      "pe_ratio": 23.6634119,
+      "pb_ratio": 2.46468346,
+      "industry": "",
+      "concepts": "",
+      "industry_rank": null,
+      "industry_change_pct": null,
+      "industry_heat_score": null,
+      "concept_heat_score": null,
+      "board_heat_score": null,
+      "board_heat_latest_score": null,
+      "board_heat_trend_score": null,
+      "board_heat_persistence_score": null,
+      "board_heat_cooling_score": null,
+      "board_heat_observations": null,
+      "board_heat_state": "",
+      "board_heat_summary": "",
+      "change_60d": null,
+      "signal_score": null,
+      "ma_bullish": null,
+      "price_above_ma20": null,
+      "macd_status": "",
+      "rsi_status": "",
+      "breakout_20d_pct": null,
+      "range_20d_pct": null,
+      "volume_ratio_20d": null,
+      "body_pct": null,
+      "pullback_to_ma20_pct": null,
+      "consolidation_days_20d": null,
+      "factor_scores": {
+        "value": 79.1574,
+        "liquidity": 55.5556,
+        "momentum": 74.986,
+        "reversal": 5.0,
+        "activity": 86.173,
+        "stability": 56.76,
+        "size": 56.3492,
+        "theme_heat": 50.0
+      },
+      "llm_confidence": 0.45,
+      "llm_sector": "食品饮料",
+      "llm_theme": "调味品",
+      "llm_tags": [
+        "活跃度",
+        "价值",
+        "sector:食品饮料",
+        "theme:调味品",
+        "style_fit:适合短线策略"
+      ],
+      "llm_catalysts": [
+        "消费复苏",
+        "产品提价"
+      ],
+      "llm_risks": [
+        "竞争风险"
+      ],
+      "llm_thesis": "中炬高新是调味品龙头，涨幅7.08%，量比2.48，换手6%，活跃度因子高。",
+      "llm_style_fit": "适合短线策略",
+      "llm_watch_items": [
+        "营收增速",
+        "渠道库存"
+      ],
+      "llm_invalidators": [
+        "消费疲软",
+        "食品安全问题"
+      ],
+      "risk_score": 10.0,
+      "risk_level": "low",
+      "risk_penalty": 1.2,
+      "risk_flags": [
+        "竞争风险"
+      ],
+      "excluded_by_risk": false,
+      "portfolio_penalty": 0.0,
+      "portfolio_flags": [],
+      "post_analysis_status": {
+        "scorecard": "completed"
+      },
+      "post_analysis_summaries": {
+        "scorecard": "本地后置评分: capital_confirmed；风险: 竞争风险"
+      },
+      "post_analysis_score_deltas": {
+        "scorecard": 2.6
+      },
+      "post_analysis_results": {
+        "scorecard": {
+          "risk_flags": [
+            "竞争风险"
+          ],
+          "tags": [
+            "capital_confirmed"
+          ]
+        }
+      },
+      "post_analysis_tags": [
+        "capital_confirmed"
+      ],
+      "dsa_context": {},
+      "dsa_news": [],
+      "dsa_analysis_summary": "",
+      "deep_analysis_status": "not_requested",
+      "deep_analysis_query_id": "",
+      "deep_analysis_summary": "",
+      "deep_analysis_error": "",
+      "deep_analysis_result": null,
+      "deep_analysis_signal_score": null,
+      "deep_analysis_sentiment_score": null,
+      "deep_analysis_operation_advice": "",
+      "deep_analysis_trend_prediction": "",
+      "deep_analysis_risk_flags": []
+    },
+    {
+      "rank": 8,
+      "code": "002050",
+      "name": "三花智控",
+      "final_score": 66.8071,
+      "screen_score": 71.34511,
+      "llm_score": 75.0,
+      "ranking_reason": "流动性极好，但涨幅和量比偏低，动量不足。",
+      "risk_summary": "估值偏高，增长放缓。",
+      "price": 44.92,
+      "change_pct": 1.61,
+      "amount": 8160538145.73,
+      "total_mv": 189023985960.0,
+      "turnover_rate": 4.89,
+      "volume_ratio": 1.58,
+      "pe_ratio": 46.24895951,
+      "pb_ratio": 5.79332728,
+      "industry": "",
+      "concepts": "",
+      "industry_rank": null,
+      "industry_change_pct": null,
+      "industry_heat_score": null,
+      "concept_heat_score": null,
+      "board_heat_score": null,
+      "board_heat_latest_score": null,
+      "board_heat_trend_score": null,
+      "board_heat_persistence_score": null,
+      "board_heat_cooling_score": null,
+      "board_heat_observations": null,
+      "board_heat_state": "",
+      "board_heat_summary": "",
+      "change_60d": null,
+      "signal_score": null,
+      "ma_bullish": null,
+      "price_above_ma20": null,
+      "macd_status": "",
+      "rsi_status": "",
+      "breakout_20d_pct": null,
+      "range_20d_pct": null,
+      "volume_ratio_20d": null,
+      "body_pct": null,
+      "pullback_to_ma20_pct": null,
+      "consolidation_days_20d": null,
+      "factor_scores": {
+        "value": 48.0823,
+        "liquidity": 100.0,
+        "momentum": 61.7325,
+        "reversal": 35.19,
+        "activity": 78.0933,
+        "stability": 73.17,
+        "size": 99.2063,
+        "theme_heat": 50.0
+      },
+      "llm_confidence": 0.65,
+      "llm_sector": "汽车零部件",
+      "llm_theme": "热管理龙头",
+      "llm_tags": [
+        "价值",
+        "流动性",
+        "sector:汽车零部件",
+        "theme:热管理龙头",
+        "style_fit:适合稳健价值策略"
+      ],
+      "llm_catalysts": [
+        "新能源车热管理需求",
+        "机器人业务"
+      ],
+      "llm_risks": [
+        "动量不足"
+      ],
+      "llm_thesis": "三花智控是热管理龙头，流动性因子满分，但涨幅仅1.61%，量比1.58，资金热度一般。",
+      "llm_style_fit": "适合稳健价值策略",
+      "llm_watch_items": [
+        "营收增速",
+        "新业务进展"
+      ],
+      "llm_invalidators": [
+        "业绩增速下滑",
+        "行业竞争"
+      ],
+      "risk_score": 10.0,
+      "risk_level": "low",
+      "risk_penalty": 1.2,
+      "risk_flags": [
+        "动量不足",
+        "portfolio_sector_concentration:汽车零部件"
+      ],
+      "excluded_by_risk": false,
+      "portfolio_penalty": 5.0,
+      "portfolio_flags": [
+        "portfolio_sector_concentration:汽车零部件"
+      ],
+      "post_analysis_status": {
+        "scorecard": "completed"
+      },
+      "post_analysis_summaries": {
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 动量不足"
       },
       "post_analysis_score_deltas": {
         "scorecard": 0.2
@@ -1104,7 +981,131 @@
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "周期性强"
+            "动量不足"
+          ],
+          "tags": []
+        }
+      },
+      "post_analysis_tags": [],
+      "dsa_context": {},
+      "dsa_news": [],
+      "dsa_analysis_summary": "",
+      "deep_analysis_status": "not_requested",
+      "deep_analysis_query_id": "",
+      "deep_analysis_summary": "",
+      "deep_analysis_error": "",
+      "deep_analysis_result": null,
+      "deep_analysis_signal_score": null,
+      "deep_analysis_sentiment_score": null,
+      "deep_analysis_operation_advice": "",
+      "deep_analysis_trend_prediction": "",
+      "deep_analysis_risk_flags": []
+    },
+    {
+      "rank": 9,
+      "code": "688578",
+      "name": "艾力斯",
+      "final_score": 65.728,
+      "screen_score": 70.87999547619049,
+      "llm_score": 73.0,
+      "ranking_reason": "动量较好，医药板块有扩散。",
+      "risk_summary": "新药竞争加剧。",
+      "price": 130.87,
+      "change_pct": 4.02,
+      "amount": 2963203421.0,
+      "total_mv": 58891500000.0,
+      "turnover_rate": 5.18,
+      "volume_ratio": 1.73,
+      "pe_ratio": 24.38925131,
+      "pb_ratio": 7.60498439,
+      "industry": "",
+      "concepts": "",
+      "industry_rank": null,
+      "industry_change_pct": null,
+      "industry_heat_score": null,
+      "concept_heat_score": null,
+      "board_heat_score": null,
+      "board_heat_latest_score": null,
+      "board_heat_trend_score": null,
+      "board_heat_persistence_score": null,
+      "board_heat_cooling_score": null,
+      "board_heat_observations": null,
+      "board_heat_state": "",
+      "board_heat_summary": "",
+      "change_60d": null,
+      "signal_score": null,
+      "ma_bullish": null,
+      "price_above_ma20": null,
+      "macd_status": "",
+      "rsi_status": "",
+      "breakout_20d_pct": null,
+      "range_20d_pct": null,
+      "volume_ratio_20d": null,
+      "body_pct": null,
+      "pullback_to_ma20_pct": null,
+      "consolidation_days_20d": null,
+      "factor_scores": {
+        "value": 49.9831,
+        "liquidity": 90.4762,
+        "momentum": 69.565,
+        "reversal": 5.0,
+        "activity": 79.8179,
+        "stability": 65.94,
+        "size": 92.0635,
+        "theme_heat": 50.0
+      },
+      "llm_confidence": 0.6,
+      "llm_sector": "医药",
+      "llm_theme": "创新药",
+      "llm_tags": [
+        "趋势",
+        "事件",
+        "sector:医药",
+        "theme:创新药",
+        "style_fit:适合事件驱动策略"
+      ],
+      "llm_catalysts": [
+        "新适应症获批",
+        "医保放量"
+      ],
+      "llm_risks": [
+        "竞争风险"
+      ],
+      "llm_thesis": "艾力斯创新药伏美替尼销售强劲，涨幅4.02%，量比1.73，换手5.18%，医药板块回暖。",
+      "llm_style_fit": "适合事件驱动策略",
+      "llm_watch_items": [
+        "销售数据",
+        "临床试验"
+      ],
+      "llm_invalidators": [
+        "新药失败",
+        "竞争格局恶化"
+      ],
+      "risk_score": 10.0,
+      "risk_level": "low",
+      "risk_penalty": 1.2,
+      "risk_flags": [
+        "竞争风险",
+        "portfolio_sector_concentration:医药"
+      ],
+      "excluded_by_risk": false,
+      "portfolio_penalty": 5.0,
+      "portfolio_flags": [
+        "portfolio_sector_concentration:医药"
+      ],
+      "post_analysis_status": {
+        "scorecard": "completed"
+      },
+      "post_analysis_summaries": {
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 竞争风险"
+      },
+      "post_analysis_score_deltas": {
+        "scorecard": 0.2
+      },
+      "post_analysis_results": {
+        "scorecard": {
+          "risk_flags": [
+            "竞争风险"
           ],
           "tags": []
         }
@@ -1126,21 +1127,21 @@
     },
     {
       "rank": 10,
-      "code": "002202",
-      "name": "金风科技",
-      "final_score": 65.4835,
-      "screen_score": 68.13912208955226,
-      "llm_score": 64.0,
-      "ranking_reason": "涨幅3.18%，量比1.64，换手率9.61%较高，PE 28.7合理。",
-      "risk_summary": "风电行业竞争激烈，毛利率承压。",
-      "price": 24.66,
-      "change_pct": 3.18,
-      "amount": 7886730299.01,
-      "total_mv": 104158628035.0,
-      "turnover_rate": 9.61,
-      "volume_ratio": 1.64,
-      "pe_ratio": 28.7,
-      "pb_ratio": null,
+      "code": "688257",
+      "name": "新锐股份",
+      "final_score": 65.4296,
+      "screen_score": 68.71600285714287,
+      "llm_score": 68.0,
+      "ranking_reason": "流动性好，但涨幅和量比一般。",
+      "risk_summary": "制造业景气度下行。",
+      "price": 108.49,
+      "change_pct": 3.42,
+      "amount": 3402457785.0,
+      "total_mv": 38447423064.0,
+      "turnover_rate": 8.69,
+      "volume_ratio": 1.56,
+      "pe_ratio": 78.10178493,
+      "pb_ratio": 14.37144778,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -1168,47 +1169,48 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 62.1078,
-        "liquidity": 95.5224,
-        "momentum": 66.835,
+        "value": 26.3529,
+        "liquidity": 92.8571,
+        "momentum": 67.615,
         "reversal": 5.0,
-        "activity": 69.3655,
-        "stability": 68.46,
-        "size": 96.2687,
+        "activity": 72.3145,
+        "stability": 67.74,
+        "size": 84.127,
         "theme_heat": 50.0
       },
       "llm_confidence": 0.5,
-      "llm_sector": "风电",
-      "llm_theme": "风电装机回暖+海上风电",
+      "llm_sector": "机械设备",
+      "llm_theme": "刀具",
       "llm_tags": [
+        "流动性",
         "价值",
-        "趋势",
-        "sector:风电",
-        "theme:风电装机回暖+海上风电",
-        "style_fit:低估值+中等动量，适合价值成长策略。"
+        "sector:机械设备",
+        "theme:刀具",
+        "style_fit:适合价值策略"
       ],
       "llm_catalysts": [
-        "风电装机超预期",
-        "海上风电项目推进"
+        "制造业复苏",
+        "国产替代"
       ],
       "llm_risks": [
-        "竞争激烈"
+        "周期风险"
       ],
-      "llm_thesis": "金风科技为风电整机龙头，受益于风电装机量回升和海上风电发展。",
-      "llm_style_fit": "低估值+中等动量，适合价值成长策略。",
+      "llm_thesis": "新锐股份是刀具龙头，涨幅3.42%，量比1.56，换手8.69%，流动性好。",
+      "llm_style_fit": "适合价值策略",
       "llm_watch_items": [
-        "风电装机数据",
-        "招标价格"
+        "制造业PMI",
+        "订单情况"
       ],
       "llm_invalidators": [
-        "风电装机不及预期",
-        "价格战加剧"
+        "制造业下滑",
+        "竞争加剧"
       ],
-      "risk_score": 10.0,
+      "risk_score": 26.6667,
       "risk_level": "low",
-      "risk_penalty": 1.2,
+      "risk_penalty": 3.2,
       "risk_flags": [
-        "竞争激烈"
+        "high_pb",
+        "周期风险"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -1217,7 +1219,7 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: 未发现额外加分项；风险: 竞争激烈"
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 周期风险"
       },
       "post_analysis_score_deltas": {
         "scorecard": 0.2
@@ -1225,7 +1227,7 @@
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "竞争激烈"
+            "周期风险"
           ],
           "tags": []
         }
@@ -1246,20 +1248,24 @@
       "deep_analysis_risk_flags": []
     }
   ],
-  "run_id": "684e05eea7da",
+  "run_id": "5200b0a14bfd",
   "llm_ranked": true,
-  "llm_market_view": "全市场上涨占比78.5%，中位涨幅2.11%，量比>=2占比仅3.4%，整体温和放量但非全面爆发。候选池100%上涨，中位涨幅6.18%，量比>=2占比16.7%，显著强于全市场，显示资金集中攻击高评分标的，策略环境有利。",
-  "llm_selection_logic": "1. 资金热度与价格同步性：优先量比>1.5且涨幅>5%的标的；2. 板块扩散迹象：关注可能形成主题联动的个股；3. 涨幅可持续性：换手率适中（3-10%），避免过度透支。",
-  "llm_portfolio_risk": "候选池集中于科技、金融、新能源等板块，若市场风格切换或政策收紧，可能面临系统性回调风险。部分个股PE较高，估值压力需警惕。",
-  "llm_coverage": 0.9666666666666667,
+  "llm_market_view": "候选池全线上涨，中位涨幅4.92%，量比>=2占比33.3%，远强于全市场，资金活跃度高，适合动量策略。",
+  "llm_selection_logic": "优先资金热度与涨幅同步、量比换手可持续、板块有扩散迹象的个股。",
+  "llm_portfolio_risk": "候选池集中于医药、黄金、汽车零部件，存在板块集中风险；部分个股涨幅已高，需警惕回调。",
+  "llm_coverage": 1.0,
   "llm_parse_errors": [],
   "degradation": [
     "Snapshot source fallback: sina: missing required columns volume_ratio",
+    "Snapshot source fallback: efinance: Expecting value: line 1 column 1 (char 0)",
+    "Snapshot source fallback: akshare_em: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "LLM ranking prompt truncated: trimmed=candidate_details"
   ],
-  "snapshot_source": "efinance",
+  "snapshot_source": "em_datacenter",
   "source_errors": [
-    "sina: missing required columns volume_ratio"
+    "sina: missing required columns volume_ratio",
+    "efinance: Expecting value: line 1 column 1 (char 0)",
+    "akshare_em: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   ],
   "deep_analysis_requested": false,
   "post_analyzers": [
@@ -1270,14 +1276,14 @@
   "risk_enabled": true,
   "portfolio_diversity_enabled": true,
   "portfolio_concentration_notes": [
-    "Portfolio concentration bucket=AI算力: penalized=3, codes=300442:AI算力(-5.0),300738:AI算力(-10.0),000938:IT设备(-15.0)",
-    "Portfolio concentration bucket=金融: penalized=2, codes=600030:券商(-5.0),601108:券商(-10.0)",
-    "Portfolio concentration bucket=新能源: penalized=5, codes=300724:新能源(-5.0),603067:化工(-10.0),000629:有色金属(-15.0),603950:汽车零部件(-15.0),000422:化工(-15.0)",
-    "Portfolio concentration bucket=机器人: penalized=1, codes=603662:传感器(-5.0)",
-    "Portfolio concentration bucket=医药: penalized=3, codes=002294:医药(-5.0),000534:医药(-10.0),002422:医药(-15.0)",
-    "Portfolio concentration bucket=电子: penalized=1, codes=002402:电子(-5.0)",
-    "Portfolio concentration bucket=风电: penalized=2, codes=603985:风电(-5.0),603606:风电(-10.0)"
+    "Portfolio concentration bucket=汽车零部件: penalized=4, codes=002050:汽车零部件(-5.0),301550:汽车零部件(-10.0),603179:汽车零部件(-15.0),300953:汽车零部件(-15.0)",
+    "Portfolio concentration bucket=医药: penalized=4, codes=688578:医药(-5.0),002422:医药(-10.0),688266:医药(-15.0),002653:医药(-15.0)",
+    "Portfolio concentration bucket=半导体: penalized=1, codes=300661:半导体(-5.0)",
+    "Portfolio concentration bucket=新能源: penalized=3, codes=002594:汽车(-5.0),002756:有色金属(-10.0),002459:电力设备(-15.0)",
+    "Portfolio concentration bucket=黄金: penalized=2, codes=600547:黄金(-5.0),000975:黄金(-10.0)",
+    "Portfolio concentration bucket=机械设备: penalized=2, codes=688333:机械设备(-5.0),688059:机械设备(-10.0)",
+    "Portfolio concentration bucket=周期: penalized=1, codes=002378:有色金属(-5.0)"
   ],
   "saved_path": "",
-  "created_at": "2026-07-01T10:58:36.680828"
+  "created_at": "2026-07-02T10:21:04.660959"
 }
