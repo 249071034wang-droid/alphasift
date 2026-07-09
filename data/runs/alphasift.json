@@ -4,25 +4,25 @@
   "strategy_version": "1.1",
   "strategy_category": "momentum",
   "snapshot_count": 5195,
-  "after_filter_count": 55,
+  "after_filter_count": 68,
   "picks": [
     {
       "rank": 1,
-      "code": "002558",
-      "name": "巨人网络",
-      "final_score": 77.736,
-      "screen_score": 71.22662500000001,
+      "code": "603296",
+      "name": "华勤技术",
+      "final_score": 78.1141,
+      "screen_score": 71.85680529411763,
       "llm_score": 82.0,
-      "ranking_reason": "涨幅6.01%，成交额53.7亿，换手率9.6%较高但量比1.85，流动性因子满分，动量76，资金热度高。",
-      "risk_summary": "换手率偏高，短期获利盘抛压；游戏行业监管风险。",
-      "price": 29.09,
-      "change_pct": 6.01,
-      "amount": 5375007209.85,
-      "total_mv": 55287347736.0,
-      "turnover_rate": 9.6,
-      "volume_ratio": 1.85,
-      "pe_ratio": 22.23012264,
-      "pb_ratio": 3.38858292,
+      "ranking_reason": "估值合理，量比和换手率适中，资金持续流入，基本面稳健。",
+      "risk_summary": "行业竞争加剧，毛利率可能下滑。",
+      "price": 82.14,
+      "change_pct": 4.92,
+      "amount": 4531326371.0,
+      "total_mv": 124540788171.0,
+      "turnover_rate": 7.19,
+      "volume_ratio": 2.18,
+      "pe_ratio": 29.14676193,
+      "pb_ratio": 4.6518776,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -50,47 +50,47 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 60.1127,
-        "liquidity": 100.0,
-        "momentum": 76.0325,
+        "value": 64.9089,
+        "liquidity": 91.1765,
+        "momentum": 72.49,
         "reversal": 5.0,
-        "activity": 70.3544,
-        "stability": 59.97,
-        "size": 92.7273,
+        "activity": 80.5278,
+        "stability": 63.24,
+        "size": 98.5294,
         "theme_heat": 50.0
       },
       "llm_confidence": 0.75,
-      "llm_sector": "游戏",
-      "llm_theme": "游戏板块回暖",
+      "llm_sector": "电子",
+      "llm_theme": "消费电子/ODM",
       "llm_tags": [
-        "动量",
-        "流动性",
-        "sector:游戏",
-        "theme:游戏板块回暖",
-        "style_fit:高流动性高动量，适合短线交易策略。"
+        "价值",
+        "趋势",
+        "sector:电子",
+        "theme:消费电子/ODM",
+        "style_fit:价值与动量兼顾，适合稳健策略。"
       ],
       "llm_catalysts": [
-        "AI+游戏应用",
-        "新游戏上线"
+        "AI PC换机潮",
+        "消费电子复苏"
       ],
       "llm_risks": [
-        "高换手"
+        "行业竞争"
       ],
-      "llm_thesis": "巨人网络受益于游戏版号常态化及AI赋能游戏研发，今日放量上涨，流动性极佳。",
-      "llm_style_fit": "高流动性高动量，适合短线交易策略。",
+      "llm_thesis": "华勤技术为ODM龙头，受益于消费电子复苏和AI终端，今日涨幅4.92%，量比2.18，估值合理（PE 29）。",
+      "llm_style_fit": "价值与动量兼顾，适合稳健策略。",
       "llm_watch_items": [
-        "游戏板块政策",
-        "公司新游流水"
+        "ODM行业订单",
+        "公司毛利率变化"
       ],
       "llm_invalidators": [
-        "游戏板块利空政策",
-        "公司业绩下滑"
+        "行业需求下滑",
+        "公司份额下降"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "高换手"
+        "行业竞争"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -99,7 +99,7 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 高换手"
+        "scorecard": "本地后置评分: capital_confirmed；风险: 行业竞争"
       },
       "post_analysis_score_deltas": {
         "scorecard": 3.4
@@ -107,7 +107,7 @@
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "高换手"
+            "行业竞争"
           ],
           "tags": [
             "capital_confirmed"
@@ -133,21 +133,21 @@
     },
     {
       "rank": 2,
-      "code": "603893",
-      "name": "瑞芯微",
-      "final_score": 74.8206,
-      "screen_score": 71.70105590909093,
-      "llm_score": 85.0,
-      "ranking_reason": "涨幅8.28%居前，成交额近50亿，量比1.89，换手率6.15%适中，动量因子69.5，活跃度82.9，资金与价格同步。",
-      "risk_summary": "PE高达69.5倍，估值压力较大；若AI主题降温可能回调。",
-      "price": 190.71,
-      "change_pct": 8.28,
-      "amount": 4967289993.0,
-      "total_mv": 80660308190.0,
-      "turnover_rate": 6.15,
-      "volume_ratio": 1.89,
-      "pe_ratio": 69.55469526,
-      "pb_ratio": 17.08947325,
+      "code": "688729",
+      "name": "屹唐股份",
+      "final_score": 75.9348,
+      "screen_score": 72.2246194117647,
+      "llm_score": 83.0,
+      "ranking_reason": "量比高，资金热度与涨幅同步，但PE高达181，估值偏贵。",
+      "risk_summary": "估值过高，业绩增长需验证。",
+      "price": 37.57,
+      "change_pct": 7.22,
+      "amount": 5012036275.0,
+      "total_mv": 111040389200.0,
+      "turnover_rate": 7.67,
+      "volume_ratio": 2.86,
+      "pe_ratio": 181.27252069,
+      "pb_ratio": 12.3075438,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -175,42 +175,41 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 29.4438,
-        "liquidity": 98.1818,
-        "momentum": 69.526,
+        "value": 18.8708,
+        "liquidity": 92.6471,
+        "momentum": 74.349,
         "reversal": 5.0,
-        "activity": 82.9559,
-        "stability": 53.16,
-        "size": 98.1818,
+        "activity": 81.3408,
+        "stability": 56.34,
+        "size": 97.0588,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.8,
+      "llm_confidence": 0.7,
       "llm_sector": "半导体",
-      "llm_theme": "AI算力芯片",
+      "llm_theme": "半导体设备",
       "llm_tags": [
         "趋势",
-        "动量",
-        "活跃",
+        "主题",
         "sector:半导体",
-        "theme:AI算力芯片",
-        "style_fit:高动量高活跃度，适合趋势跟踪策略。"
+        "theme:半导体设备",
+        "style_fit:高动量，适合主题投资。"
       ],
       "llm_catalysts": [
-        "AI芯片国产替代",
-        "边缘计算需求增长"
+        "国产替代政策",
+        "半导体资本开支增加"
       ],
       "llm_risks": [
         "高估值"
       ],
-      "llm_thesis": "瑞芯微作为AIoT芯片龙头，受益于AI边缘计算需求，今日放量上涨，资金关注度高。",
-      "llm_style_fit": "高动量高活跃度，适合趋势跟踪策略。",
+      "llm_thesis": "屹唐股份为半导体设备供应商，受益于国产替代，今日涨幅7.22%，量比2.86，成交额超50亿，资金关注度高。",
+      "llm_style_fit": "高动量，适合主题投资。",
       "llm_watch_items": [
-        "AI芯片板块持续性",
-        "公司业绩预告"
+        "半导体设备订单",
+        "公司财报"
       ],
       "llm_invalidators": [
-        "AI板块集体回调",
-        "公司业绩不及预期"
+        "国产替代进度放缓",
+        "业绩不及预期"
       ],
       "risk_score": 26.6667,
       "risk_level": "low",
@@ -226,20 +225,24 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: 未发现额外加分项；风险: 高估值"
+        "scorecard": "本地后置评分: capital_confirmed；风险: 高估值"
       },
       "post_analysis_score_deltas": {
-        "scorecard": 1.0
+        "scorecard": 2.6
       },
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
             "高估值"
           ],
-          "tags": []
+          "tags": [
+            "capital_confirmed"
+          ]
         }
       },
-      "post_analysis_tags": [],
+      "post_analysis_tags": [
+        "capital_confirmed"
+      ],
       "dsa_context": {},
       "dsa_news": [],
       "dsa_analysis_summary": "",
@@ -256,21 +259,21 @@
     },
     {
       "rank": 3,
-      "code": "002429",
-      "name": "兆驰股份",
-      "final_score": 73.7837,
-      "screen_score": 69.97280727272727,
-      "llm_score": 76.0,
-      "ranking_reason": "涨幅5.22%，成交额21.7亿，量比1.6，换手率4.36%偏低，动量73.5，价值58.5，资金温和。",
-      "risk_summary": "行业竞争激烈，毛利率偏低。",
-      "price": 11.09,
-      "change_pct": 5.22,
-      "amount": 2175909565.86,
-      "total_mv": 50203771332.0,
-      "turnover_rate": 4.36,
-      "volume_ratio": 1.6,
-      "pe_ratio": 42.60500418,
-      "pb_ratio": 2.9680491,
+      "code": "002957",
+      "name": "科瑞技术",
+      "final_score": 73.5201,
+      "screen_score": 68.20019794117648,
+      "llm_score": 78.0,
+      "ranking_reason": "涨幅较高，动量因子77，但量比一般，资金热度中等。",
+      "risk_summary": "行业周期性较强，订单波动大。",
+      "price": 47.06,
+      "change_pct": 6.35,
+      "amount": 1041777790.28,
+      "total_mv": 19764374850.0,
+      "turnover_rate": 5.57,
+      "volume_ratio": 1.57,
+      "pe_ratio": 66.26759576,
+      "pb_ratio": 5.97085055,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -298,47 +301,47 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 58.4815,
-        "liquidity": 85.4545,
-        "momentum": 73.465,
+        "value": 44.958,
+        "liquidity": 61.7647,
+        "momentum": 77.1375,
         "reversal": 5.0,
-        "activity": 76.276,
-        "stability": 62.34,
-        "size": 90.9091,
+        "activity": 80.4959,
+        "stability": 58.95,
+        "size": 67.6471,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.7,
-      "llm_sector": "家电",
-      "llm_theme": "智能显示终端",
+      "llm_confidence": 0.65,
+      "llm_sector": "机械设备",
+      "llm_theme": "自动化设备",
       "llm_tags": [
-        "价值",
+        "趋势",
         "动量",
-        "sector:家电",
-        "theme:智能显示终端",
-        "style_fit:价值与动量结合，适合稳健型策略。"
+        "sector:机械设备",
+        "theme:自动化设备",
+        "style_fit:高动量，适合趋势跟踪。"
       ],
       "llm_catalysts": [
-        "消费电子复苏",
-        "Mini LED需求增长"
+        "智能制造政策",
+        "下游扩产"
       ],
       "llm_risks": [
-        "低毛利率"
+        "周期波动"
       ],
-      "llm_thesis": "兆驰股份主营智能电视及LED，受益于消费电子复苏，今日放量上涨，估值较低。",
-      "llm_style_fit": "价值与动量结合，适合稳健型策略。",
+      "llm_thesis": "科瑞技术为自动化设备供应商，受益于智能制造，今日涨幅6.35%，量比1.57，动量因子高。",
+      "llm_style_fit": "高动量，适合趋势跟踪。",
       "llm_watch_items": [
-        "家电行业数据",
-        "公司订单情况"
+        "自动化行业景气度",
+        "公司订单"
       ],
       "llm_invalidators": [
-        "消费电子需求疲软",
-        "公司业绩下滑"
+        "下游需求放缓",
+        "订单下滑"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "低毛利率"
+        "周期波动"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -347,7 +350,7 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 低毛利率"
+        "scorecard": "本地后置评分: capital_confirmed；风险: 周期波动"
       },
       "post_analysis_score_deltas": {
         "scorecard": 2.6
@@ -355,7 +358,7 @@
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "低毛利率"
+            "周期波动"
           ],
           "tags": [
             "capital_confirmed"
@@ -381,21 +384,21 @@
     },
     {
       "rank": 4,
-      "code": "002812",
-      "name": "恩捷股份",
-      "final_score": 72.9185,
-      "screen_score": 71.19753136363639,
-      "llm_score": 78.0,
-      "ranking_reason": "涨幅4.18%，成交额32.6亿，量比1.83，换手率5.76%适中，活跃度82.3，动量70，资金温和放大。",
-      "risk_summary": "PE高达176倍，盈利能力存疑；行业竞争加剧。",
-      "price": 67.72,
-      "change_pct": 4.18,
-      "amount": 3265353094.91,
-      "total_mv": 66509972065.0,
-      "turnover_rate": 5.76,
-      "volume_ratio": 1.83,
-      "pe_ratio": 176.47964971,
-      "pb_ratio": 2.5999923,
+      "code": "600602",
+      "name": "云赛智联",
+      "final_score": 72.0399,
+      "screen_score": 68.39987029411766,
+      "llm_score": 80.0,
+      "ranking_reason": "量比最高，资金热度突出，但涨幅相对温和，可持续性较好。",
+      "risk_summary": "PE较高，业绩增长不确定。",
+      "price": 17.08,
+      "change_pct": 4.27,
+      "amount": 1180930909.0,
+      "total_mv": 23359862611.0,
+      "turnover_rate": 6.59,
+      "volume_ratio": 3.09,
+      "pe_ratio": 119.08835775,
+      "pb_ratio": 4.74716263,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -423,47 +426,47 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 48.6841,
-        "liquidity": 87.2727,
-        "momentum": 70.085,
+        "value": 43.7985,
+        "liquidity": 66.1765,
+        "momentum": 70.3775,
         "reversal": 5.0,
-        "activity": 82.3596,
-        "stability": 65.46,
-        "size": 94.5455,
+        "activity": 84.1851,
+        "stability": 65.19,
+        "size": 73.5294,
         "theme_heat": 50.0
       },
       "llm_confidence": 0.7,
-      "llm_sector": "新能源",
-      "llm_theme": "锂电隔膜",
+      "llm_sector": "计算机",
+      "llm_theme": "智慧城市/云计算",
       "llm_tags": [
         "趋势",
-        "价值",
-        "sector:新能源",
-        "theme:锂电隔膜",
-        "style_fit:动量与活跃度配合，适合波段操作。"
+        "活跃",
+        "sector:计算机",
+        "theme:智慧城市/云计算",
+        "style_fit:高活跃度，适合短线交易。"
       ],
       "llm_catalysts": [
-        "新能源车销量超预期",
-        "隔膜涨价"
+        "智慧城市项目",
+        "云计算需求增长"
       ],
       "llm_risks": [
-        "高PE"
+        "高估值"
       ],
-      "llm_thesis": "恩捷股份作为锂电隔膜龙头，受益于新能源车需求增长，今日放量上涨，估值合理。",
-      "llm_style_fit": "动量与活跃度配合，适合波段操作。",
+      "llm_thesis": "云赛智联主营智慧城市和云计算，今日涨幅4.27%，量比3.09，资金活跃，活跃度因子高。",
+      "llm_style_fit": "高活跃度，适合短线交易。",
       "llm_watch_items": [
-        "锂电板块走势",
-        "公司产能利用率"
+        "智慧城市订单",
+        "云计算业务进展"
       ],
       "llm_invalidators": [
-        "新能源补贴退坡",
-        "公司业绩亏损"
+        "项目落地不及预期",
+        "行业竞争加剧"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "高PE"
+        "高估值"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -472,7 +475,7 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: 未发现额外加分项；风险: 高PE"
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 高估值"
       },
       "post_analysis_score_deltas": {
         "scorecard": 0.2
@@ -480,7 +483,7 @@
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "高PE"
+            "高估值"
           ],
           "tags": []
         }
@@ -502,21 +505,21 @@
     },
     {
       "rank": 5,
-      "code": "002266",
-      "name": "浙富控股",
-      "final_score": 67.6025,
-      "screen_score": 67.6708990909091,
-      "llm_score": 70.0,
-      "ranking_reason": "涨幅8.7%居首，成交额20.9亿，量比2.62，换手率7.64%较高，动量67.6，价值72.6，资金热度高但持续性存疑。",
-      "risk_summary": "换手率过高，短期回调风险；行业增长缓慢。",
-      "price": 5.75,
-      "change_pct": 8.7,
-      "amount": 2092856082.5,
-      "total_mv": 30010810562.0,
-      "turnover_rate": 7.64,
-      "volume_ratio": 2.62,
-      "pe_ratio": 20.70790348,
-      "pb_ratio": 2.37286048,
+      "code": "300002",
+      "name": "神州泰岳",
+      "final_score": 71.003,
+      "screen_score": 66.67171970588237,
+      "llm_score": 74.0,
+      "ranking_reason": "估值最低，价值因子80.7，涨幅和量比适中，安全边际高。",
+      "risk_summary": "游戏行业监管风险。",
+      "price": 8.49,
+      "change_pct": 4.94,
+      "amount": 1003634597.82,
+      "total_mv": 16701306122.0,
+      "turnover_rate": 6.52,
+      "volume_ratio": 1.63,
+      "pe_ratio": 22.75613071,
+      "pb_ratio": 2.13704309,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -544,47 +547,47 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 72.5886,
-        "liquidity": 81.8182,
-        "momentum": 67.615,
+        "value": 80.6862,
+        "liquidity": 58.8235,
+        "momentum": 72.555,
         "reversal": 5.0,
-        "activity": 80.9042,
-        "stability": 50.9,
-        "size": 83.6364,
+        "activity": 80.4441,
+        "stability": 63.18,
+        "size": 60.2941,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.6,
-      "llm_sector": "环保",
-      "llm_theme": "固废处理",
+      "llm_confidence": 0.7,
+      "llm_sector": "传媒",
+      "llm_theme": "游戏/出海",
       "llm_tags": [
-        "动量",
-        "事件",
-        "sector:环保",
-        "theme:固废处理",
-        "style_fit:高动量高换手，适合短线博弈。"
+        "价值",
+        "防守",
+        "sector:传媒",
+        "theme:游戏/出海",
+        "style_fit:低估值，适合价值投资。"
       ],
       "llm_catalysts": [
-        "环保政策利好",
-        "项目中标"
+        "游戏版号发放",
+        "海外业务增长"
       ],
       "llm_risks": [
-        "高换手"
+        "监管风险"
       ],
-      "llm_thesis": "浙富控股主营固废处理及装备，今日涨幅最大，量比2.62，但基本面一般。",
-      "llm_style_fit": "高动量高换手，适合短线博弈。",
+      "llm_thesis": "神州泰岳主营游戏和ICT运营，今日涨幅4.94%，量比1.63，估值低（PE 22.8），价值因子最高。",
+      "llm_style_fit": "低估值，适合价值投资。",
       "llm_watch_items": [
-        "环保板块热度",
-        "公司订单"
+        "游戏行业政策",
+        "公司海外收入"
       ],
       "llm_invalidators": [
-        "环保政策不及预期",
-        "公司业绩下滑"
+        "监管收紧",
+        "业绩下滑"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "高换手"
+        "监管风险"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -593,15 +596,143 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: 未发现额外加分项；风险: 高换手"
+        "scorecard": "本地后置评分: capital_confirmed；风险: 监管风险"
       },
       "post_analysis_score_deltas": {
-        "scorecard": 0.2
+        "scorecard": 2.6
       },
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "高换手"
+            "监管风险"
+          ],
+          "tags": [
+            "capital_confirmed"
+          ]
+        }
+      },
+      "post_analysis_tags": [
+        "capital_confirmed"
+      ],
+      "dsa_context": {},
+      "dsa_news": [],
+      "dsa_analysis_summary": "",
+      "deep_analysis_status": "not_requested",
+      "deep_analysis_query_id": "",
+      "deep_analysis_summary": "",
+      "deep_analysis_error": "",
+      "deep_analysis_result": null,
+      "deep_analysis_signal_score": null,
+      "deep_analysis_sentiment_score": null,
+      "deep_analysis_operation_advice": "",
+      "deep_analysis_trend_prediction": "",
+      "deep_analysis_risk_flags": []
+    },
+    {
+      "rank": 6,
+      "code": "603920",
+      "name": "世运电路",
+      "final_score": 69.2749,
+      "screen_score": 65.45810352941179,
+      "llm_score": 88.0,
+      "ranking_reason": "涨幅第二，量比和换手率可持续，估值合理（PE 57），基本面支撑。",
+      "risk_summary": "行业竞争激烈，毛利率可能承压。",
+      "price": 42.98,
+      "change_pct": 8.34,
+      "amount": 1432111219.0,
+      "total_mv": 30971057785.0,
+      "turnover_rate": 4.74,
+      "volume_ratio": 1.6,
+      "pe_ratio": 57.27479683,
+      "pb_ratio": 4.75655693,
+      "industry": "",
+      "concepts": "",
+      "industry_rank": null,
+      "industry_change_pct": null,
+      "industry_heat_score": null,
+      "concept_heat_score": null,
+      "board_heat_score": null,
+      "board_heat_latest_score": null,
+      "board_heat_trend_score": null,
+      "board_heat_persistence_score": null,
+      "board_heat_cooling_score": null,
+      "board_heat_observations": null,
+      "board_heat_state": "",
+      "board_heat_summary": "",
+      "change_60d": null,
+      "signal_score": null,
+      "ma_bullish": null,
+      "price_above_ma20": null,
+      "macd_status": "",
+      "rsi_status": "",
+      "breakout_20d_pct": null,
+      "range_20d_pct": null,
+      "volume_ratio_20d": null,
+      "body_pct": null,
+      "pullback_to_ma20_pct": null,
+      "consolidation_days_20d": null,
+      "factor_scores": {
+        "value": 53.3309,
+        "liquidity": 69.1176,
+        "momentum": 69.253,
+        "reversal": 5.0,
+        "activity": 77.644,
+        "stability": 52.98,
+        "size": 82.3529,
+        "theme_heat": 50.0
+      },
+      "llm_confidence": 0.8,
+      "llm_sector": "电子",
+      "llm_theme": "PCB/半导体",
+      "llm_tags": [
+        "趋势",
+        "价值",
+        "sector:电子",
+        "theme:PCB/半导体",
+        "style_fit:动量与价值兼顾，适合稳健成长策略。"
+      ],
+      "llm_catalysts": [
+        "半导体需求回暖",
+        "汽车电子化"
+      ],
+      "llm_risks": [
+        "行业竞争"
+      ],
+      "llm_thesis": "世运电路主营PCB，受益于半导体和消费电子复苏，今日涨幅8.34%，量比1.6，换手率适中，资金持续流入。",
+      "llm_style_fit": "动量与价值兼顾，适合稳健成长策略。",
+      "llm_watch_items": [
+        "PCB行业景气度",
+        "公司订单情况"
+      ],
+      "llm_invalidators": [
+        "行业需求下滑",
+        "公司业绩不及预期"
+      ],
+      "risk_score": 10.0,
+      "risk_level": "low",
+      "risk_penalty": 1.2,
+      "risk_flags": [
+        "行业竞争",
+        "portfolio_sector_concentration:半导体"
+      ],
+      "excluded_by_risk": false,
+      "portfolio_penalty": 5.0,
+      "portfolio_flags": [
+        "portfolio_sector_concentration:半导体"
+      ],
+      "post_analysis_status": {
+        "scorecard": "completed"
+      },
+      "post_analysis_summaries": {
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 行业竞争"
+      },
+      "post_analysis_score_deltas": {
+        "scorecard": 1.0
+      },
+      "post_analysis_results": {
+        "scorecard": {
+          "risk_flags": [
+            "行业竞争"
           ],
           "tags": []
         }
@@ -622,22 +753,22 @@
       "deep_analysis_risk_flags": []
     },
     {
-      "rank": 6,
-      "code": "688036",
-      "name": "传音控股",
-      "final_score": 66.9928,
-      "screen_score": 68.32135318181818,
-      "llm_score": 74.0,
-      "ranking_reason": "涨幅5.25%，成交额21.5亿，量比1.67，换手率2.9%较低，动量73.5，价值58.3，资金温和。",
-      "risk_summary": "新兴市场汇率风险；竞争加剧。",
-      "price": 63.78,
-      "change_pct": 5.25,
-      "amount": 2146973488.0,
-      "total_mv": 73422550280.0,
-      "turnover_rate": 2.9,
-      "volume_ratio": 1.67,
-      "pe_ratio": 26.30776285,
-      "pb_ratio": 3.45646278,
+      "rank": 7,
+      "code": "000066",
+      "name": "中国长城",
+      "final_score": 68.1469,
+      "screen_score": 66.57810588235294,
+      "llm_score": 73.0,
+      "ranking_reason": "换手率高，流动性好，但涨幅较小，PE极高，估值风险大。",
+      "risk_summary": "PE高达3178，估值泡沫。",
+      "price": 19.88,
+      "change_pct": 2.95,
+      "amount": 7030165563.53,
+      "total_mv": 64128885869.0,
+      "turnover_rate": 11.25,
+      "volume_ratio": 1.6,
+      "pe_ratio": 3178.81015612,
+      "pb_ratio": 5.86615682,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -665,176 +796,47 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 58.2731,
-        "liquidity": 83.6364,
-        "momentum": 73.5625,
-        "reversal": 5.0,
-        "activity": 71.3376,
-        "stability": 62.25,
-        "size": 96.3636,
+        "value": 36.2898,
+        "liquidity": 98.5294,
+        "momentum": 66.0875,
+        "reversal": 7.05,
+        "activity": 63.28,
+        "stability": 66.65,
+        "size": 91.1765,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.65,
-      "llm_sector": "消费电子",
-      "llm_theme": "手机出海",
+      "llm_confidence": 0.6,
+      "llm_sector": "计算机",
+      "llm_theme": "信创/国产服务器",
       "llm_tags": [
-        "价值",
         "趋势",
-        "sector:消费电子",
-        "theme:手机出海",
-        "style_fit:低换手高动量，适合中线持有。"
+        "流动性",
+        "sector:计算机",
+        "theme:信创/国产服务器",
+        "style_fit:高流动性，适合短线交易。"
       ],
       "llm_catalysts": [
-        "非洲智能手机渗透率提升",
-        "新市场拓展"
+        "信创政策",
+        "国产替代"
       ],
       "llm_risks": [
-        "汇率风险"
+        "高估值"
       ],
-      "llm_thesis": "传音控股作为非洲手机之王，受益于新兴市场增长，今日放量上涨，估值合理。",
-      "llm_style_fit": "低换手高动量，适合中线持有。",
+      "llm_thesis": "中国长城为国产服务器龙头，受益于信创，今日涨幅2.95%，量比1.6，换手率11.25%，资金活跃。",
+      "llm_style_fit": "高流动性，适合短线交易。",
       "llm_watch_items": [
-        "新兴市场手机销量",
-        "公司财报"
+        "信创订单",
+        "公司业绩"
       ],
       "llm_invalidators": [
-        "新兴市场货币贬值",
-        "公司市场份额下滑"
+        "信创进度放缓",
+        "业绩持续亏损"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "汇率风险",
-        "portfolio_sector_concentration:消费"
-      ],
-      "excluded_by_risk": false,
-      "portfolio_penalty": 5.0,
-      "portfolio_flags": [
-        "portfolio_sector_concentration:消费"
-      ],
-      "post_analysis_status": {
-        "scorecard": "completed"
-      },
-      "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 汇率风险"
-      },
-      "post_analysis_score_deltas": {
-        "scorecard": 2.6
-      },
-      "post_analysis_results": {
-        "scorecard": {
-          "risk_flags": [
-            "汇率风险"
-          ],
-          "tags": [
-            "capital_confirmed"
-          ]
-        }
-      },
-      "post_analysis_tags": [
-        "capital_confirmed"
-      ],
-      "dsa_context": {},
-      "dsa_news": [],
-      "dsa_analysis_summary": "",
-      "deep_analysis_status": "not_requested",
-      "deep_analysis_query_id": "",
-      "deep_analysis_summary": "",
-      "deep_analysis_error": "",
-      "deep_analysis_result": null,
-      "deep_analysis_signal_score": null,
-      "deep_analysis_sentiment_score": null,
-      "deep_analysis_operation_advice": "",
-      "deep_analysis_trend_prediction": "",
-      "deep_analysis_risk_flags": []
-    },
-    {
-      "rank": 7,
-      "code": "002739",
-      "name": "儒意电影",
-      "final_score": 64.8638,
-      "screen_score": 66.77301045454546,
-      "llm_score": 66.0,
-      "ranking_reason": "涨幅5.99%，成交额14.4亿，量比1.69，换手率7.11%较高，动量75.9，但价值48，盈利亏损。",
-      "risk_summary": "PE为负，盈利能力差；影视行业不确定性。",
-      "price": 9.91,
-      "change_pct": 5.99,
-      "amount": 1436808067.18,
-      "total_mv": 20927726996.0,
-      "turnover_rate": 7.11,
-      "volume_ratio": 1.69,
-      "pe_ratio": -91.33511215,
-      "pb_ratio": 2.74762144,
-      "industry": "",
-      "concepts": "",
-      "industry_rank": null,
-      "industry_change_pct": null,
-      "industry_heat_score": null,
-      "concept_heat_score": null,
-      "board_heat_score": null,
-      "board_heat_latest_score": null,
-      "board_heat_trend_score": null,
-      "board_heat_persistence_score": null,
-      "board_heat_cooling_score": null,
-      "board_heat_observations": null,
-      "board_heat_state": "",
-      "board_heat_summary": "",
-      "change_60d": null,
-      "signal_score": null,
-      "ma_bullish": null,
-      "price_above_ma20": null,
-      "macd_status": "",
-      "rsi_status": "",
-      "breakout_20d_pct": null,
-      "range_20d_pct": null,
-      "volume_ratio_20d": null,
-      "body_pct": null,
-      "pullback_to_ma20_pct": null,
-      "consolidation_days_20d": null,
-      "factor_scores": {
-        "value": 48.017,
-        "liquidity": 69.0909,
-        "momentum": 75.9675,
-        "reversal": 5.0,
-        "activity": 78.5924,
-        "stability": 42.03,
-        "size": 78.1818,
-        "theme_heat": 50.0
-      },
-      "llm_confidence": 0.55,
-      "llm_sector": "传媒",
-      "llm_theme": "影视复苏",
-      "llm_tags": [
-        "动量",
-        "事件",
-        "sector:传媒",
-        "theme:影视复苏",
-        "style_fit:高动量高风险，适合投机。"
-      ],
-      "llm_catalysts": [
-        "电影票房超预期",
-        "新片上映"
-      ],
-      "llm_risks": [
-        "亏损"
-      ],
-      "llm_thesis": "儒意电影受益于电影市场复苏，今日放量上涨，但PE为负，基本面较差。",
-      "llm_style_fit": "高动量高风险，适合投机。",
-      "llm_watch_items": [
-        "电影票房数据",
-        "公司新片"
-      ],
-      "llm_invalidators": [
-        "票房不及预期",
-        "公司持续亏损"
-      ],
-      "risk_score": 35.0,
-      "risk_level": "medium",
-      "risk_penalty": 4.2,
-      "risk_flags": [
-        "negative_or_invalid_pe",
-        "亏损"
+        "高估值"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -843,24 +845,20 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 亏损"
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 高估值"
       },
       "post_analysis_score_deltas": {
-        "scorecard": 2.6
+        "scorecard": 0.2
       },
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "亏损"
+            "高估值"
           ],
-          "tags": [
-            "capital_confirmed"
-          ]
+          "tags": []
         }
       },
-      "post_analysis_tags": [
-        "capital_confirmed"
-      ],
+      "post_analysis_tags": [],
       "dsa_context": {},
       "dsa_news": [],
       "dsa_analysis_summary": "",
@@ -877,21 +875,21 @@
     },
     {
       "rank": 8,
-      "code": "002602",
-      "name": "世纪华通",
-      "final_score": 63.4639,
-      "screen_score": 67.77317045454546,
+      "code": "603989",
+      "name": "艾华集团",
+      "final_score": 67.7423,
+      "screen_score": 66.57049882352942,
       "llm_score": 72.0,
-      "ranking_reason": "涨幅2.91%相对温和，成交额32.6亿，量比1.53，换手率3.27%偏低，动量65.9，价值67，资金热度一般。",
-      "risk_summary": "涨幅较小，动量偏弱；游戏行业监管风险。",
-      "price": 14.5,
-      "change_pct": 2.91,
-      "amount": 3267059741.59,
-      "total_mv": 106874893669.0,
-      "turnover_rate": 3.27,
-      "volume_ratio": 1.53,
-      "pe_ratio": 17.01137021,
-      "pb_ratio": 3.30920494,
+      "ranking_reason": "估值合理，涨幅和量比适中，基本面稳健。",
+      "risk_summary": "行业需求周期性波动。",
+      "price": 41.5,
+      "change_pct": 4.06,
+      "amount": 1018963104.0,
+      "total_mv": 16549364190.0,
+      "turnover_rate": 6.17,
+      "volume_ratio": 1.6,
+      "pe_ratio": 62.58853374,
+      "pb_ratio": 4.18747432,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -919,59 +917,56 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 67.0594,
-        "liquidity": 89.0909,
-        "momentum": 65.9575,
-        "reversal": 7.89,
-        "activity": 72.0344,
-        "stability": 69.27,
-        "size": 100.0,
+        "value": 53.8694,
+        "liquidity": 60.2941,
+        "momentum": 69.695,
+        "reversal": 5.0,
+        "activity": 81.568,
+        "stability": 65.82,
+        "size": 58.8235,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.6,
-      "llm_sector": "游戏",
-      "llm_theme": "游戏板块回暖",
+      "llm_confidence": 0.65,
+      "llm_sector": "电子",
+      "llm_theme": "被动元件",
       "llm_tags": [
         "价值",
-        "流动性",
-        "sector:游戏",
-        "theme:游戏板块回暖",
-        "style_fit:大市值低波动，适合防御型策略。"
+        "趋势",
+        "sector:电子",
+        "theme:被动元件",
+        "style_fit:稳健成长，适合价值投资。"
       ],
       "llm_catalysts": [
-        "AI+游戏",
-        "新游戏上线"
+        "消费电子复苏",
+        "新能源需求"
       ],
       "llm_risks": [
-        "动量偏弱"
+        "周期波动"
       ],
-      "llm_thesis": "世纪华通为游戏龙头，受益于版号放开及AI赋能，今日上涨，市值大流动性好。",
-      "llm_style_fit": "大市值低波动，适合防御型策略。",
+      "llm_thesis": "艾华集团为铝电解电容龙头，受益于消费电子和新能源，今日涨幅4.06%，量比1.6，估值合理（PE 62.6）。",
+      "llm_style_fit": "稳健成长，适合价值投资。",
       "llm_watch_items": [
-        "游戏板块持续性",
-        "公司业绩"
+        "电容行业景气度",
+        "公司订单"
       ],
       "llm_invalidators": [
-        "游戏行业利空",
-        "公司业绩不及预期"
+        "需求下滑",
+        "竞争加剧"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "动量偏弱",
-        "portfolio_sector_concentration:游戏"
+        "周期波动"
       ],
       "excluded_by_risk": false,
-      "portfolio_penalty": 5.0,
-      "portfolio_flags": [
-        "portfolio_sector_concentration:游戏"
-      ],
+      "portfolio_penalty": 0.0,
+      "portfolio_flags": [],
       "post_analysis_status": {
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: 未发现额外加分项；风险: 动量偏弱"
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 周期波动"
       },
       "post_analysis_score_deltas": {
         "scorecard": 0.2
@@ -979,7 +974,7 @@
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "动量偏弱"
+            "周期波动"
           ],
           "tags": []
         }
@@ -1001,21 +996,21 @@
     },
     {
       "rank": 9,
-      "code": "300019",
-      "name": "硅宝科技",
-      "final_score": 62.485,
-      "screen_score": 63.14168500000001,
-      "llm_score": 58.0,
-      "ranking_reason": "涨幅6.55%，成交额6.1亿，量比1.89，换手率8.42%较高，动量77.4，价值63.8，但流动性因子40偏低。",
-      "risk_summary": "市值小，流动性不足；行业竞争。",
-      "price": 20.0,
-      "change_pct": 6.55,
-      "amount": 609109277.39,
-      "total_mv": 7862334000.0,
-      "turnover_rate": 8.42,
-      "volume_ratio": 1.89,
-      "pe_ratio": 31.00248709,
-      "pb_ratio": 2.85413914,
+      "code": "601133",
+      "name": "柏诚股份",
+      "final_score": 67.1627,
+      "screen_score": 66.27111264705884,
+      "llm_score": 71.0,
+      "ranking_reason": "量比和换手率适中，估值合理，但涨幅一般。",
+      "risk_summary": "行业投资周期波动。",
+      "price": 35.55,
+      "change_pct": 3.46,
+      "amount": 1480394247.0,
+      "total_mv": 18706501826.0,
+      "turnover_rate": 7.9,
+      "volume_ratio": 1.79,
+      "pe_ratio": 97.40508071,
+      "pb_ratio": 6.17921489,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -1043,47 +1038,47 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 63.7971,
-        "liquidity": 40.0,
-        "momentum": 77.3975,
+        "value": 39.9464,
+        "liquidity": 70.5882,
+        "momentum": 67.745,
         "reversal": 5.0,
-        "activity": 74.7839,
-        "stability": 58.35,
-        "size": 45.4545,
+        "activity": 76.2021,
+        "stability": 67.62,
+        "size": 66.1765,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.45,
-      "llm_sector": "化工",
-      "llm_theme": "有机硅",
+      "llm_confidence": 0.6,
+      "llm_sector": "建筑装饰",
+      "llm_theme": "洁净室工程",
       "llm_tags": [
-        "动量",
+        "趋势",
         "价值",
-        "sector:化工",
-        "theme:有机硅",
-        "style_fit:高动量小市值，适合短线。"
+        "sector:建筑装饰",
+        "theme:洁净室工程",
+        "style_fit:稳健成长，适合价值投资。"
       ],
       "llm_catalysts": [
-        "有机硅涨价",
-        "建筑需求"
+        "半导体建厂",
+        "医药投资"
       ],
       "llm_risks": [
-        "小市值"
+        "周期波动"
       ],
-      "llm_thesis": "硅宝科技主营有机硅密封胶，今日放量上涨，但市值较小。",
-      "llm_style_fit": "高动量小市值，适合短线。",
+      "llm_thesis": "柏诚股份为洁净室工程龙头，受益于半导体和医药投资，今日涨幅3.46%，量比1.79，估值合理（PE 97）。",
+      "llm_style_fit": "稳健成长，适合价值投资。",
       "llm_watch_items": [
-        "有机硅价格",
+        "半导体资本开支",
         "公司订单"
       ],
       "llm_invalidators": [
-        "有机硅价格下跌",
-        "公司业绩下滑"
+        "下游投资放缓",
+        "竞争加剧"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "小市值"
+        "周期波动"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -1092,24 +1087,20 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 小市值"
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 周期波动"
       },
       "post_analysis_score_deltas": {
-        "scorecard": 2.6
+        "scorecard": 0.2
       },
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "小市值"
+            "周期波动"
           ],
-          "tags": [
-            "capital_confirmed"
-          ]
+          "tags": []
         }
       },
-      "post_analysis_tags": [
-        "capital_confirmed"
-      ],
+      "post_analysis_tags": [],
       "dsa_context": {},
       "dsa_news": [],
       "dsa_analysis_summary": "",
@@ -1126,21 +1117,21 @@
     },
     {
       "rank": 10,
-      "code": "002555",
-      "name": "三七互娱",
-      "final_score": 56.5267,
-      "screen_score": 67.21115772727273,
-      "llm_score": 68.0,
-      "ranking_reason": "涨幅2.7%偏弱，成交额15.4亿，量比1.57，换手率4.95%适中，动量65.3，价值71.6，资金热度一般。",
-      "risk_summary": "涨幅落后板块，动量偏弱；行业竞争。",
-      "price": 19.43,
-      "change_pct": 2.7,
-      "amount": 1543593378.89,
-      "total_mv": 42983778142.0,
-      "turnover_rate": 4.95,
-      "volume_ratio": 1.57,
-      "pe_ratio": 13.33096925,
-      "pb_ratio": 2.96515797,
+      "code": "002230",
+      "name": "科大讯飞",
+      "final_score": 64.4578,
+      "screen_score": 67.42971294117648,
+      "llm_score": 75.0,
+      "ranking_reason": "涨幅温和，量比和换手率适中，资金稳步流入，龙头地位稳固。",
+      "risk_summary": "AI商业化进展不及预期。",
+      "price": 42.37,
+      "change_pct": 3.49,
+      "amount": 2754346302.45,
+      "total_mv": 101776122863.0,
+      "turnover_rate": 3.0,
+      "volume_ratio": 1.52,
+      "pe_ratio": 117.9441459,
+      "pb_ratio": 5.39842926,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -1168,59 +1159,60 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 71.5568,
-        "liquidity": 74.5455,
-        "momentum": 65.275,
-        "reversal": 12.3,
-        "activity": 78.2639,
-        "stability": 69.9,
-        "size": 89.0909,
+        "value": 42.5304,
+        "liquidity": 86.7647,
+        "momentum": 67.8425,
+        "reversal": 5.0,
+        "activity": 71.017,
+        "stability": 67.53,
+        "size": 95.5882,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.6,
-      "llm_sector": "游戏",
-      "llm_theme": "游戏板块回暖",
+      "llm_confidence": 0.7,
+      "llm_sector": "计算机",
+      "llm_theme": "AI/大模型",
       "llm_tags": [
         "价值",
-        "防守",
-        "sector:游戏",
-        "theme:游戏板块回暖",
-        "style_fit:低估值低动量，适合防御型策略。"
+        "趋势",
+        "龙头",
+        "sector:计算机",
+        "theme:AI/大模型",
+        "style_fit:稳健成长，适合长期持有。"
       ],
       "llm_catalysts": [
-        "AI+游戏",
-        "新游戏上线"
+        "大模型迭代",
+        "AI应用落地"
       ],
       "llm_risks": [
-        "动量偏弱"
+        "高估值"
       ],
-      "llm_thesis": "三七互娱为游戏龙头，估值较低，今日上涨但涨幅较小，资金温和。",
-      "llm_style_fit": "低估值低动量，适合防御型策略。",
+      "llm_thesis": "科大讯飞为AI龙头，受益于大模型应用，今日涨幅3.49%，量比1.52，估值合理（PE 118）。",
+      "llm_style_fit": "稳健成长，适合长期持有。",
       "llm_watch_items": [
-        "游戏板块持续性",
-        "公司业绩"
+        "AI产品收入",
+        "行业竞争"
       ],
       "llm_invalidators": [
-        "游戏行业利空",
-        "公司业绩不及预期"
+        "AI商业化受阻",
+        "业绩不及预期"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "动量偏弱",
-        "portfolio_sector_concentration:游戏"
+        "高估值",
+        "portfolio_sector_concentration:计算机"
       ],
       "excluded_by_risk": false,
-      "portfolio_penalty": 10.0,
+      "portfolio_penalty": 5.0,
       "portfolio_flags": [
-        "portfolio_sector_concentration:游戏"
+        "portfolio_sector_concentration:计算机"
       ],
       "post_analysis_status": {
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: 未发现额外加分项；风险: 动量偏弱"
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 高估值"
       },
       "post_analysis_score_deltas": {
         "scorecard": 0.2
@@ -1228,7 +1220,7 @@
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "动量偏弱"
+            "高估值"
           ],
           "tags": []
         }
@@ -1249,11 +1241,11 @@
       "deep_analysis_risk_flags": []
     }
   ],
-  "run_id": "bc4619377623",
+  "run_id": "b0938465bde4",
   "llm_ranked": true,
-  "llm_market_view": "全市场普跌，候选池逆势全涨，资金集中度高，适合动量策略，但需警惕分化。",
-  "llm_selection_logic": "1. 资金热度与价格同步性；2. 涨幅可持续性（量比、换手率）；3. 板块扩散迹象。",
-  "llm_portfolio_risk": "候选池集中于游戏、新能源、化工等板块，若板块回调则组合回撤风险较大。",
+  "llm_market_view": "候选池全线上涨，平均涨幅5.17%，量比≥2占比33.3%，远强于全市场，资金活跃且板块效应明显，适合动量策略。",
+  "llm_selection_logic": "优先资金热度与价格同步、量比换手率可持续、板块扩散迹象；其次关注估值合理性和基本面支撑。",
+  "llm_portfolio_risk": "候选池集中于科技成长股，估值普遍偏高，若市场风格切换或流动性收紧，可能面临回调风险。",
   "llm_coverage": 1.0,
   "llm_parse_errors": [],
   "degradation": [
@@ -1277,14 +1269,13 @@
   "risk_enabled": true,
   "portfolio_diversity_enabled": true,
   "portfolio_concentration_notes": [
-    "Portfolio concentration bucket=消费: penalized=2, codes=688036:消费电子(-5.0),000729:食品饮料(-10.0)",
-    "Portfolio concentration bucket=游戏: penalized=4, codes=002602:游戏(-5.0),002555:游戏(-10.0),002605:游戏(-15.0),002174:游戏(-15.0)",
-    "Portfolio concentration bucket=新能源: penalized=2, codes=688005:新能源(-5.0),688779:新能源(-10.0)",
-    "Portfolio concentration bucket=周期: penalized=2, codes=300821:化工(-5.0),003022:化工(-10.0)",
-    "Portfolio concentration bucket=传媒: penalized=1, codes=002292:传媒(-5.0)",
-    "Portfolio concentration bucket=医药: penalized=1, codes=688176:医药(-5.0)",
-    "Portfolio concentration bucket=机械: penalized=1, codes=300228:机械(-5.0)"
+    "Portfolio concentration bucket=半导体: penalized=4, codes=603920:电子(-5.0),001389:电子(-10.0),300474:电子(-15.0),603160:电子(-15.0)",
+    "Portfolio concentration bucket=计算机: penalized=7, codes=002230:计算机(-5.0),000032:计算机(-10.0),002152:计算机(-15.0),688615:计算机(-15.0),300017:计算机(-15.0),+2 more",
+    "Portfolio concentration bucket=AI算力: penalized=2, codes=000063:通信设备(-5.0),603083:通信(-10.0)",
+    "Portfolio concentration bucket=消费: penalized=2, codes=002456:电子(-5.0),603341:电子(-10.0)",
+    "Portfolio concentration bucket=新能源: penalized=1, codes=603115:电子(-5.0)",
+    "Portfolio concentration bucket=传媒: penalized=1, codes=300364:传媒(-5.0)"
   ],
   "saved_path": "",
-  "created_at": "2026-07-07T10:41:08.961166"
+  "created_at": "2026-07-09T10:40:51.757904"
 }
