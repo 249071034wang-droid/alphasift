@@ -3,26 +3,26 @@
   "market": "cn",
   "strategy_version": "1.1",
   "strategy_category": "momentum",
-  "snapshot_count": 5199,
-  "after_filter_count": 60,
+  "snapshot_count": 5198,
+  "after_filter_count": 33,
   "picks": [
     {
       "rank": 1,
-      "code": "000426",
-      "name": "兴业银锡",
-      "final_score": 78.4276,
-      "screen_score": 72.37929000000001,
-      "llm_score": 82.0,
-      "ranking_reason": "有色板块热度高，个股资金面强。",
-      "risk_summary": "商品价格波动风险。",
-      "price": 33.59,
-      "change_pct": 5.86,
-      "amount": 3859680174.54,
-      "total_mv": 59643604473.0,
-      "turnover_rate": 6.57,
-      "volume_ratio": 1.7,
-      "pe_ratio": 22.35891426,
-      "pb_ratio": 5.5095643,
+      "code": "002353",
+      "name": "杰瑞股份",
+      "final_score": 77.3512,
+      "screen_score": 72.585265,
+      "llm_score": 85.0,
+      "ranking_reason": "资金热度与价格同步，量比换手可持续，板块有扩散潜力。",
+      "risk_summary": "估值偏高，PE 50倍，需业绩支撑。",
+      "price": 137.29,
+      "change_pct": 1.61,
+      "amount": 6065504567.05,
+      "total_mv": 140565167313.0,
+      "turnover_rate": 6.22,
+      "volume_ratio": 1.85,
+      "pe_ratio": 50.14722174,
+      "pb_ratio": 5.98352359,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -50,47 +50,48 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 45.185,
-        "liquidity": 90.0,
-        "momentum": 75.545,
-        "reversal": 5.0,
-        "activity": 80.5818,
-        "stability": 60.42,
-        "size": 88.3333,
+        "value": 32.2395,
+        "liquidity": 100.0,
+        "momentum": 61.7325,
+        "reversal": 35.19,
+        "activity": 82.5224,
+        "stability": 73.17,
+        "size": 100.0,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.85,
-      "llm_sector": "有色金属",
-      "llm_theme": "银锡涨价",
+      "llm_confidence": 0.8,
+      "llm_sector": "油服",
+      "llm_theme": "油服设备龙头",
       "llm_tags": [
+        "价值",
         "趋势",
         "流动性",
-        "sector:有色金属",
-        "theme:银锡涨价",
-        "style_fit:动量与流动性匹配，适合趋势策略。"
+        "sector:油服",
+        "theme:油服设备龙头",
+        "style_fit:高流动性、高稳定性，适合稳健型策略。"
       ],
       "llm_catalysts": [
-        "银锡价格走势",
-        "下游需求"
+        "油价上涨",
+        "海外订单"
       ],
       "llm_risks": [
-        "商品周期"
+        "高估值"
       ],
-      "llm_thesis": "兴业银锡受益于银锡价格上涨，涨幅5.86%，成交额38.6亿，流动性因子90，动量因子75.5，资金持续流入。",
-      "llm_style_fit": "动量与流动性匹配，适合趋势策略。",
+      "llm_thesis": "高流动性、高稳定性、大市值，资金持续流入，量比1.85温和放量，适合作为底仓。",
+      "llm_style_fit": "高流动性、高稳定性，适合稳健型策略。",
       "llm_watch_items": [
-        "LME银锡价格",
-        "库存数据"
+        "油价走势",
+        "海外订单公告"
       ],
       "llm_invalidators": [
-        "商品价格大跌",
-        "成交量萎缩"
+        "油价大幅下跌",
+        "业绩不及预期"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "商品周期"
+        "高估值"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -99,24 +100,20 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 商品周期"
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 高估值"
       },
       "post_analysis_score_deltas": {
-        "scorecard": 3.4
+        "scorecard": 1.0
       },
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "商品周期"
+            "高估值"
           ],
-          "tags": [
-            "capital_confirmed"
-          ]
+          "tags": []
         }
       },
-      "post_analysis_tags": [
-        "capital_confirmed"
-      ],
+      "post_analysis_tags": [],
       "dsa_context": {},
       "dsa_news": [],
       "dsa_analysis_summary": "",
@@ -133,21 +130,21 @@
     },
     {
       "rank": 2,
-      "code": "600089",
-      "name": "特变电工",
-      "final_score": 76.4369,
-      "screen_score": 71.06146333333335,
-      "llm_score": 85.0,
-      "ranking_reason": "量价齐升，资金热度高，板块有扩散迹象。",
-      "risk_summary": "短期涨幅较大，存在回调风险。",
-      "price": 21.53,
-      "change_pct": 8.85,
-      "amount": 6017459717.0,
-      "total_mv": 108786624054.0,
-      "turnover_rate": 5.69,
-      "volume_ratio": 2.42,
-      "pe_ratio": 17.63542278,
-      "pb_ratio": 1.51184553,
+      "code": "300763",
+      "name": "锦浪科技",
+      "final_score": 72.9651,
+      "screen_score": 68.6084390909091,
+      "llm_score": 80.0,
+      "ranking_reason": "板块热度扩散，涨幅未透支，量比换手可持续。",
+      "risk_summary": "行业竞争加剧，毛利率下滑。",
+      "price": 63.69,
+      "change_pct": 2.41,
+      "amount": 1440372814.47,
+      "total_mv": 25352539992.0,
+      "turnover_rate": 6.91,
+      "volume_ratio": 1.62,
+      "pe_ratio": 41.58376064,
+      "pb_ratio": 2.80351155,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -175,48 +172,47 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 81.655,
-        "liquidity": 98.3333,
-        "momentum": 66.9325,
-        "reversal": 5.0,
-        "activity": 84.7848,
-        "stability": 49.7,
-        "size": 98.3333,
+        "value": 55.4877,
+        "liquidity": 81.8182,
+        "momentum": 64.3325,
+        "reversal": 18.39,
+        "activity": 78.9948,
+        "stability": 70.77,
+        "size": 96.9697,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.9,
-      "llm_sector": "电力设备",
-      "llm_theme": "特高压+新能源",
+      "llm_confidence": 0.75,
+      "llm_sector": "光伏",
+      "llm_theme": "逆变器龙头",
       "llm_tags": [
         "趋势",
-        "流动性",
-        "活跃度",
-        "sector:电力设备",
-        "theme:特高压+新能源",
-        "style_fit:高动量、高流动性，适合趋势跟踪策略。"
+        "成长",
+        "sector:光伏",
+        "theme:逆变器龙头",
+        "style_fit:成长风格，适合趋势跟踪。"
       ],
       "llm_catalysts": [
-        "电网投资政策",
-        "新能源装机增长"
+        "光伏装机超预期",
+        "海外需求复苏"
       ],
       "llm_risks": [
-        "短期超买"
+        "行业竞争"
       ],
-      "llm_thesis": "特变电工受益于电网投资和新能源需求，量比2.42，涨幅8.85%，资金流入明显，流动性因子98.3，活跃度84.8，动量可持续。",
-      "llm_style_fit": "高动量、高流动性，适合趋势跟踪策略。",
+      "llm_thesis": "光伏板块回暖，锦浪科技量比1.62温和放量，换手6.91%适中，资金关注度高。",
+      "llm_style_fit": "成长风格，适合趋势跟踪。",
       "llm_watch_items": [
-        "电网投资数据",
-        "公司订单"
+        "光伏行业数据",
+        "海外出口数据"
       ],
       "llm_invalidators": [
-        "量比回落至1以下",
-        "板块热度降温"
+        "光伏板块回调",
+        "业绩低于预期"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "短期超买"
+        "行业竞争"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -225,7 +221,7 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: 未发现额外加分项；风险: 短期超买"
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 行业竞争"
       },
       "post_analysis_score_deltas": {
         "scorecard": 1.0
@@ -233,7 +229,7 @@
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "短期超买"
+            "行业竞争"
           ],
           "tags": []
         }
@@ -255,21 +251,21 @@
     },
     {
       "rank": 3,
-      "code": "600875",
-      "name": "东方电气",
-      "final_score": 73.7312,
-      "screen_score": 69.21863333333334,
+      "code": "600967",
+      "name": "内蒙一机",
+      "final_score": 68.3353,
+      "screen_score": 65.5587746969697,
       "llm_score": 75.0,
-      "ranking_reason": "电力设备板块热度高，个股估值合理。",
-      "risk_summary": "订单交付不及预期。",
-      "price": 27.75,
-      "change_pct": 6.16,
-      "amount": 2347714258.0,
-      "total_mv": 95969499047.0,
-      "turnover_rate": 3.8,
-      "volume_ratio": 1.8,
-      "pe_ratio": 22.5125331,
-      "pb_ratio": 2.04700222,
+      "ranking_reason": "量比高，涨幅温和，军工板块有扩散迹象。",
+      "risk_summary": "军工订单波动。",
+      "price": 11.56,
+      "change_pct": 3.77,
+      "amount": 822101527.0,
+      "total_mv": 19672746351.0,
+      "turnover_rate": 4.12,
+      "volume_ratio": 3.31,
+      "pe_ratio": 68.58291183,
+      "pb_ratio": 1.64659177,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -297,47 +293,47 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 69.97,
-        "liquidity": 78.3333,
-        "momentum": 76.52,
+        "value": 60.6105,
+        "liquidity": 60.6061,
+        "momentum": 68.7525,
         "reversal": 5.0,
-        "activity": 75.1675,
-        "stability": 59.52,
-        "size": 95.0,
+        "activity": 78.5429,
+        "stability": 66.69,
+        "size": 93.9394,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.75,
-      "llm_sector": "电力设备",
-      "llm_theme": "风电/核电",
+      "llm_confidence": 0.7,
+      "llm_sector": "军工",
+      "llm_theme": "军工装备",
       "llm_tags": [
         "价值",
         "趋势",
-        "sector:电力设备",
-        "theme:风电/核电",
-        "style_fit:价值动量策略。"
+        "sector:军工",
+        "theme:军工装备",
+        "style_fit:价值与趋势结合，适合稳健型。"
       ],
       "llm_catalysts": [
-        "能源政策",
-        "项目招标"
+        "军工改革",
+        "订单增长"
       ],
       "llm_risks": [
-        "行业竞争"
+        "行业依赖"
       ],
-      "llm_thesis": "东方电气涨幅6.16%，成交额23.5亿，价值因子69.97，动量因子76.52，受益于能源转型。",
-      "llm_style_fit": "价值动量策略。",
+      "llm_thesis": "内蒙一机涨幅3.77%，量比3.31，换手4.12%，量价配合良好，估值合理。",
+      "llm_style_fit": "价值与趋势结合，适合稳健型。",
       "llm_watch_items": [
-        "新增订单",
-        "政策落地"
+        "军工行业政策",
+        "公司订单"
       ],
       "llm_invalidators": [
-        "订单下滑",
-        "板块降温"
+        "军工板块下跌",
+        "订单低于预期"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "行业竞争"
+        "行业依赖"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -346,24 +342,20 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 行业竞争"
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 行业依赖"
       },
       "post_analysis_score_deltas": {
-        "scorecard": 3.4
+        "scorecard": 0.2
       },
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "行业竞争"
+            "行业依赖"
           ],
-          "tags": [
-            "capital_confirmed"
-          ]
+          "tags": []
         }
       },
-      "post_analysis_tags": [
-        "capital_confirmed"
-      ],
+      "post_analysis_tags": [],
       "dsa_context": {},
       "dsa_news": [],
       "dsa_analysis_summary": "",
@@ -380,21 +372,21 @@
     },
     {
       "rank": 4,
-      "code": "600726",
-      "name": "华电能源",
-      "final_score": 70.8544,
-      "screen_score": 72.42400666666667,
-      "llm_score": 70.0,
-      "ranking_reason": "资金活跃，但估值风险较大。",
-      "risk_summary": "高PE，业绩支撑不足。",
-      "price": 6.98,
-      "change_pct": 5.76,
-      "amount": 3012679342.0,
-      "total_mv": 55193206746.0,
-      "turnover_rate": 5.85,
-      "volume_ratio": 1.88,
-      "pe_ratio": 169.98218456,
-      "pb_ratio": 11.08312139,
+      "code": "301382",
+      "name": "蜂助手",
+      "final_score": 68.2142,
+      "screen_score": 63.35700818181819,
+      "llm_score": 72.0,
+      "ranking_reason": "涨幅高但量比不足，持续性存疑。",
+      "risk_summary": "量比偏低，可能冲高回落。",
+      "price": 35.6,
+      "change_pct": 7.26,
+      "amount": 847073103.56,
+      "total_mv": 10167142947.0,
+      "turnover_rate": 10.36,
+      "volume_ratio": 1.66,
+      "pe_ratio": 65.72339036,
+      "pb_ratio": 5.32192379,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -422,48 +414,47 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 15.555,
-        "liquidity": 86.6667,
-        "momentum": 75.22,
+        "value": 32.0405,
+        "liquidity": 63.6364,
+        "momentum": 74.167,
         "reversal": 5.0,
-        "activity": 82.9105,
-        "stability": 60.72,
-        "size": 85.0,
+        "activity": 66.7562,
+        "stability": 55.5,
+        "size": 66.6667,
         "theme_heat": 50.0
       },
       "llm_confidence": 0.65,
-      "llm_sector": "电力",
-      "llm_theme": "电力改革",
+      "llm_sector": "数字经济",
+      "llm_theme": "数字服务",
       "llm_tags": [
-        "活跃度",
-        "主题",
-        "sector:电力",
-        "theme:电力改革",
-        "style_fit:主题投机策略。"
+        "事件",
+        "成长",
+        "sector:数字经济",
+        "theme:数字服务",
+        "style_fit:成长风格，需确认量能。"
       ],
       "llm_catalysts": [
-        "电力改革",
-        "电价上调"
+        "数字经济政策",
+        "业绩增长"
       ],
       "llm_risks": [
-        "高估值"
+        "量比不足"
       ],
-      "llm_thesis": "华电能源涨幅5.76%，成交额30.1亿，活跃度82.91，但PE高达170，估值偏高。",
-      "llm_style_fit": "主题投机策略。",
+      "llm_thesis": "蜂助手涨幅7.26%，量比1.66，换手10.36%，资金关注，但量比偏低。",
+      "llm_style_fit": "成长风格，需确认量能。",
       "llm_watch_items": [
-        "电力政策",
-        "公司业绩"
+        "成交量变化",
+        "行业政策"
       ],
       "llm_invalidators": [
-        "业绩不及预期",
-        "资金流出"
+        "量能萎缩",
+        "板块回调"
       ],
-      "risk_score": 26.6667,
+      "risk_score": 10.0,
       "risk_level": "low",
-      "risk_penalty": 3.2,
+      "risk_penalty": 1.2,
       "risk_flags": [
-        "high_pb",
-        "高估值"
+        "量比不足"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -472,7 +463,7 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 高估值"
+        "scorecard": "本地后置评分: capital_confirmed；风险: 量比不足"
       },
       "post_analysis_score_deltas": {
         "scorecard": 2.6
@@ -480,7 +471,7 @@
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "高估值"
+            "量比不足"
           ],
           "tags": [
             "capital_confirmed"
@@ -506,21 +497,21 @@
     },
     {
       "rank": 5,
-      "code": "002460",
-      "name": "赣锋锂业",
-      "final_score": 68.9402,
-      "screen_score": 70.23359333333336,
-      "llm_score": 80.0,
-      "ranking_reason": "锂板块扩散，龙头领涨。",
-      "risk_summary": "锂价反弹持续性不确定。",
-      "price": 51.19,
-      "change_pct": 7.93,
-      "amount": 4262069575.93,
-      "total_mv": 107329786541.0,
-      "turnover_rate": 7.03,
-      "volume_ratio": 1.56,
-      "pe_ratio": 28.19952066,
-      "pb_ratio": 2.31022229,
+      "code": "300358",
+      "name": "楚天科技",
+      "final_score": 66.0882,
+      "screen_score": 61.14699287878789,
+      "llm_score": 70.0,
+      "ranking_reason": "低估值，量比适中，但市值小流动性一般。",
+      "risk_summary": "小市值，流动性风险。",
+      "price": 8.3,
+      "change_pct": 5.33,
+      "amount": 450195240.8,
+      "total_mv": 5935268414.0,
+      "turnover_rate": 7.63,
+      "volume_ratio": 2.29,
+      "pe_ratio": 17.9305136,
+      "pb_ratio": 1.06550439,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -548,191 +539,64 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 64.11,
-        "liquidity": 93.3333,
-        "momentum": 71.1185,
+        "value": 86.085,
+        "liquidity": 24.2424,
+        "momentum": 73.8225,
         "reversal": 5.0,
-        "activity": 78.2905,
-        "stability": 54.21,
-        "size": 96.6667,
+        "activity": 79.4429,
+        "stability": 62.01,
+        "size": 39.3939,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.8,
-      "llm_sector": "有色金属",
-      "llm_theme": "锂矿反弹",
-      "llm_tags": [
-        "趋势",
-        "板块扩散",
-        "sector:有色金属",
-        "theme:锂矿反弹",
-        "style_fit:板块动量策略。"
-      ],
-      "llm_catalysts": [
-        "锂价上涨",
-        "新能源车需求"
-      ],
-      "llm_risks": [
-        "行业周期"
-      ],
-      "llm_thesis": "赣锋锂业涨幅7.93%，成交额42.6亿，锂板块集体走强，动量因子71.1，资金关注度高。",
-      "llm_style_fit": "板块动量策略。",
-      "llm_watch_items": [
-        "碳酸锂价格",
-        "行业政策"
-      ],
-      "llm_invalidators": [
-        "锂价回落",
-        "板块热度下降"
-      ],
-      "risk_score": 10.0,
-      "risk_level": "low",
-      "risk_penalty": 1.2,
-      "risk_flags": [
-        "行业周期",
-        "portfolio_sector_concentration:周期"
-      ],
-      "excluded_by_risk": false,
-      "portfolio_penalty": 5.0,
-      "portfolio_flags": [
-        "portfolio_sector_concentration:周期"
-      ],
-      "post_analysis_status": {
-        "scorecard": "completed"
-      },
-      "post_analysis_summaries": {
-        "scorecard": "本地后置评分: 未发现额外加分项；风险: 行业周期"
-      },
-      "post_analysis_score_deltas": {
-        "scorecard": 1.0
-      },
-      "post_analysis_results": {
-        "scorecard": {
-          "risk_flags": [
-            "行业周期"
-          ],
-          "tags": []
-        }
-      },
-      "post_analysis_tags": [],
-      "dsa_context": {},
-      "dsa_news": [],
-      "dsa_analysis_summary": "",
-      "deep_analysis_status": "not_requested",
-      "deep_analysis_query_id": "",
-      "deep_analysis_summary": "",
-      "deep_analysis_error": "",
-      "deep_analysis_result": null,
-      "deep_analysis_signal_score": null,
-      "deep_analysis_sentiment_score": null,
-      "deep_analysis_operation_advice": "",
-      "deep_analysis_trend_prediction": "",
-      "deep_analysis_risk_flags": []
-    },
-    {
-      "rank": 6,
-      "code": "600711",
-      "name": "盛屯矿业",
-      "final_score": 65.7224,
-      "screen_score": 70.53726666666667,
-      "llm_score": 78.0,
-      "ranking_reason": "估值低且动量强，安全边际高。",
-      "risk_summary": "资源价格波动。",
-      "price": 11.26,
-      "change_pct": 6.33,
-      "amount": 2214047270.0,
-      "total_mv": 34800286064.0,
-      "turnover_rate": 6.5,
-      "volume_ratio": 1.6,
-      "pe_ratio": 12.93442463,
-      "pb_ratio": 1.99108526,
-      "industry": "",
-      "concepts": "",
-      "industry_rank": null,
-      "industry_change_pct": null,
-      "industry_heat_score": null,
-      "concept_heat_score": null,
-      "board_heat_score": null,
-      "board_heat_latest_score": null,
-      "board_heat_trend_score": null,
-      "board_heat_persistence_score": null,
-      "board_heat_cooling_score": null,
-      "board_heat_observations": null,
-      "board_heat_state": "",
-      "board_heat_summary": "",
-      "change_60d": null,
-      "signal_score": null,
-      "ma_bullish": null,
-      "price_above_ma20": null,
-      "macd_status": "",
-      "rsi_status": "",
-      "breakout_20d_pct": null,
-      "range_20d_pct": null,
-      "volume_ratio_20d": null,
-      "body_pct": null,
-      "pullback_to_ma20_pct": null,
-      "consolidation_days_20d": null,
-      "factor_scores": {
-        "value": 82.16,
-        "liquidity": 76.6667,
-        "momentum": 77.0725,
-        "reversal": 5.0,
-        "activity": 80.38,
-        "stability": 59.01,
-        "size": 78.3333,
-        "theme_heat": 50.0
-      },
-      "llm_confidence": 0.8,
-      "llm_sector": "有色金属",
-      "llm_theme": "有色资源",
+      "llm_confidence": 0.65,
+      "llm_sector": "医药",
+      "llm_theme": "制药装备",
       "llm_tags": [
         "价值",
-        "趋势",
-        "sector:有色金属",
-        "theme:有色资源",
-        "style_fit:价值动量结合。"
+        "防守",
+        "sector:医药",
+        "theme:制药装备",
+        "style_fit:价值防守型。"
       ],
       "llm_catalysts": [
-        "金属价格上涨",
-        "产能扩张"
+        "医药行业复苏",
+        "新订单"
       ],
       "llm_risks": [
-        "商品周期"
+        "小市值"
       ],
-      "llm_thesis": "盛屯矿业涨幅6.33%，PE仅12.9，价值因子82.16，动量因子77.07，估值与动量兼备。",
-      "llm_style_fit": "价值动量结合。",
+      "llm_thesis": "楚天科技涨幅5.33%，量比2.29，换手7.63%，估值低，但市值小。",
+      "llm_style_fit": "价值防守型。",
       "llm_watch_items": [
-        "金属价格",
-        "公司产量"
+        "医药行业政策",
+        "公司业绩"
       ],
       "llm_invalidators": [
-        "业绩不及预期",
-        "价格下跌"
+        "医药板块下跌",
+        "业绩下滑"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "商品周期",
-        "portfolio_sector_concentration:周期"
+        "小市值"
       ],
       "excluded_by_risk": false,
-      "portfolio_penalty": 10.0,
-      "portfolio_flags": [
-        "portfolio_sector_concentration:周期"
-      ],
+      "portfolio_penalty": 0.0,
+      "portfolio_flags": [],
       "post_analysis_status": {
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 商品周期"
+        "scorecard": "本地后置评分: capital_confirmed；风险: 小市值"
       },
       "post_analysis_score_deltas": {
-        "scorecard": 3.4
+        "scorecard": 2.6
       },
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "商品周期"
+            "小市值"
           ],
           "tags": [
             "capital_confirmed"
@@ -757,22 +621,22 @@
       "deep_analysis_risk_flags": []
     },
     {
-      "rank": 7,
-      "code": "300763",
-      "name": "锦浪科技",
-      "final_score": 63.7152,
-      "screen_score": 66.85861000000001,
-      "llm_score": 74.0,
-      "ranking_reason": "光伏板块扩散，个股弹性大。",
-      "risk_summary": "行业竞争激烈，毛利率承压。",
-      "price": 62.19,
-      "change_pct": 8.23,
-      "amount": 1267909927.51,
-      "total_mv": 24755447670.0,
-      "turnover_rate": 6.53,
-      "volume_ratio": 1.86,
-      "pe_ratio": 40.60439746,
-      "pb_ratio": 2.73748443,
+      "rank": 6,
+      "code": "300850",
+      "name": "新强联",
+      "final_score": 65.4127,
+      "screen_score": 63.354486666666666,
+      "llm_score": 71.0,
+      "ranking_reason": "低估值，量比高，风电板块有反弹潜力。",
+      "risk_summary": "风电行业竞争激烈。",
+      "price": 25.85,
+      "change_pct": 4.07,
+      "amount": 880041809.12,
+      "total_mv": 10704118835.0,
+      "turnover_rate": 11.2,
+      "volume_ratio": 2.44,
+      "pe_ratio": 13.42597824,
+      "pb_ratio": 1.49698013,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -800,59 +664,56 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 50.96,
-        "liquidity": 70.0,
-        "momentum": 69.7535,
+        "value": 84.8541,
+        "liquidity": 66.6667,
+        "momentum": 69.7275,
         "reversal": 5.0,
-        "activity": 81.4518,
-        "stability": 53.31,
-        "size": 66.6667,
+        "activity": 67.2715,
+        "stability": 63.39,
+        "size": 75.7576,
         "theme_heat": 50.0
       },
       "llm_confidence": 0.7,
-      "llm_sector": "电力设备",
-      "llm_theme": "光伏逆变器",
+      "llm_sector": "风电",
+      "llm_theme": "风电轴承",
       "llm_tags": [
+        "价值",
         "趋势",
-        "活跃度",
-        "sector:电力设备",
-        "theme:光伏逆变器",
-        "style_fit:板块动量策略。"
+        "sector:风电",
+        "theme:风电轴承",
+        "style_fit:价值与趋势结合。"
       ],
       "llm_catalysts": [
-        "光伏装机",
-        "海外需求"
+        "风电装机增长",
+        "国产替代"
       ],
       "llm_risks": [
-        "行业产能过剩"
+        "行业竞争"
       ],
-      "llm_thesis": "锦浪科技涨幅8.23%，量比1.86，活跃度81.45，光伏板块反弹。",
-      "llm_style_fit": "板块动量策略。",
+      "llm_thesis": "新强联涨幅4.07%，量比2.44，换手11.2%，资金活跃，PE低。",
+      "llm_style_fit": "价值与趋势结合。",
       "llm_watch_items": [
-        "光伏装机数据",
-        "出口数据"
+        "风电行业数据",
+        "公司订单"
       ],
       "llm_invalidators": [
-        "板块回调",
-        "业绩不及预期"
+        "风电板块下跌",
+        "业绩低于预期"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "行业产能过剩",
-        "portfolio_sector_concentration:新能源"
+        "行业竞争"
       ],
       "excluded_by_risk": false,
-      "portfolio_penalty": 5.0,
-      "portfolio_flags": [
-        "portfolio_sector_concentration:新能源"
-      ],
+      "portfolio_penalty": 0.0,
+      "portfolio_flags": [],
       "post_analysis_status": {
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: 未发现额外加分项；风险: 行业产能过剩"
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 行业竞争"
       },
       "post_analysis_score_deltas": {
         "scorecard": 0.2
@@ -860,7 +721,7 @@
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "行业产能过剩"
+            "行业竞争"
           ],
           "tags": []
         }
@@ -881,22 +742,22 @@
       "deep_analysis_risk_flags": []
     },
     {
-      "rank": 8,
-      "code": "002545",
-      "name": "东方铁塔",
-      "final_score": 62.4691,
-      "screen_score": 65.44857833333333,
-      "llm_score": 73.0,
-      "ranking_reason": "量比高，估值合理，特高压主题。",
-      "risk_summary": "订单波动。",
-      "price": 19.6,
-      "change_pct": 8.11,
-      "amount": 981660110.41,
-      "total_mv": 24383616827.0,
-      "turnover_rate": 4.58,
-      "volume_ratio": 2.13,
-      "pe_ratio": 17.38889431,
-      "pb_ratio": 2.38685008,
+      "rank": 7,
+      "code": "301357",
+      "name": "北方长龙",
+      "final_score": 64.3472,
+      "screen_score": 65.91201863636364,
+      "llm_score": 76.0,
+      "ranking_reason": "军工板块活跃，但估值过高，需警惕回调。",
+      "risk_summary": "高估值，业绩支撑不足。",
+      "price": 92.58,
+      "change_pct": 7.24,
+      "amount": 923348809.47,
+      "total_mv": 8813616000.0,
+      "turnover_rate": 10.33,
+      "volume_ratio": 3.13,
+      "pe_ratio": 410.12209803,
+      "pb_ratio": 7.72520778,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -924,67 +785,201 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 72.55,
-        "liquidity": 63.3333,
-        "momentum": 70.2995,
+        "value": 13.8486,
+        "liquidity": 72.7273,
+        "momentum": 74.258,
         "reversal": 5.0,
-        "activity": 79.4729,
-        "stability": 53.67,
-        "size": 65.0,
+        "activity": 70.5396,
+        "stability": 55.62,
+        "size": 60.6061,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.7,
-      "llm_sector": "电力设备",
-      "llm_theme": "特高压/铁塔",
+      "llm_confidence": 0.65,
+      "llm_sector": "军工",
+      "llm_theme": "军工信息化",
       "llm_tags": [
-        "价值",
-        "趋势",
-        "sector:电力设备",
-        "theme:特高压/铁塔",
-        "style_fit:价值动量策略。"
+        "事件",
+        "活跃",
+        "sector:军工",
+        "theme:军工信息化",
+        "style_fit:高风险偏好，适合短线。"
       ],
       "llm_catalysts": [
-        "电网投资",
-        "特高压项目"
+        "军工订单",
+        "政策利好"
       ],
       "llm_risks": [
-        "行业周期"
+        "高估值",
+        "高换手"
       ],
-      "llm_thesis": "东方铁塔涨幅8.11%，量比2.13，价值因子72.55，受益于电网投资。",
-      "llm_style_fit": "价值动量策略。",
+      "llm_thesis": "北方长龙涨幅7.24%，量比3.13，换手10.33%，资金涌入明显，但PE极高。",
+      "llm_style_fit": "高风险偏好，适合短线。",
       "llm_watch_items": [
-        "电网招标",
-        "公司订单"
+        "军工板块走势",
+        "公司公告"
       ],
       "llm_invalidators": [
-        "订单不及预期",
-        "量比回落"
+        "军工板块降温",
+        "业绩不及预期"
       ],
-      "risk_score": 10.0,
+      "risk_score": 20.0,
       "risk_level": "low",
-      "risk_penalty": 1.2,
+      "risk_penalty": 2.4,
       "risk_flags": [
-        "行业周期",
-        "portfolio_sector_concentration:电力设备"
+        "高估值",
+        "高换手",
+        "portfolio_sector_concentration:军工"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 5.0,
       "portfolio_flags": [
-        "portfolio_sector_concentration:电力设备"
+        "portfolio_sector_concentration:军工"
       ],
       "post_analysis_status": {
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: 未发现额外加分项；风险: 行业周期"
+        "scorecard": "本地后置评分: capital_confirmed；风险: 高估值、高换手"
       },
       "post_analysis_score_deltas": {
-        "scorecard": 0.2
+        "scorecard": 1.8
       },
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "行业周期"
+            "高估值",
+            "高换手"
+          ],
+          "tags": [
+            "capital_confirmed"
+          ]
+        }
+      },
+      "post_analysis_tags": [
+        "capital_confirmed"
+      ],
+      "dsa_context": {},
+      "dsa_news": [],
+      "dsa_analysis_summary": "",
+      "deep_analysis_status": "not_requested",
+      "deep_analysis_query_id": "",
+      "deep_analysis_summary": "",
+      "deep_analysis_error": "",
+      "deep_analysis_result": null,
+      "deep_analysis_signal_score": null,
+      "deep_analysis_sentiment_score": null,
+      "deep_analysis_operation_advice": "",
+      "deep_analysis_trend_prediction": "",
+      "deep_analysis_risk_flags": []
+    },
+    {
+      "rank": 8,
+      "code": "002326",
+      "name": "永太科技",
+      "final_score": 63.2747,
+      "screen_score": 66.79116060606061,
+      "llm_score": 78.0,
+      "ranking_reason": "资金热度高，但估值透支，需催化兑现。",
+      "risk_summary": "高PE，业绩不确定性大。",
+      "price": 17.97,
+      "change_pct": 4.66,
+      "amount": 1432950765.35,
+      "total_mv": 16624543619.0,
+      "turnover_rate": 9.68,
+      "volume_ratio": 1.88,
+      "pe_ratio": 346.44502089,
+      "pb_ratio": 5.97989105,
+      "industry": "",
+      "concepts": "",
+      "industry_rank": null,
+      "industry_change_pct": null,
+      "industry_heat_score": null,
+      "concept_heat_score": null,
+      "board_heat_score": null,
+      "board_heat_latest_score": null,
+      "board_heat_trend_score": null,
+      "board_heat_persistence_score": null,
+      "board_heat_cooling_score": null,
+      "board_heat_observations": null,
+      "board_heat_state": "",
+      "board_heat_summary": "",
+      "change_60d": null,
+      "signal_score": null,
+      "ma_bullish": null,
+      "price_above_ma20": null,
+      "macd_status": "",
+      "rsi_status": "",
+      "breakout_20d_pct": null,
+      "range_20d_pct": null,
+      "volume_ratio_20d": null,
+      "body_pct": null,
+      "pullback_to_ma20_pct": null,
+      "consolidation_days_20d": null,
+      "factor_scores": {
+        "value": 20.7332,
+        "liquidity": 78.7879,
+        "momentum": 71.645,
+        "reversal": 5.0,
+        "activity": 70.2025,
+        "stability": 64.02,
+        "size": 90.9091,
+        "theme_heat": 50.0
+      },
+      "llm_confidence": 0.7,
+      "llm_sector": "化工",
+      "llm_theme": "氟化工/锂电材料",
+      "llm_tags": [
+        "事件",
+        "活跃",
+        "sector:化工",
+        "theme:氟化工/锂电材料",
+        "style_fit:高风险偏好，适合事件驱动。"
+      ],
+      "llm_catalysts": [
+        "锂电材料涨价",
+        "新产能投产"
+      ],
+      "llm_risks": [
+        "高估值",
+        "业绩风险"
+      ],
+      "llm_thesis": "永太科技涨幅4.66%，量比1.88，换手9.68%，资金活跃，但PE极高，需谨慎。",
+      "llm_style_fit": "高风险偏好，适合事件驱动。",
+      "llm_watch_items": [
+        "产品价格",
+        "季报业绩"
+      ],
+      "llm_invalidators": [
+        "产品价格下跌",
+        "业绩亏损"
+      ],
+      "risk_score": 20.0,
+      "risk_level": "low",
+      "risk_penalty": 2.4,
+      "risk_flags": [
+        "高估值",
+        "业绩风险",
+        "portfolio_sector_concentration:新能源"
+      ],
+      "excluded_by_risk": false,
+      "portfolio_penalty": 5.0,
+      "portfolio_flags": [
+        "portfolio_sector_concentration:新能源"
+      ],
+      "post_analysis_status": {
+        "scorecard": "completed"
+      },
+      "post_analysis_summaries": {
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 高估值、业绩风险"
+      },
+      "post_analysis_score_deltas": {
+        "scorecard": -0.6
+      },
+      "post_analysis_results": {
+        "scorecard": {
+          "risk_flags": [
+            "高估值",
+            "业绩风险"
           ],
           "tags": []
         }
@@ -1006,21 +1001,21 @@
     },
     {
       "rank": 9,
-      "code": "600166",
-      "name": "福田汽车",
-      "final_score": 60.7257,
-      "screen_score": 62.37620333333334,
-      "llm_score": 56.0,
-      "ranking_reason": "涨幅尚可，但流动性差。",
-      "risk_summary": "流动性风险。",
-      "price": 3.14,
-      "change_pct": 6.44,
-      "amount": 667265713.0,
-      "total_mv": 24860637152.0,
-      "turnover_rate": 2.74,
-      "volume_ratio": 1.5,
-      "pe_ratio": 17.39000244,
-      "pb_ratio": 1.54483299,
+      "code": "002246",
+      "name": "北化股份",
+      "final_score": 62.3346,
+      "screen_score": 60.22438484848486,
+      "llm_score": 68.0,
+      "ranking_reason": "军工板块联动，但量比不足。",
+      "risk_summary": "量比偏低，上涨动力不足。",
+      "price": 19.39,
+      "change_pct": 3.63,
+      "amount": 483816323.88,
+      "total_mv": 10645784656.0,
+      "turnover_rate": 4.56,
+      "volume_ratio": 1.64,
+      "pe_ratio": 34.80883845,
+      "pb_ratio": 3.40296812,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -1048,43 +1043,47 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 82.335,
-        "liquidity": 43.3333,
-        "momentum": 77.43,
+        "value": 54.3232,
+        "liquidity": 30.303,
+        "momentum": 68.2975,
         "reversal": 5.0,
-        "activity": 69.9902,
-        "stability": 58.68,
-        "size": 68.3333,
+        "activity": 77.1775,
+        "stability": 67.11,
+        "size": 72.7273,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.4,
-      "llm_sector": "汽车",
-      "llm_theme": "商用车",
+      "llm_confidence": 0.6,
+      "llm_sector": "军工",
+      "llm_theme": "军工化工",
       "llm_tags": [
         "价值",
-        "sector:汽车",
-        "theme:商用车",
-        "style_fit:价值策略，但流动性不足。"
+        "趋势",
+        "sector:军工",
+        "theme:军工化工",
+        "style_fit:趋势跟踪，需确认量能。"
       ],
       "llm_catalysts": [
-        "商用车需求"
+        "军工订单",
+        "产品涨价"
       ],
       "llm_risks": [
-        "低流动性"
+        "量比不足"
       ],
-      "llm_thesis": "福田汽车涨幅6.44%，但量比1.5，成交额6.7亿，流动性因子43.3偏低。",
-      "llm_style_fit": "价值策略，但流动性不足。",
+      "llm_thesis": "北化股份涨幅3.63%，量比1.64，换手4.56%，量能一般，估值合理。",
+      "llm_style_fit": "趋势跟踪，需确认量能。",
       "llm_watch_items": [
-        "销量数据"
+        "军工板块走势",
+        "公司公告"
       ],
       "llm_invalidators": [
-        "销量下滑"
+        "量能萎缩",
+        "板块回调"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "低流动性"
+        "量比不足"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -1093,24 +1092,20 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 低流动性"
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 量比不足"
       },
       "post_analysis_score_deltas": {
-        "scorecard": 2.1
+        "scorecard": 0.2
       },
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "低流动性"
+            "量比不足"
           ],
-          "tags": [
-            "capital_confirmed"
-          ]
+          "tags": []
         }
       },
-      "post_analysis_tags": [
-        "capital_confirmed"
-      ],
+      "post_analysis_tags": [],
       "dsa_context": {},
       "dsa_news": [],
       "dsa_analysis_summary": "",
@@ -1127,21 +1122,21 @@
     },
     {
       "rank": 10,
-      "code": "600666",
-      "name": "奥瑞德",
-      "final_score": 57.578,
-      "screen_score": 63.79666333333335,
-      "llm_score": 62.0,
-      "ranking_reason": "量比高，但基本面差。",
-      "risk_summary": "高PE，业绩亏损风险。",
-      "price": 3.4,
-      "change_pct": 6.92,
-      "amount": 1032353803.0,
-      "total_mv": 9354479140.0,
-      "turnover_rate": 12.08,
-      "volume_ratio": 2.58,
-      "pe_ratio": 66.80294471,
-      "pb_ratio": 8.53210007,
+      "code": "002860",
+      "name": "星帅尔",
+      "final_score": 61.2971,
+      "screen_score": 59.82844075757578,
+      "llm_score": 66.0,
+      "ranking_reason": "换手高但量比低，可能资金博弈。",
+      "risk_summary": "量比不足，持续性存疑。",
+      "price": 17.79,
+      "change_pct": 5.2,
+      "amount": 697034510.3,
+      "total_mv": 6264661614.0,
+      "turnover_rate": 11.53,
+      "volume_ratio": 1.61,
+      "pe_ratio": 32.55956062,
+      "pb_ratio": 2.66778308,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -1169,46 +1164,47 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 27.17,
-        "liquidity": 68.3333,
-        "momentum": 75.714,
+        "value": 65.2986,
+        "liquidity": 48.4848,
+        "momentum": 73.4,
         "reversal": 5.0,
-        "activity": 64.7388,
-        "stability": 53.08,
-        "size": 35.0,
+        "activity": 62.3174,
+        "stability": 59.34,
+        "size": 48.4848,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.5,
-      "llm_sector": "电子",
-      "llm_theme": "蓝宝石/材料",
+      "llm_confidence": 0.6,
+      "llm_sector": "家电",
+      "llm_theme": "家电零部件",
       "llm_tags": [
-        "活跃度",
-        "sector:电子",
-        "theme:蓝宝石/材料",
-        "style_fit:投机策略。"
+        "事件",
+        "活跃",
+        "sector:家电",
+        "theme:家电零部件",
+        "style_fit:短线博弈。"
       ],
       "llm_catalysts": [
-        "题材炒作"
+        "家电行业复苏",
+        "新客户"
       ],
       "llm_risks": [
-        "高估值",
-        "基本面差"
+        "量比不足"
       ],
-      "llm_thesis": "奥瑞德涨幅6.92%，量比2.58，换手率12.08%，但PE高，基本面弱。",
-      "llm_style_fit": "投机策略。",
+      "llm_thesis": "星帅尔涨幅5.2%，量比1.61，换手11.53%，换手高但量比不足。",
+      "llm_style_fit": "短线博弈。",
       "llm_watch_items": [
-        "公司公告"
+        "成交量变化",
+        "行业数据"
       ],
       "llm_invalidators": [
-        "资金流出"
+        "量能萎缩",
+        "板块回调"
       ],
-      "risk_score": 36.6667,
-      "risk_level": "medium",
-      "risk_penalty": 4.4,
+      "risk_score": 10.0,
+      "risk_level": "low",
+      "risk_penalty": 1.2,
       "risk_flags": [
-        "high_pb",
-        "高估值",
-        "基本面差"
+        "量比不足"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -1217,16 +1213,15 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: 未发现额外加分项；风险: 高估值、基本面差"
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 量比不足"
       },
       "post_analysis_score_deltas": {
-        "scorecard": -1.1
+        "scorecard": 0.2
       },
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "高估值",
-            "基本面差"
+            "量比不足"
           ],
           "tags": []
         }
@@ -1247,11 +1242,11 @@
       "deep_analysis_risk_flags": []
     }
   ],
-  "run_id": "2784c3b3e435",
+  "run_id": "393f89e9ac2c",
   "llm_ranked": true,
-  "llm_market_view": "候选池全线上涨，中位涨幅6.18%，量比>=2占比23.3%，远强于全市场，资金活跃度高，适合动量策略。",
-  "llm_selection_logic": "优先资金热度与价格同步、涨幅未透支、板块有扩散迹象的个股；结合因子动量、活跃度、流动性。",
-  "llm_portfolio_risk": "候选池集中于有色、电力设备、新能源等板块，存在板块轮动风险；部分个股涨幅已高，追高风险。",
+  "llm_market_view": "全市场普跌，候选池逆势全涨，资金集中度高，适合动量策略，但需警惕分化。",
+  "llm_selection_logic": "优先资金热度与价格同步、量比换手可持续、板块扩散迹象。",
+  "llm_portfolio_risk": "候选池多为中小盘，流动性风险；部分个股涨幅已高，追高风险。",
   "llm_coverage": 1.0,
   "llm_parse_errors": [],
   "degradation": [
@@ -1275,10 +1270,13 @@
   "risk_enabled": true,
   "portfolio_diversity_enabled": true,
   "portfolio_concentration_notes": [
-    "Portfolio concentration bucket=周期: penalized=6, codes=002460:有色金属(-5.0),600711:有色金属(-10.0),000422:化工(-15.0),601168:有色金属(-15.0),000506:有色金属(-15.0),+1 more",
-    "Portfolio concentration bucket=新能源: penalized=7, codes=300763:电力设备(-5.0),300390:有色金属(-10.0),300827:电力设备(-15.0),300919:有色金属(-15.0),301358:有色金属(-15.0),+2 more",
-    "Portfolio concentration bucket=电力设备: penalized=4, codes=002545:电力设备(-5.0),000400:电力设备(-10.0),600312:电力设备(-15.0),603606:电力设备(-15.0)"
+    "Portfolio concentration bucket=新能源: penalized=2, codes=002326:化工(-5.0),001258:新能源(-10.0)",
+    "Portfolio concentration bucket=军工: penalized=5, codes=301357:军工(-5.0),300008:军工(-10.0),688543:军工(-15.0),300581:军工(-15.0),002190:军工(-15.0)",
+    "Portfolio concentration bucket=周期: penalized=5, codes=601678:化工(-5.0),600722:化工(-10.0),301292:化工(-15.0),603065:化工(-15.0),300801:化工(-15.0)",
+    "Portfolio concentration bucket=电气设备: penalized=1, codes=002112:电气设备(-5.0)",
+    "Portfolio concentration bucket=油服: penalized=1, codes=301158:油服(-5.0)",
+    "Portfolio concentration bucket=公用事业: penalized=1, codes=603318:公用事业(-5.0)"
   ],
   "saved_path": "",
-  "created_at": "2026-07-23T10:01:53.851951"
+  "created_at": "2026-07-24T09:58:38.163164"
 }
