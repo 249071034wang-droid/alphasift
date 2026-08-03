@@ -4,25 +4,25 @@
   "strategy_version": "1.1",
   "strategy_category": "momentum",
   "snapshot_count": 5197,
-  "after_filter_count": 194,
+  "after_filter_count": 72,
   "picks": [
     {
       "rank": 1,
-      "code": "002230",
-      "name": "科大讯飞",
-      "final_score": 80.4419,
-      "screen_score": 73.73648309278352,
+      "code": "600875",
+      "name": "东方电气",
+      "final_score": 79.4362,
+      "screen_score": 72.06032444444446,
       "llm_score": 85.0,
-      "ranking_reason": "资金与涨幅同步，AI主题扩散，龙头地位稳固。",
-      "risk_summary": "PE高企，估值透支风险。",
-      "price": 42.22,
-      "change_pct": 5.89,
-      "amount": 4014826116.92,
-      "total_mv": 101415810887.0,
-      "turnover_rate": 4.36,
-      "volume_ratio": 3.0,
-      "pe_ratio": 117.52659523,
-      "pb_ratio": 5.37931752,
+      "ranking_reason": "综合评分最高，价值与流动性兼备，资金热度与价格同步。",
+      "risk_summary": "涨幅已高，注意回调风险。",
+      "price": 26.78,
+      "change_pct": 6.69,
+      "amount": 2547591233.0,
+      "total_mv": 92614889530.0,
+      "turnover_rate": 4.25,
+      "volume_ratio": 2.24,
+      "pe_ratio": 21.72560852,
+      "pb_ratio": 1.97544935,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -50,47 +50,295 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 30.3598,
-        "liquidity": 97.9381,
-        "momentum": 75.6425,
+        "value": 79.5625,
+        "liquidity": 90.2778,
+        "momentum": 76.7605,
         "reversal": 5.0,
-        "activity": 80.8135,
-        "stability": 60.33,
-        "size": 97.4227,
+        "activity": 78.784,
+        "stability": 57.93,
+        "size": 95.8333,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.9,
-      "llm_sector": "AI",
-      "llm_theme": "AI大模型与教育应用",
+      "llm_confidence": 0.8,
+      "llm_sector": "电力设备",
+      "llm_theme": "新能源",
       "llm_tags": [
+        "价值",
         "趋势",
         "流动性",
-        "主题",
-        "sector:AI",
-        "theme:AI大模型与教育应用",
-        "style_fit:高弹性成长，适合积极型策略。"
+        "sector:电力设备",
+        "theme:新能源",
+        "style_fit:适合价值趋势策略"
       ],
       "llm_catalysts": [
-        "AI产品落地",
-        "政策支持"
+        "新能源政策",
+        "订单增长"
       ],
       "llm_risks": [
-        "高估值"
+        "涨幅较高"
       ],
-      "llm_thesis": "AI龙头，资金关注度高，量比3.0显示资金加速流入，主题热度领先。",
-      "llm_style_fit": "高弹性成长，适合积极型策略。",
+      "llm_thesis": "高价值、高流动性，资金关注度高，涨幅适中，量比2.24，换手4.25%，可持续。",
+      "llm_style_fit": "适合价值趋势策略",
       "llm_watch_items": [
-        "AI业务收入占比",
-        "大模型迭代"
+        "成交量变化",
+        "行业政策"
       ],
       "llm_invalidators": [
-        "AI主题降温",
-        "业绩不及预期"
+        "放量滞涨",
+        "跌破20日线"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
+        "涨幅较高"
+      ],
+      "excluded_by_risk": false,
+      "portfolio_penalty": 0.0,
+      "portfolio_flags": [],
+      "post_analysis_status": {
+        "scorecard": "completed"
+      },
+      "post_analysis_summaries": {
+        "scorecard": "本地后置评分: capital_confirmed；风险: 涨幅较高"
+      },
+      "post_analysis_score_deltas": {
+        "scorecard": 3.4
+      },
+      "post_analysis_results": {
+        "scorecard": {
+          "risk_flags": [
+            "涨幅较高"
+          ],
+          "tags": [
+            "capital_confirmed"
+          ]
+        }
+      },
+      "post_analysis_tags": [
+        "capital_confirmed"
+      ],
+      "dsa_context": {},
+      "dsa_news": [],
+      "dsa_analysis_summary": "",
+      "deep_analysis_status": "not_requested",
+      "deep_analysis_query_id": "",
+      "deep_analysis_summary": "",
+      "deep_analysis_error": "",
+      "deep_analysis_result": null,
+      "deep_analysis_signal_score": null,
+      "deep_analysis_sentiment_score": null,
+      "deep_analysis_operation_advice": "",
+      "deep_analysis_trend_prediction": "",
+      "deep_analysis_risk_flags": []
+    },
+    {
+      "rank": 2,
+      "code": "600580",
+      "name": "卧龙电驱",
+      "final_score": 75.0141,
+      "screen_score": 70.69018277777779,
+      "llm_score": 82.0,
+      "ranking_reason": "资金热度与涨幅同步，量比高，但涨幅较大需注意。",
+      "risk_summary": "短期涨幅过大，回调风险。",
+      "price": 34.51,
+      "change_pct": 8.9,
+      "amount": 3589486104.0,
+      "total_mv": 53908675305.0,
+      "turnover_rate": 6.85,
+      "volume_ratio": 2.99,
+      "pe_ratio": 47.53689842,
+      "pb_ratio": 4.82997252,
+      "industry": "",
+      "concepts": "",
+      "industry_rank": null,
+      "industry_change_pct": null,
+      "industry_heat_score": null,
+      "concept_heat_score": null,
+      "board_heat_score": null,
+      "board_heat_latest_score": null,
+      "board_heat_trend_score": null,
+      "board_heat_persistence_score": null,
+      "board_heat_cooling_score": null,
+      "board_heat_observations": null,
+      "board_heat_state": "",
+      "board_heat_summary": "",
+      "change_60d": null,
+      "signal_score": null,
+      "ma_bullish": null,
+      "price_above_ma20": null,
+      "macd_status": "",
+      "rsi_status": "",
+      "breakout_20d_pct": null,
+      "range_20d_pct": null,
+      "volume_ratio_20d": null,
+      "body_pct": null,
+      "pullback_to_ma20_pct": null,
+      "consolidation_days_20d": null,
+      "factor_scores": {
+        "value": 48.5,
+        "liquidity": 98.6111,
+        "momentum": 66.705,
+        "reversal": 5.0,
+        "activity": 83.7029,
+        "stability": 49.3,
+        "size": 91.6667,
+        "theme_heat": 50.0
+      },
+      "llm_confidence": 0.75,
+      "llm_sector": "电机",
+      "llm_theme": "机器人",
+      "llm_tags": [
+        "趋势",
+        "流动性",
+        "主题",
+        "sector:电机",
+        "theme:机器人",
+        "style_fit:适合趋势交易"
+      ],
+      "llm_catalysts": [
+        "机器人产业进展",
+        "政策支持"
+      ],
+      "llm_risks": [
+        "涨幅过高"
+      ],
+      "llm_thesis": "流动性极高，量比2.99，换手6.85%，涨幅8.9%但资金承接强，主题热度高。",
+      "llm_style_fit": "适合趋势交易",
+      "llm_watch_items": [
+        "量比持续性",
+        "板块热度"
+      ],
+      "llm_invalidators": [
+        "量比下降",
+        "冲高回落"
+      ],
+      "risk_score": 10.0,
+      "risk_level": "low",
+      "risk_penalty": 1.2,
+      "risk_flags": [
+        "涨幅过高"
+      ],
+      "excluded_by_risk": false,
+      "portfolio_penalty": 0.0,
+      "portfolio_flags": [],
+      "post_analysis_status": {
+        "scorecard": "completed"
+      },
+      "post_analysis_summaries": {
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 涨幅过高"
+      },
+      "post_analysis_score_deltas": {
+        "scorecard": 1.0
+      },
+      "post_analysis_results": {
+        "scorecard": {
+          "risk_flags": [
+            "涨幅过高"
+          ],
+          "tags": []
+        }
+      },
+      "post_analysis_tags": [],
+      "dsa_context": {},
+      "dsa_news": [],
+      "dsa_analysis_summary": "",
+      "deep_analysis_status": "not_requested",
+      "deep_analysis_query_id": "",
+      "deep_analysis_summary": "",
+      "deep_analysis_error": "",
+      "deep_analysis_result": null,
+      "deep_analysis_signal_score": null,
+      "deep_analysis_sentiment_score": null,
+      "deep_analysis_operation_advice": "",
+      "deep_analysis_trend_prediction": "",
+      "deep_analysis_risk_flags": []
+    },
+    {
+      "rank": 3,
+      "code": "688322",
+      "name": "奥比中光",
+      "final_score": 73.6168,
+      "screen_score": 71.69469500000001,
+      "llm_score": 78.0,
+      "ranking_reason": "AI主题扩散，资金关注，但估值风险。",
+      "risk_summary": "估值过高，业绩支撑不足。",
+      "price": 100.23,
+      "change_pct": 6.79,
+      "amount": 2197627829.0,
+      "total_mv": 41378425188.0,
+      "turnover_rate": 6.88,
+      "volume_ratio": 1.75,
+      "pe_ratio": 307.43707044,
+      "pb_ratio": 13.81854608,
+      "industry": "",
+      "concepts": "",
+      "industry_rank": null,
+      "industry_change_pct": null,
+      "industry_heat_score": null,
+      "concept_heat_score": null,
+      "board_heat_score": null,
+      "board_heat_latest_score": null,
+      "board_heat_trend_score": null,
+      "board_heat_persistence_score": null,
+      "board_heat_cooling_score": null,
+      "board_heat_observations": null,
+      "board_heat_state": "",
+      "board_heat_summary": "",
+      "change_60d": null,
+      "signal_score": null,
+      "ma_bullish": null,
+      "price_above_ma20": null,
+      "macd_status": "",
+      "rsi_status": "",
+      "breakout_20d_pct": null,
+      "range_20d_pct": null,
+      "volume_ratio_20d": null,
+      "body_pct": null,
+      "pullback_to_ma20_pct": null,
+      "consolidation_days_20d": null,
+      "factor_scores": {
+        "value": 14.1875,
+        "liquidity": 87.5,
+        "momentum": 76.3055,
+        "reversal": 5.0,
+        "activity": 79.6926,
+        "stability": 57.63,
+        "size": 88.8889,
+        "theme_heat": 50.0
+      },
+      "llm_confidence": 0.7,
+      "llm_sector": "3D视觉",
+      "llm_theme": "AI",
+      "llm_tags": [
+        "趋势",
+        "主题",
+        "sector:3D视觉",
+        "theme:AI",
+        "style_fit:适合主题投资"
+      ],
+      "llm_catalysts": [
+        "AI应用落地",
+        "新产品发布"
+      ],
+      "llm_risks": [
+        "高估值"
+      ],
+      "llm_thesis": "高动量，涨幅6.79%，量比1.75，换手6.88%，AI主题热度高，但估值高。",
+      "llm_style_fit": "适合主题投资",
+      "llm_watch_items": [
+        "业绩兑现",
+        "行业竞争"
+      ],
+      "llm_invalidators": [
+        "业绩暴雷",
+        "主题降温"
+      ],
+      "risk_score": 26.6667,
+      "risk_level": "low",
+      "risk_penalty": 3.2,
+      "risk_flags": [
+        "high_pb",
         "高估值"
       ],
       "excluded_by_risk": false,
@@ -103,7 +351,7 @@
         "scorecard": "本地后置评分: capital_confirmed；风险: 高估值"
       },
       "post_analysis_score_deltas": {
-        "scorecard": 3.4
+        "scorecard": 2.6
       },
       "post_analysis_results": {
         "scorecard": {
@@ -133,22 +381,22 @@
       "deep_analysis_risk_flags": []
     },
     {
-      "rank": 2,
-      "code": "002044",
-      "name": "美年健康",
-      "final_score": 76.599,
-      "screen_score": 71.99830902061856,
-      "llm_score": 78.0,
-      "ranking_reason": "资金流入明显，估值不高，AI医疗有想象空间。",
-      "risk_summary": "行业政策变化。",
-      "price": 4.78,
-      "change_pct": 6.22,
-      "amount": 1077006660.41,
-      "total_mv": 18710133752.0,
-      "turnover_rate": 5.83,
-      "volume_ratio": 3.13,
-      "pe_ratio": 61.21906986,
-      "pb_ratio": 2.370588,
+      "rank": 4,
+      "code": "002517",
+      "name": "恺英网络",
+      "final_score": 73.5927,
+      "screen_score": 70.32115611111112,
+      "llm_score": 76.0,
+      "ranking_reason": "价值与流动性兼备，板块热度扩散。",
+      "risk_summary": "监管政策风险。",
+      "price": 18.0,
+      "change_pct": 4.71,
+      "amount": 2839393825.3,
+      "total_mv": 38455978212.0,
+      "turnover_rate": 8.41,
+      "volume_ratio": 1.65,
+      "pe_ratio": 17.7539216,
+      "pb_ratio": 3.71403477,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -176,173 +424,44 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 60.2751,
-        "liquidity": 77.3196,
-        "momentum": 76.715,
+        "value": 68.375,
+        "liquidity": 94.4444,
+        "momentum": 71.8075,
         "reversal": 5.0,
-        "activity": 85.5156,
-        "stability": 59.34,
-        "size": 72.6804,
-        "theme_heat": 50.0
-      },
-      "llm_confidence": 0.75,
-      "llm_sector": "医疗",
-      "llm_theme": "健康体检与AI医疗",
-      "llm_tags": [
-        "价值",
-        "主题",
-        "sector:医疗",
-        "theme:健康体检与AI医疗",
-        "style_fit:价值成长，适合稳健型。"
-      ],
-      "llm_catalysts": [
-        "AI辅助诊断",
-        "健康消费升级"
-      ],
-      "llm_risks": [
-        "低市值"
-      ],
-      "llm_thesis": "量比3.13，换手5.83%，资金关注度高，估值相对合理，AI医疗概念。",
-      "llm_style_fit": "价值成长，适合稳健型。",
-      "llm_watch_items": [
-        "体检量增长",
-        "AI产品落地"
-      ],
-      "llm_invalidators": [
-        "业绩下滑",
-        "政策利空"
-      ],
-      "risk_score": 10.0,
-      "risk_level": "low",
-      "risk_penalty": 1.2,
-      "risk_flags": [
-        "低市值"
-      ],
-      "excluded_by_risk": false,
-      "portfolio_penalty": 0.0,
-      "portfolio_flags": [],
-      "post_analysis_status": {
-        "scorecard": "completed"
-      },
-      "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 低市值"
-      },
-      "post_analysis_score_deltas": {
-        "scorecard": 3.4
-      },
-      "post_analysis_results": {
-        "scorecard": {
-          "risk_flags": [
-            "低市值"
-          ],
-          "tags": [
-            "capital_confirmed"
-          ]
-        }
-      },
-      "post_analysis_tags": [
-        "capital_confirmed"
-      ],
-      "dsa_context": {},
-      "dsa_news": [],
-      "dsa_analysis_summary": "",
-      "deep_analysis_status": "not_requested",
-      "deep_analysis_query_id": "",
-      "deep_analysis_summary": "",
-      "deep_analysis_error": "",
-      "deep_analysis_result": null,
-      "deep_analysis_signal_score": null,
-      "deep_analysis_sentiment_score": null,
-      "deep_analysis_operation_advice": "",
-      "deep_analysis_trend_prediction": "",
-      "deep_analysis_risk_flags": []
-    },
-    {
-      "rank": 3,
-      "code": "002050",
-      "name": "三花智控",
-      "final_score": 74.2812,
-      "screen_score": 71.46870231958763,
-      "llm_score": 75.0,
-      "ranking_reason": "基本面扎实，机器人主题催化，资金关注。",
-      "risk_summary": "机器人业务进展慢。",
-      "price": 37.53,
-      "change_pct": 5.84,
-      "amount": 4068812527.82,
-      "total_mv": 157926762981.0,
-      "turnover_rate": 2.96,
-      "volume_ratio": 1.89,
-      "pe_ratio": 38.64032614,
-      "pb_ratio": 4.84023982,
-      "industry": "",
-      "concepts": "",
-      "industry_rank": null,
-      "industry_change_pct": null,
-      "industry_heat_score": null,
-      "concept_heat_score": null,
-      "board_heat_score": null,
-      "board_heat_latest_score": null,
-      "board_heat_trend_score": null,
-      "board_heat_persistence_score": null,
-      "board_heat_cooling_score": null,
-      "board_heat_observations": null,
-      "board_heat_state": "",
-      "board_heat_summary": "",
-      "change_60d": null,
-      "signal_score": null,
-      "ma_bullish": null,
-      "price_above_ma20": null,
-      "macd_status": "",
-      "rsi_status": "",
-      "breakout_20d_pct": null,
-      "range_20d_pct": null,
-      "volume_ratio_20d": null,
-      "body_pct": null,
-      "pullback_to_ma20_pct": null,
-      "consolidation_days_20d": null,
-      "factor_scores": {
-        "value": 47.4085,
-        "liquidity": 98.4536,
-        "momentum": 75.48,
-        "reversal": 5.0,
-        "activity": 72.5519,
-        "stability": 60.48,
-        "size": 100.0,
+        "activity": 73.7309,
+        "stability": 63.87,
+        "size": 87.5,
         "theme_heat": 50.0
       },
       "llm_confidence": 0.7,
-      "llm_sector": "汽车零部件",
-      "llm_theme": "机器人执行器与热管理",
+      "llm_sector": "游戏",
+      "llm_theme": "传媒",
       "llm_tags": [
         "价值",
-        "流动性",
-        "sector:汽车零部件",
-        "theme:机器人执行器与热管理",
-        "style_fit:价值蓝筹，适合稳健。"
+        "趋势",
+        "sector:游戏",
+        "theme:传媒",
+        "style_fit:适合价值趋势策略"
       ],
       "llm_catalysts": [
-        "人形机器人量产",
-        "热管理需求"
+        "游戏版号",
+        "新游上线"
       ],
-      "llm_risks": [
-        "大盘股弹性小"
-      ],
-      "llm_thesis": "市值大，流动性好，PE合理，机器人概念催化。",
-      "llm_style_fit": "价值蓝筹，适合稳健。",
+      "llm_risks": [],
+      "llm_thesis": "价值因子较高，流动性好，涨幅4.71%，量比1.65，换手8.41%，游戏板块活跃。",
+      "llm_style_fit": "适合价值趋势策略",
       "llm_watch_items": [
-        "机器人订单",
-        "新能源车销量"
+        "版号政策",
+        "流水数据"
       ],
       "llm_invalidators": [
-        "机器人业务不及预期",
+        "监管收紧",
         "业绩下滑"
       ],
-      "risk_score": 10.0,
+      "risk_score": 0.0,
       "risk_level": "low",
-      "risk_penalty": 1.2,
-      "risk_flags": [
-        "大盘股弹性小"
-      ],
+      "risk_penalty": 0.0,
+      "risk_flags": [],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
       "portfolio_flags": [],
@@ -350,149 +469,18 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 大盘股弹性小"
+        "scorecard": "本地后置评分: 未发现额外加分项"
       },
       "post_analysis_score_deltas": {
-        "scorecard": 2.6
+        "scorecard": 1.0
       },
       "post_analysis_results": {
         "scorecard": {
-          "risk_flags": [
-            "大盘股弹性小"
-          ],
-          "tags": [
-            "capital_confirmed"
-          ]
+          "risk_flags": [],
+          "tags": []
         }
       },
-      "post_analysis_tags": [
-        "capital_confirmed"
-      ],
-      "dsa_context": {},
-      "dsa_news": [],
-      "dsa_analysis_summary": "",
-      "deep_analysis_status": "not_requested",
-      "deep_analysis_query_id": "",
-      "deep_analysis_summary": "",
-      "deep_analysis_error": "",
-      "deep_analysis_result": null,
-      "deep_analysis_signal_score": null,
-      "deep_analysis_sentiment_score": null,
-      "deep_analysis_operation_advice": "",
-      "deep_analysis_trend_prediction": "",
-      "deep_analysis_risk_flags": []
-    },
-    {
-      "rank": 4,
-      "code": "002138",
-      "name": "顺络电子",
-      "final_score": 73.783,
-      "screen_score": 71.30506463917527,
-      "llm_score": 74.0,
-      "ranking_reason": "高换手显示资金博弈，AI算力主题。",
-      "risk_summary": "行业周期波动。",
-      "price": 42.8,
-      "change_pct": 6.73,
-      "amount": 2888373354.86,
-      "total_mv": 34510425551.0,
-      "turnover_rate": 8.65,
-      "volume_ratio": 1.58,
-      "pe_ratio": 35.13424463,
-      "pb_ratio": 5.25680626,
-      "industry": "",
-      "concepts": "",
-      "industry_rank": null,
-      "industry_change_pct": null,
-      "industry_heat_score": null,
-      "concept_heat_score": null,
-      "board_heat_score": null,
-      "board_heat_latest_score": null,
-      "board_heat_trend_score": null,
-      "board_heat_persistence_score": null,
-      "board_heat_cooling_score": null,
-      "board_heat_observations": null,
-      "board_heat_state": "",
-      "board_heat_summary": "",
-      "change_60d": null,
-      "signal_score": null,
-      "ma_bullish": null,
-      "price_above_ma20": null,
-      "macd_status": "",
-      "rsi_status": "",
-      "breakout_20d_pct": null,
-      "range_20d_pct": null,
-      "volume_ratio_20d": null,
-      "body_pct": null,
-      "pullback_to_ma20_pct": null,
-      "consolidation_days_20d": null,
-      "factor_scores": {
-        "value": 47.4574,
-        "liquidity": 96.9072,
-        "momentum": 76.5785,
-        "reversal": 5.0,
-        "activity": 72.5492,
-        "stability": 57.81,
-        "size": 88.1443,
-        "theme_heat": 50.0
-      },
-      "llm_confidence": 0.65,
-      "llm_sector": "电子",
-      "llm_theme": "被动元件与AI算力",
-      "llm_tags": [
-        "活跃",
-        "成长",
-        "sector:电子",
-        "theme:被动元件与AI算力",
-        "style_fit:成长风格，适合短线。"
-      ],
-      "llm_catalysts": [
-        "AI服务器需求",
-        "5G通信"
-      ],
-      "llm_risks": [
-        "高换手"
-      ],
-      "llm_thesis": "换手8.65%，量比1.58，资金活跃，AI算力带动需求。",
-      "llm_style_fit": "成长风格，适合短线。",
-      "llm_watch_items": [
-        "MLCC价格",
-        "下游需求"
-      ],
-      "llm_invalidators": [
-        "需求下滑",
-        "价格下跌"
-      ],
-      "risk_score": 10.0,
-      "risk_level": "low",
-      "risk_penalty": 1.2,
-      "risk_flags": [
-        "高换手"
-      ],
-      "excluded_by_risk": false,
-      "portfolio_penalty": 0.0,
-      "portfolio_flags": [],
-      "post_analysis_status": {
-        "scorecard": "completed"
-      },
-      "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 高换手"
-      },
-      "post_analysis_score_deltas": {
-        "scorecard": 2.6
-      },
-      "post_analysis_results": {
-        "scorecard": {
-          "risk_flags": [
-            "高换手"
-          ],
-          "tags": [
-            "capital_confirmed"
-          ]
-        }
-      },
-      "post_analysis_tags": [
-        "capital_confirmed"
-      ],
+      "post_analysis_tags": [],
       "dsa_context": {},
       "dsa_news": [],
       "dsa_analysis_summary": "",
@@ -509,21 +497,21 @@
     },
     {
       "rank": 5,
-      "code": "300496",
-      "name": "中科创达",
-      "final_score": 73.636,
-      "screen_score": 72.72662510309277,
-      "llm_score": 82.0,
-      "ranking_reason": "动量强劲，估值适中，AI+汽车双轮驱动。",
+      "code": "002202",
+      "name": "金风科技",
+      "final_score": 71.3114,
+      "screen_score": 70.8522788888889,
+      "llm_score": 80.0,
+      "ranking_reason": "价值与流动性均衡，涨幅未透支。",
       "risk_summary": "行业竞争加剧。",
-      "price": 60.38,
-      "change_pct": 6.47,
-      "amount": 1484151314.79,
-      "total_mv": 27878475721.0,
-      "turnover_rate": 6.65,
-      "volume_ratio": 2.11,
-      "pe_ratio": 60.61213881,
-      "pb_ratio": 2.67827375,
+      "price": 19.24,
+      "change_pct": 4.62,
+      "amount": 2759942633.64,
+      "total_mv": 81265693568.0,
+      "turnover_rate": 4.29,
+      "volume_ratio": 1.74,
+      "pe_ratio": 26.1027323,
+      "pb_ratio": 2.04363743,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -551,76 +539,67 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 57.7399,
-        "liquidity": 86.5979,
-        "momentum": 77.5275,
+        "value": 76.1875,
+        "liquidity": 93.0556,
+        "momentum": 71.515,
         "reversal": 5.0,
-        "activity": 82.1541,
-        "stability": 58.59,
-        "size": 85.567,
+        "activity": 76.6593,
+        "stability": 64.14,
+        "size": 94.4444,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.85,
-      "llm_sector": "AI",
-      "llm_theme": "AI操作系统与智能汽车",
+      "llm_confidence": 0.75,
+      "llm_sector": "风电",
+      "llm_theme": "新能源",
       "llm_tags": [
-        "动量",
-        "成长",
-        "sector:AI",
-        "theme:AI操作系统与智能汽车",
-        "style_fit:成长风格，适合趋势跟踪。"
+        "价值",
+        "趋势",
+        "sector:风电",
+        "theme:新能源",
+        "style_fit:适合价值趋势策略"
       ],
       "llm_catalysts": [
-        "智能驾驶渗透率提升",
-        "AIoT需求增长"
+        "风电装机增长",
+        "海外订单"
       ],
-      "llm_risks": [
-        "高波动"
-      ],
-      "llm_thesis": "动量因子最高，量比2.11，换手6.65%，资金参与度高，估值相对合理。",
-      "llm_style_fit": "成长风格，适合趋势跟踪。",
+      "llm_risks": [],
+      "llm_thesis": "价值因子高，流动性好，涨幅4.62%相对温和，量比1.74，换手4.29%，可持续。",
+      "llm_style_fit": "适合价值趋势策略",
       "llm_watch_items": [
-        "智能驾驶订单",
-        "毛利率变化"
+        "行业数据",
+        "订单公告"
       ],
       "llm_invalidators": [
-        "动量衰竭",
-        "业绩下滑"
+        "业绩不及预期",
+        "行业政策变化"
       ],
-      "risk_score": 10.0,
+      "risk_score": 0.0,
       "risk_level": "low",
-      "risk_penalty": 1.2,
+      "risk_penalty": 0.0,
       "risk_flags": [
-        "高波动",
-        "portfolio_sector_concentration:AI"
+        "portfolio_sector_concentration:新能源"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 5.0,
       "portfolio_flags": [
-        "portfolio_sector_concentration:AI"
+        "portfolio_sector_concentration:新能源"
       ],
       "post_analysis_status": {
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 高波动"
+        "scorecard": "本地后置评分: 未发现额外加分项"
       },
       "post_analysis_score_deltas": {
-        "scorecard": 3.4
+        "scorecard": 1.8
       },
       "post_analysis_results": {
         "scorecard": {
-          "risk_flags": [
-            "高波动"
-          ],
-          "tags": [
-            "capital_confirmed"
-          ]
+          "risk_flags": [],
+          "tags": []
         }
       },
-      "post_analysis_tags": [
-        "capital_confirmed"
-      ],
+      "post_analysis_tags": [],
       "dsa_context": {},
       "dsa_news": [],
       "dsa_analysis_summary": "",
@@ -637,21 +616,21 @@
     },
     {
       "rank": 6,
-      "code": "600143",
-      "name": "金发科技",
-      "final_score": 72.6325,
-      "screen_score": 70.72087664948454,
-      "llm_score": 72.0,
-      "ranking_reason": "资金流入明显，低估值，机器人材料。",
-      "risk_summary": "化工行业周期。",
-      "price": 15.46,
-      "change_pct": 6.62,
-      "amount": 1458109215.0,
-      "total_mv": 41329192738.0,
-      "turnover_rate": 3.61,
-      "volume_ratio": 3.41,
-      "pe_ratio": 34.20223255,
-      "pb_ratio": 2.09491582,
+      "code": "603171",
+      "name": "税友股份",
+      "final_score": 70.7817,
+      "screen_score": 70.30287944444446,
+      "llm_score": 74.0,
+      "ranking_reason": "资金活跃，但涨幅滞后，可能补涨。",
+      "risk_summary": "涨幅滞后可能因基本面问题。",
+      "price": 46.08,
+      "change_pct": 1.01,
+      "amount": 1140113381.0,
+      "total_mv": 18724377600.0,
+      "turnover_rate": 6.05,
+      "volume_ratio": 2.67,
+      "pe_ratio": 131.14830883,
+      "pb_ratio": 7.26804605,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -679,47 +658,47 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 74.4135,
-        "liquidity": 85.567,
-        "momentum": 77.079,
-        "reversal": 5.0,
-        "activity": 76.2531,
-        "stability": 58.14,
-        "size": 91.2371,
+        "value": 24.875,
+        "liquidity": 77.7778,
+        "momentum": 59.7825,
+        "reversal": 47.79,
+        "activity": 86.8551,
+        "stability": 74.97,
+        "size": 63.8889,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.6,
-      "llm_sector": "化工",
-      "llm_theme": "改性塑料与机器人材料",
+      "llm_confidence": 0.65,
+      "llm_sector": "软件",
+      "llm_theme": "财税数字化",
       "llm_tags": [
-        "价值",
-        "主题",
-        "sector:化工",
-        "theme:改性塑料与机器人材料",
-        "style_fit:价值成长，适合稳健。"
+        "活跃",
+        "事件",
+        "sector:软件",
+        "theme:财税数字化",
+        "style_fit:适合事件驱动"
       ],
       "llm_catalysts": [
-        "机器人轻量化材料",
-        "新能源材料"
+        "政策推动",
+        "业绩增长"
       ],
       "llm_risks": [
-        "周期波动"
+        "涨幅滞后"
       ],
-      "llm_thesis": "量比3.41，资金大幅流入，机器人材料概念，估值低。",
-      "llm_style_fit": "价值成长，适合稳健。",
+      "llm_thesis": "活跃度极高，量比2.67，换手6.05%，但涨幅仅1.01%，资金活跃但价格未同步，可能蓄势。",
+      "llm_style_fit": "适合事件驱动",
       "llm_watch_items": [
-        "材料订单",
-        "产品价格"
+        "成交量",
+        "政策催化"
       ],
       "llm_invalidators": [
-        "业绩下滑",
-        "机器人材料需求不及预期"
+        "放量下跌",
+        "基本面恶化"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "周期波动"
+        "涨幅滞后"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -728,24 +707,20 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 周期波动"
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 涨幅滞后"
       },
       "post_analysis_score_deltas": {
-        "scorecard": 2.6
+        "scorecard": 0.2
       },
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "周期波动"
+            "涨幅滞后"
           ],
-          "tags": [
-            "capital_confirmed"
-          ]
+          "tags": []
         }
       },
-      "post_analysis_tags": [
-        "capital_confirmed"
-      ],
+      "post_analysis_tags": [],
       "dsa_context": {},
       "dsa_news": [],
       "dsa_analysis_summary": "",
@@ -762,21 +737,21 @@
     },
     {
       "rank": 7,
-      "code": "601127",
-      "name": "赛力斯",
-      "final_score": 70.9048,
-      "screen_score": 69.8412888659794,
-      "llm_score": 69.0,
-      "ranking_reason": "基本面稳健，但短期资金关注度低。",
-      "risk_summary": "竞争激烈。",
-      "price": 62.25,
-      "change_pct": 1.3,
-      "amount": 3447064022.0,
-      "total_mv": 108438571604.0,
-      "turnover_rate": 3.6,
-      "volume_ratio": 1.72,
-      "pe_ratio": 18.18383898,
-      "pb_ratio": 2.62498441,
+      "code": "002230",
+      "name": "科大讯飞",
+      "final_score": 68.7375,
+      "screen_score": 69.56250333333334,
+      "llm_score": 70.0,
+      "ranking_reason": "AI龙头，资金关注，但涨幅滞后。",
+      "risk_summary": "估值高，业绩压力。",
+      "price": 42.81,
+      "change_pct": 1.4,
+      "amount": 3297194556.43,
+      "total_mv": 102833037993.0,
+      "turnover_rate": 3.51,
+      "volume_ratio": 1.78,
+      "pe_ratio": 119.1689612,
+      "pb_ratio": 5.45449036,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -804,47 +779,46 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 76.5916,
-        "liquidity": 97.4227,
-        "momentum": 60.725,
-        "reversal": 41.7,
-        "activity": 74.0845,
-        "stability": 74.1,
-        "size": 98.4536,
+        "value": 33.0625,
+        "liquidity": 95.8333,
+        "momentum": 61.05,
+        "reversal": 39.6,
+        "activity": 74.0328,
+        "stability": 73.8,
+        "size": 97.2222,
         "theme_heat": 50.0
       },
-      "llm_confidence": 0.5,
-      "llm_sector": "汽车",
-      "llm_theme": "新能源车与华为合作",
+      "llm_confidence": 0.6,
+      "llm_sector": "AI",
+      "llm_theme": "AI",
       "llm_tags": [
-        "价值",
-        "防守",
-        "sector:汽车",
-        "theme:新能源车与华为合作",
-        "style_fit:价值防守，适合稳健。"
+        "趋势",
+        "主题",
+        "sector:AI",
+        "theme:AI",
+        "style_fit:适合主题投资"
       ],
       "llm_catalysts": [
-        "新车型发布",
-        "销量增长"
+        "AI应用",
+        "政策支持"
       ],
       "llm_risks": [
-        "动量弱"
+        "高估值"
       ],
-      "llm_thesis": "市值大，稳定性高，但涨幅小，动量弱。",
-      "llm_style_fit": "价值防守，适合稳健。",
+      "llm_thesis": "流动性好，但涨幅仅1.4%，量比1.78，换手3.51%，资金关注但价格未同步，可能蓄势。",
+      "llm_style_fit": "适合主题投资",
       "llm_watch_items": [
-        "月度销量",
-        "毛利率"
+        "业绩",
+        "AI进展"
       ],
       "llm_invalidators": [
-        "销量下滑",
-        "价格战"
+        "业绩不及预期"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "动量弱"
+        "高估值"
       ],
       "excluded_by_risk": false,
       "portfolio_penalty": 0.0,
@@ -853,24 +827,20 @@
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: value_quality；风险: 动量弱"
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 高估值"
       },
       "post_analysis_score_deltas": {
-        "scorecard": 2.6
+        "scorecard": 0.2
       },
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "动量弱"
+            "高估值"
           ],
-          "tags": [
-            "value_quality"
-          ]
+          "tags": []
         }
       },
-      "post_analysis_tags": [
-        "value_quality"
-      ],
+      "post_analysis_tags": [],
       "dsa_context": {},
       "dsa_news": [],
       "dsa_analysis_summary": "",
@@ -887,21 +857,21 @@
     },
     {
       "rank": 8,
-      "code": "000960",
-      "name": "锡业股份",
-      "final_score": 69.6645,
-      "screen_score": 70.44086618556702,
-      "llm_score": 71.0,
-      "ranking_reason": "涨幅领先，资源品涨价，估值合理。",
-      "risk_summary": "商品价格波动。",
-      "price": 34.1,
-      "change_pct": 8.39,
-      "amount": 2861543269.87,
-      "total_mv": 56109229563.0,
-      "turnover_rate": 5.17,
-      "volume_ratio": 1.88,
-      "pe_ratio": 24.03662404,
-      "pb_ratio": 2.70802179,
+      "code": "001696",
+      "name": "宗申动力",
+      "final_score": 68.6873,
+      "screen_score": 68.9788038888889,
+      "llm_score": 66.0,
+      "ranking_reason": "资金活跃，但市值小，波动大。",
+      "risk_summary": "小市值波动风险。",
+      "price": 15.14,
+      "change_pct": 6.69,
+      "amount": 1211536586.83,
+      "total_mv": 17335707569.0,
+      "turnover_rate": 9.1,
+      "volume_ratio": 2.11,
+      "pe_ratio": 28.38066722,
+      "pb_ratio": 3.11911912,
       "industry": "",
       "concepts": "",
       "industry_rank": null,
@@ -929,309 +899,62 @@
       "pullback_to_ma20_pct": null,
       "consolidation_days_20d": null,
       "factor_scores": {
-        "value": 72.6846,
-        "liquidity": 95.8763,
-        "momentum": 69.0255,
+        "value": 64.6875,
+        "liquidity": 80.5556,
+        "momentum": 76.7605,
         "reversal": 5.0,
-        "activity": 80.4625,
-        "stability": 52.83,
-        "size": 94.3299,
+        "activity": 73.3341,
+        "stability": 57.93,
+        "size": 61.1111,
         "theme_heat": 50.0
       },
       "llm_confidence": 0.6,
-      "llm_sector": "有色金属",
-      "llm_theme": "锡价上涨与半导体",
+      "llm_sector": "摩托车",
+      "llm_theme": "低空经济",
       "llm_tags": [
-        "价值",
-        "动量",
-        "sector:有色金属",
-        "theme:锡价上涨与半导体",
-        "style_fit:周期价值，适合波段。"
-      ],
-      "llm_catalysts": [
-        "锡价上涨",
-        "半导体需求"
-      ],
-      "llm_risks": [
-        "周期股"
-      ],
-      "llm_thesis": "涨幅8.39%居首，量比1.88，锡价上涨，半导体需求。",
-      "llm_style_fit": "周期价值，适合波段。",
-      "llm_watch_items": [
-        "锡价走势",
-        "库存"
-      ],
-      "llm_invalidators": [
-        "锡价下跌",
-        "需求疲软"
-      ],
-      "risk_score": 10.0,
-      "risk_level": "low",
-      "risk_penalty": 1.2,
-      "risk_flags": [
-        "周期股"
-      ],
-      "excluded_by_risk": false,
-      "portfolio_penalty": 0.0,
-      "portfolio_flags": [],
-      "post_analysis_status": {
-        "scorecard": "completed"
-      },
-      "post_analysis_summaries": {
-        "scorecard": "本地后置评分: 未发现额外加分项；风险: 周期股"
-      },
-      "post_analysis_score_deltas": {
-        "scorecard": 0.2
-      },
-      "post_analysis_results": {
-        "scorecard": {
-          "risk_flags": [
-            "周期股"
-          ],
-          "tags": []
-        }
-      },
-      "post_analysis_tags": [],
-      "dsa_context": {},
-      "dsa_news": [],
-      "dsa_analysis_summary": "",
-      "deep_analysis_status": "not_requested",
-      "deep_analysis_query_id": "",
-      "deep_analysis_summary": "",
-      "deep_analysis_error": "",
-      "deep_analysis_result": null,
-      "deep_analysis_signal_score": null,
-      "deep_analysis_sentiment_score": null,
-      "deep_analysis_operation_advice": "",
-      "deep_analysis_trend_prediction": "",
-      "deep_analysis_risk_flags": []
-    },
-    {
-      "rank": 9,
-      "code": "002517",
-      "name": "恺英网络",
-      "final_score": 69.0652,
-      "screen_score": 71.44194850515466,
-      "llm_score": 68.0,
-      "ranking_reason": "估值低，游戏板块有AI催化，但资金关注一般。",
-      "risk_summary": "游戏版号政策。",
-      "price": 17.19,
-      "change_pct": 4.18,
-      "amount": 2193536923.01,
-      "total_mv": 36725459192.0,
-      "turnover_rate": 6.79,
-      "volume_ratio": 1.57,
-      "pe_ratio": 16.95499513,
-      "pb_ratio": 3.54690321,
-      "industry": "",
-      "concepts": "",
-      "industry_rank": null,
-      "industry_change_pct": null,
-      "industry_heat_score": null,
-      "concept_heat_score": null,
-      "board_heat_score": null,
-      "board_heat_latest_score": null,
-      "board_heat_trend_score": null,
-      "board_heat_persistence_score": null,
-      "board_heat_cooling_score": null,
-      "board_heat_observations": null,
-      "board_heat_state": "",
-      "board_heat_summary": "",
-      "change_60d": null,
-      "signal_score": null,
-      "ma_bullish": null,
-      "price_above_ma20": null,
-      "macd_status": "",
-      "rsi_status": "",
-      "breakout_20d_pct": null,
-      "range_20d_pct": null,
-      "volume_ratio_20d": null,
-      "body_pct": null,
-      "pullback_to_ma20_pct": null,
-      "consolidation_days_20d": null,
-      "factor_scores": {
-        "value": 68.5057,
-        "liquidity": 94.3299,
-        "momentum": 70.085,
-        "reversal": 5.0,
-        "activity": 79.1999,
-        "stability": 65.46,
-        "size": 89.1753,
-        "theme_heat": 50.0
-      },
-      "llm_confidence": 0.5,
-      "llm_sector": "传媒",
-      "llm_theme": "游戏与AI应用",
-      "llm_tags": [
-        "价值",
-        "成长",
-        "sector:传媒",
-        "theme:游戏与AI应用",
-        "style_fit:价值成长，适合中线。"
-      ],
-      "llm_catalysts": [
-        "AI游戏",
-        "新游戏上线"
-      ],
-      "llm_risks": [
-        "政策风险"
-      ],
-      "llm_thesis": "PE低，估值合理，但涨幅较小，量比1.57。",
-      "llm_style_fit": "价值成长，适合中线。",
-      "llm_watch_items": [
-        "游戏流水",
-        "版号"
-      ],
-      "llm_invalidators": [
-        "业绩下滑",
-        "政策收紧"
-      ],
-      "risk_score": 10.0,
-      "risk_level": "low",
-      "risk_penalty": 1.2,
-      "risk_flags": [
-        "政策风险"
-      ],
-      "excluded_by_risk": false,
-      "portfolio_penalty": 0.0,
-      "portfolio_flags": [],
-      "post_analysis_status": {
-        "scorecard": "completed"
-      },
-      "post_analysis_summaries": {
-        "scorecard": "本地后置评分: 未发现额外加分项；风险: 政策风险"
-      },
-      "post_analysis_score_deltas": {
-        "scorecard": 0.2
-      },
-      "post_analysis_results": {
-        "scorecard": {
-          "risk_flags": [
-            "政策风险"
-          ],
-          "tags": []
-        }
-      },
-      "post_analysis_tags": [],
-      "dsa_context": {},
-      "dsa_news": [],
-      "dsa_analysis_summary": "",
-      "deep_analysis_status": "not_requested",
-      "deep_analysis_query_id": "",
-      "deep_analysis_summary": "",
-      "deep_analysis_error": "",
-      "deep_analysis_result": null,
-      "deep_analysis_signal_score": null,
-      "deep_analysis_sentiment_score": null,
-      "deep_analysis_operation_advice": "",
-      "deep_analysis_trend_prediction": "",
-      "deep_analysis_risk_flags": []
-    },
-    {
-      "rank": 10,
-      "code": "002472",
-      "name": "双环传动",
-      "final_score": 68.0433,
-      "screen_score": 70.73886855670104,
-      "llm_score": 73.0,
-      "ranking_reason": "涨幅居前，机器人概念，估值合理。",
-      "risk_summary": "机器人业务占比小。",
-      "price": 38.42,
-      "change_pct": 7.65,
-      "amount": 1535679923.31,
-      "total_mv": 32656911327.0,
-      "turnover_rate": 5.41,
-      "volume_ratio": 1.94,
-      "pe_ratio": 25.72217015,
-      "pb_ratio": 3.16895772,
-      "industry": "",
-      "concepts": "",
-      "industry_rank": null,
-      "industry_change_pct": null,
-      "industry_heat_score": null,
-      "concept_heat_score": null,
-      "board_heat_score": null,
-      "board_heat_latest_score": null,
-      "board_heat_trend_score": null,
-      "board_heat_persistence_score": null,
-      "board_heat_cooling_score": null,
-      "board_heat_observations": null,
-      "board_heat_state": "",
-      "board_heat_summary": "",
-      "change_60d": null,
-      "signal_score": null,
-      "ma_bullish": null,
-      "price_above_ma20": null,
-      "macd_status": "",
-      "rsi_status": "",
-      "breakout_20d_pct": null,
-      "range_20d_pct": null,
-      "volume_ratio_20d": null,
-      "body_pct": null,
-      "pullback_to_ma20_pct": null,
-      "consolidation_days_20d": null,
-      "factor_scores": {
-        "value": 68.2448,
-        "liquidity": 87.6289,
-        "momentum": 72.3925,
-        "reversal": 5.0,
-        "activity": 81.5988,
-        "stability": 55.05,
-        "size": 87.6289,
-        "theme_heat": 50.0
-      },
-      "llm_confidence": 0.6,
-      "llm_sector": "汽车零部件",
-      "llm_theme": "齿轮与机器人减速器",
-      "llm_tags": [
-        "成长",
+        "趋势",
         "主题",
-        "sector:汽车零部件",
-        "theme:齿轮与机器人减速器",
-        "style_fit:成长风格，适合趋势。"
+        "sector:摩托车",
+        "theme:低空经济",
+        "style_fit:适合主题投资"
       ],
       "llm_catalysts": [
-        "机器人减速器订单",
-        "新能源汽车"
+        "低空经济政策"
       ],
       "llm_risks": [
-        "概念炒作"
+        "小市值"
       ],
-      "llm_thesis": "涨幅7.65%，量比1.94，机器人概念，PE合理。",
-      "llm_style_fit": "成长风格，适合趋势。",
+      "llm_thesis": "涨幅6.69%，量比2.11，换手9.1%，资金活跃，但市值较小。",
+      "llm_style_fit": "适合主题投资",
       "llm_watch_items": [
-        "机器人业务收入",
+        "政策",
         "订单"
       ],
       "llm_invalidators": [
-        "机器人概念降温",
-        "业绩不及预期"
+        "政策不及预期"
       ],
       "risk_score": 10.0,
       "risk_level": "low",
       "risk_penalty": 1.2,
       "risk_flags": [
-        "概念炒作",
-        "portfolio_sector_concentration:机器人"
+        "小市值"
       ],
       "excluded_by_risk": false,
-      "portfolio_penalty": 5.0,
-      "portfolio_flags": [
-        "portfolio_sector_concentration:机器人"
-      ],
+      "portfolio_penalty": 0.0,
+      "portfolio_flags": [],
       "post_analysis_status": {
         "scorecard": "completed"
       },
       "post_analysis_summaries": {
-        "scorecard": "本地后置评分: capital_confirmed；风险: 概念炒作"
+        "scorecard": "本地后置评分: capital_confirmed；风险: 小市值"
       },
       "post_analysis_score_deltas": {
-        "scorecard": 2.6
+        "scorecard": 2.1
       },
       "post_analysis_results": {
         "scorecard": {
           "risk_flags": [
-            "概念炒作"
+            "小市值"
           ],
           "tags": [
             "capital_confirmed"
@@ -1254,13 +977,258 @@
       "deep_analysis_operation_advice": "",
       "deep_analysis_trend_prediction": "",
       "deep_analysis_risk_flags": []
+    },
+    {
+      "rank": 9,
+      "code": "002149",
+      "name": "西部材料",
+      "final_score": 66.5938,
+      "screen_score": 67.32293055555557,
+      "llm_score": 62.0,
+      "ranking_reason": "资金活跃，但估值高。",
+      "risk_summary": "高估值，业绩波动。",
+      "price": 34.9,
+      "change_pct": 7.38,
+      "amount": 1678993007.85,
+      "total_mv": 17038678163.0,
+      "turnover_rate": 9.95,
+      "volume_ratio": 1.91,
+      "pe_ratio": 211.90501478,
+      "pb_ratio": 4.57594497,
+      "industry": "",
+      "concepts": "",
+      "industry_rank": null,
+      "industry_change_pct": null,
+      "industry_heat_score": null,
+      "concept_heat_score": null,
+      "board_heat_score": null,
+      "board_heat_latest_score": null,
+      "board_heat_trend_score": null,
+      "board_heat_persistence_score": null,
+      "board_heat_cooling_score": null,
+      "board_heat_observations": null,
+      "board_heat_state": "",
+      "board_heat_summary": "",
+      "change_60d": null,
+      "signal_score": null,
+      "ma_bullish": null,
+      "price_above_ma20": null,
+      "macd_status": "",
+      "rsi_status": "",
+      "breakout_20d_pct": null,
+      "range_20d_pct": null,
+      "volume_ratio_20d": null,
+      "body_pct": null,
+      "pullback_to_ma20_pct": null,
+      "consolidation_days_20d": null,
+      "factor_scores": {
+        "value": 35.1875,
+        "liquidity": 84.7222,
+        "momentum": 73.621,
+        "reversal": 5.0,
+        "activity": 69.3666,
+        "stability": 55.86,
+        "size": 59.7222,
+        "theme_heat": 50.0
+      },
+      "llm_confidence": 0.55,
+      "llm_sector": "新材料",
+      "llm_theme": "军工材料",
+      "llm_tags": [
+        "趋势",
+        "主题",
+        "sector:新材料",
+        "theme:军工材料",
+        "style_fit:适合主题投资"
+      ],
+      "llm_catalysts": [
+        "军工需求",
+        "新材料应用"
+      ],
+      "llm_risks": [
+        "高估值"
+      ],
+      "llm_thesis": "涨幅7.38%，量比1.91，换手9.95%，资金活跃，但估值高。",
+      "llm_style_fit": "适合主题投资",
+      "llm_watch_items": [
+        "业绩",
+        "订单"
+      ],
+      "llm_invalidators": [
+        "业绩不及预期"
+      ],
+      "risk_score": 10.0,
+      "risk_level": "low",
+      "risk_penalty": 1.2,
+      "risk_flags": [
+        "高估值"
+      ],
+      "excluded_by_risk": false,
+      "portfolio_penalty": 0.0,
+      "portfolio_flags": [],
+      "post_analysis_status": {
+        "scorecard": "completed"
+      },
+      "post_analysis_summaries": {
+        "scorecard": "本地后置评分: capital_confirmed；风险: 高估值"
+      },
+      "post_analysis_score_deltas": {
+        "scorecard": 2.6
+      },
+      "post_analysis_results": {
+        "scorecard": {
+          "risk_flags": [
+            "高估值"
+          ],
+          "tags": [
+            "capital_confirmed"
+          ]
+        }
+      },
+      "post_analysis_tags": [
+        "capital_confirmed"
+      ],
+      "dsa_context": {},
+      "dsa_news": [],
+      "dsa_analysis_summary": "",
+      "deep_analysis_status": "not_requested",
+      "deep_analysis_query_id": "",
+      "deep_analysis_summary": "",
+      "deep_analysis_error": "",
+      "deep_analysis_result": null,
+      "deep_analysis_signal_score": null,
+      "deep_analysis_sentiment_score": null,
+      "deep_analysis_operation_advice": "",
+      "deep_analysis_trend_prediction": "",
+      "deep_analysis_risk_flags": []
+    },
+    {
+      "rank": 10,
+      "code": "001270",
+      "name": "铖昌科技",
+      "final_score": 63.9626,
+      "screen_score": 68.93773611111114,
+      "llm_score": 64.0,
+      "ranking_reason": "军工主题，但估值高。",
+      "risk_summary": "高估值，业绩波动。",
+      "price": 99.9,
+      "change_pct": 7.93,
+      "amount": 1307335425.98,
+      "total_mv": 20590878610.0,
+      "turnover_rate": 6.47,
+      "volume_ratio": 1.53,
+      "pe_ratio": 155.97010154,
+      "pb_ratio": 13.19615853,
+      "industry": "",
+      "concepts": "",
+      "industry_rank": null,
+      "industry_change_pct": null,
+      "industry_heat_score": null,
+      "concept_heat_score": null,
+      "board_heat_score": null,
+      "board_heat_latest_score": null,
+      "board_heat_trend_score": null,
+      "board_heat_persistence_score": null,
+      "board_heat_cooling_score": null,
+      "board_heat_observations": null,
+      "board_heat_state": "",
+      "board_heat_summary": "",
+      "change_60d": null,
+      "signal_score": null,
+      "ma_bullish": null,
+      "price_above_ma20": null,
+      "macd_status": "",
+      "rsi_status": "",
+      "breakout_20d_pct": null,
+      "range_20d_pct": null,
+      "volume_ratio_20d": null,
+      "body_pct": null,
+      "pullback_to_ma20_pct": null,
+      "consolidation_days_20d": null,
+      "factor_scores": {
+        "value": 20.3125,
+        "liquidity": 81.9444,
+        "momentum": 71.1185,
+        "reversal": 5.0,
+        "activity": 80.1704,
+        "stability": 54.21,
+        "size": 66.6667,
+        "theme_heat": 50.0
+      },
+      "llm_confidence": 0.55,
+      "llm_sector": "军工电子",
+      "llm_theme": "军工",
+      "llm_tags": [
+        "趋势",
+        "主题",
+        "sector:军工电子",
+        "theme:军工",
+        "style_fit:适合主题投资"
+      ],
+      "llm_catalysts": [
+        "军工订单",
+        "政策"
+      ],
+      "llm_risks": [
+        "高估值"
+      ],
+      "llm_thesis": "涨幅7.93%，量比1.53，换手6.47%，军工主题活跃，但估值高。",
+      "llm_style_fit": "适合主题投资",
+      "llm_watch_items": [
+        "订单",
+        "业绩"
+      ],
+      "llm_invalidators": [
+        "业绩不及预期"
+      ],
+      "risk_score": 26.6667,
+      "risk_level": "low",
+      "risk_penalty": 3.2,
+      "risk_flags": [
+        "high_pb",
+        "高估值"
+      ],
+      "excluded_by_risk": false,
+      "portfolio_penalty": 0.0,
+      "portfolio_flags": [],
+      "post_analysis_status": {
+        "scorecard": "completed"
+      },
+      "post_analysis_summaries": {
+        "scorecard": "本地后置评分: 未发现额外加分项；风险: 高估值"
+      },
+      "post_analysis_score_deltas": {
+        "scorecard": 0.2
+      },
+      "post_analysis_results": {
+        "scorecard": {
+          "risk_flags": [
+            "高估值"
+          ],
+          "tags": []
+        }
+      },
+      "post_analysis_tags": [],
+      "dsa_context": {},
+      "dsa_news": [],
+      "dsa_analysis_summary": "",
+      "deep_analysis_status": "not_requested",
+      "deep_analysis_query_id": "",
+      "deep_analysis_summary": "",
+      "deep_analysis_error": "",
+      "deep_analysis_result": null,
+      "deep_analysis_signal_score": null,
+      "deep_analysis_sentiment_score": null,
+      "deep_analysis_operation_advice": "",
+      "deep_analysis_trend_prediction": "",
+      "deep_analysis_risk_flags": []
     }
   ],
-  "run_id": "9c2dbb63aaab",
+  "run_id": "16106c3d6de0",
   "llm_ranked": true,
-  "llm_market_view": "市场整体强势，候选池全部上涨且量能活跃，适合积极策略，但需注意高位股回调风险。",
-  "llm_selection_logic": "优先资金与价格同步、量比换手健康、板块扩散潜力，结合因子得分和估值合理性。",
-  "llm_portfolio_risk": "候选池集中于科技成长板块，若AI或新能源车主题降温，可能面临系统性回调风险。",
+  "llm_market_view": "市场整体上涨，候选池全部上涨且涨幅中位数5.12%，量比>=2占比30%，资金活跃，适合进攻型策略。",
+  "llm_selection_logic": "优先资金热度与价格表现同步，涨幅未透支，板块有扩散迹象。",
+  "llm_portfolio_risk": "候选池集中于新能源、AI、军工等热门板块，可能存在板块轮动风险。",
   "llm_coverage": 1.0,
   "llm_parse_errors": [],
   "degradation": [
@@ -1284,14 +1252,13 @@
   "risk_enabled": true,
   "portfolio_diversity_enabled": true,
   "portfolio_concentration_notes": [
-    "Portfolio concentration bucket=AI: penalized=3, codes=300496:AI(-5.0),300339:AI(-10.0),601360:AI(-15.0)",
-    "Portfolio concentration bucket=机器人: penalized=3, codes=002472:汽车零部件(-5.0),601689:汽车零部件(-10.0),603667:机械(-15.0)",
-    "Portfolio concentration bucket=传媒: penalized=3, codes=002624:传媒(-5.0),002555:传媒(-10.0),300002:传媒(-15.0)",
-    "Portfolio concentration bucket=AI算力: penalized=4, codes=300811:电子(-5.0),600601:电子(-10.0),300738:通信(-15.0),001389:电子(-15.0)",
-    "Portfolio concentration bucket=半导体: penalized=1, codes=000962:有色金属(-5.0)",
-    "Portfolio concentration bucket=电子: penalized=2, codes=300131:电子(-5.0),300657:电子(-10.0)",
-    "Portfolio concentration bucket=金融科技: penalized=1, codes=300773:金融科技(-5.0)"
+    "Portfolio concentration bucket=新能源: penalized=5, codes=002202:风电(-5.0),002015:电力(-10.0),603119:汽车零部件(-15.0),601615:风电(-15.0),600930:电力(-15.0)",
+    "Portfolio concentration bucket=软件: penalized=1, codes=600588:软件(-5.0)",
+    "Portfolio concentration bucket=新材料: penalized=1, codes=000969:新材料(-5.0)",
+    "Portfolio concentration bucket=周期: penalized=2, codes=001280:有色金属(-5.0),000818:化工(-10.0)",
+    "Portfolio concentration bucket=机器人: penalized=1, codes=002031:机器人(-5.0)",
+    "Portfolio concentration bucket=游戏: penalized=1, codes=300113:游戏(-5.0)"
   ],
   "saved_path": "",
-  "created_at": "2026-07-31T10:09:00.031018"
+  "created_at": "2026-08-03T10:57:57.408907"
 }
